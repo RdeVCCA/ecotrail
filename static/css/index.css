@@ -25,6 +25,13 @@ body{
         width: 90%!important;
         font-size: 1rem !important;
     }
+    .single-holder{
+        width: 95%!important;
+        height: calc(100% - 4rem)!important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 .page{
@@ -33,6 +40,7 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .header{
@@ -63,16 +71,31 @@ body{
 }
 
 .flex-video{
-    width: 55%;
+    width: 65%;
     height: 70%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .flex-text{
-    width: 45%;
+    width: 35%;
     padding: 5%;
     height: 60%;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.single-holder{
+    height: calc(100% - 6rem);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navmap img{
+    width: 100%;
+    height: auto; /* Allow the width to expand */
+    object-fit: contain; /* Maintain aspect ratio */
+    border: 1px solid lightgrey; /* Add a light grey border */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* More intense shadow */
 }
