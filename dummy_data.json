@@ -1,0 +1,39 @@
+{
+  "imageGalleryContents": [
+    {
+      "src": "imgs/walter_black.webp",
+      "titleEn": "Walter Black",
+      "titleZh": "沃爾特·布萊克"
+    },
+    {
+      "src": "imgs/walter_black.webp",
+      "titleEn": "Walter Black",
+      "titleZh": "沃爾特·布萊克"
+    },
+    {
+      "src": "imgs/walter_black.webp",
+      "titleEn": "Walter Black",
+      "titleZh": "沃爾特·布萊克"
+    }
+  ],
+  "plantInfos": [
+    {
+      "info1": "The Pickerel Weed is native to American continents, Growing up to <b>120cm</b> tall",
+      "info2": "It’s Spike inflorescence is composed of <b>20-30 blue</b> to <b>purple</b>, <b>star-shaped flowers</b>",
+      "info3": "The <b>inflorescence stalk</b> and <b>basal leaves</b> extend from the <b>submerged base</b> above water.",
+      "learnMore": "https://rdev.x10.mx/"
+    },
+    {
+      "info1": "Walter black is a black plant",
+      "info2": "NUMBER TWO",
+      "info3": "Walter black makes <b>black powder</b>",
+      "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
+    },
+    {
+      "info1": "Walter black is a black plant",
+      "info2": "NUMBER THREE",
+      "info3": "Walter black makes black powder",
+      "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
+    }
+  ]
+}
