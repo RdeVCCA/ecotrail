@@ -106,11 +106,13 @@ async function loadGalleryInfo(filepath) {
 const plantInfo1 = document.querySelector("#plant-info-1");
 const plantInfo2 = document.querySelector("#plant-info-2");
 const plantInfo3 = document.querySelector("#plant-info-3");
+const learnMore = document.querySelector("#learn-more");
 
 function loadPlantInfo(index) {
   plantInfo1.innerHTML = plantInfos[index].info1;
   plantInfo2.innerHTML = plantInfos[index].info2;
   plantInfo3.innerHTML = plantInfos[index].info3;
+  learnMore.href = plantInfos[index].learnMore;
 }
 
 loadGalleryInfo("dummy_data.json");
