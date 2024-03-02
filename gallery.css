@@ -32,29 +32,53 @@ img {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.plant-gallery {
+#plant-gallery {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin: auto;
-  overflow-x: auto;
-  transition: transform 0.5s;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
   width: 100%;
   height: 300px;
-  position: relative;
+  margin: 0;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 
-.plant-gallery::before,
-.plant-gallery::after {
+#plant-gallery::before,
+#plant-gallery::after {
   content: "";
   flex: 0 0 25%; /* Adjust as needed */
 }
 
-.plant-image {
-  width: 40vw !important;
+.plant-gallery-content {
   aspect-ratio: 5 / 3;
   scroll-snap-align: center;
+}
+
+.plant-gallery-content img {
+  width: 40vw;
+  height: auto;
+}
+
+.gallery-image-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.gallery-image-title > * {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.gallery-image-title-en {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+.gallery-image-title-cn {
+  font-size: clamp(0.75rem, 3vw, 1.25rem);
 }
