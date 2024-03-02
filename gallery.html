@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
     <link rel="stylesheet" href="gallery.css" />
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.7.1/dist/smooth-scrollbar.js"></script>
   </head>
   <body>
     <h1 class="title">Plant Gallery</h1>
@@ -13,7 +14,29 @@
       <button class="pink-button">Select Category</button>
     </div>
 
-    <div id="plant-display"></div>
+    <div class="flex-center">
+      <div class="plant-gallery">
+        <img
+          class="plant-image"
+          ,
+          src="imgs/walter_black.webp"
+          alt="Walter Black"
+        />
+        <img
+          class="plant-image"
+          ,
+          src="imgs/walter_black.webp"
+          alt="Walter Black"
+        />
+        <img
+          class="plant-image"
+          ,
+          src="imgs/walter_black.webp"
+          alt="Walter Black"
+        />
+        <!-- Add more images as needed -->
+      </div>
+    </div>
 
     <div id="plant-info">
       <div></div>
@@ -27,5 +50,7 @@
     <div class="flex-center">
       <button class="pink-button">Next plant</button>
     </div>
+
+    <script src="gallery.js"></script>
   </body>
 </html>
