@@ -1,10 +1,78 @@
 body{
     overflow-x: hidden;
 }
+
+@media only screen and (max-width: 768px) {
+    .header{
+        height: 4rem!important;
+        font-size: 2rem!important;
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .flex-holder{
+        width: 95%!important;
+        height: calc(100% - 4rem)!important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .flex-reverse{
+        flex-direction: column !important;
+    }
+    .flex-video{
+        width: 95%!important;
+    }
+    .flex-text{
+        width: 90%!important;
+        font-size: 1rem !important;
+    }
+}
+
 .page{
     /* background-color: aqua; for debugging
     border: 2px dotted black;  */
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    padding-top: calc(3rem / 2);
+    padding-bottom: calc(3rem / 2);
+    text-align: center;
+    font-weight: bolder;
+    /* background-color: red; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-holder{
+    /* background-color: aqua; */
+    display: flex;
+    height: calc(100% - 6rem);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center; /* Vertically center content */
+}
+
+.flex-video{
+    width: 55%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-text{
+    width: 45%;
+    padding: 5%;
+    height: 60%;
+    text-align: justify;
+    font-size: 2rem;
 }
