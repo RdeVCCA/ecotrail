@@ -115,6 +115,6 @@ function loadPlantInfo(index) {
   learnMore.href = plantInfos[index].learnMore;
 }
 
-loadGalleryInfo("dummy_data.json");
+loadGalleryInfo("./static/assets/dummy_data.json");
 
 window.addEventListener("load", () => adjustImageScale(images));

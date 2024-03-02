@@ -1,17 +1,17 @@
 {
   "imageGalleryContents": [
     {
-      "src": "imgs/walter_black.webp",
+      "src": "static/assets/walter_black.webp",
       "titleEn": "Walter Black",
       "titleZh": "沃爾特·布萊克"
     },
     {
-      "src": "imgs/walter_black.webp",
+      "src": "static/assets/walter_black.webp",
       "titleEn": "Walter Black",
       "titleZh": "沃爾特·布萊克"
     },
     {
-      "src": "imgs/walter_black.webp",
+      "src": "static/assets/walter_black.webp",
       "titleEn": "Walter Black",
       "titleZh": "沃爾特·布萊克"
     }
