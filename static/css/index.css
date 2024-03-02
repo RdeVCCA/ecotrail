@@ -1,0 +1,10 @@
+body{
+    overflow-x: hidden;
+}
+.page{
+    /* background-color: aqua; for debugging
+    border: 2px dotted black;  */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
