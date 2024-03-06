@@ -106,12 +106,18 @@ async function loadGalleryInfo(filepath) {
 const plantInfo1 = document.querySelector("#plant-info-1");
 const plantInfo2 = document.querySelector("#plant-info-2");
 const plantInfo3 = document.querySelector("#plant-info-3");
+const plantImage1 = document.querySelector("#plant-image-1");
+const plantImage2 = document.querySelector("#plant-image-2");
+const plantImage3 = document.querySelector("#plant-image-3");
 const learnMore = document.querySelector("#learn-more");
 
 function loadPlantInfo(index) {
   plantInfo1.innerHTML = plantInfos[index].info1;
   plantInfo2.innerHTML = plantInfos[index].info2;
   plantInfo3.innerHTML = plantInfos[index].info3;
+  plantImage1.src = plantInfos[index].imageLink1;
+  plantImage2.src = plantInfos[index].imageLink2;
+  plantImage3.src = plantInfos[index].imageLink3;
   learnMore.href = plantInfos[index].learnMore;
 }
 
