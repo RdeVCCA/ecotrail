@@ -1,0 +1,122 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+.box{
+    width: 30vw;
+    border: 1px solid black;
+    margin: 3rem auto;
+    min-height: 20rem;
+    padding: 0.5rem;
+}
+
+#box0{
+    width: 40vw;
+    margin-top: 3rem;
+}
+
+#box1{
+    width: 80vw;
+    padding: 1rem;
+}
+
+#box2{
+    width: 80vw;
+    padding: 1rem;
+}
+
+button{
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    margin: 0.5rem auto;
+    display: block;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.grey{
+    text-align: center;
+    color: grey;
+    border: 1px solid black;
+    padding: 5rem 3rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: 0;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    margin: 0.5rem 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+/* 
+#HorizontalScroll{
+    height: 20rem;
+} */
+
+img{
+    width: 70vw;
+    height: 40vh;
+    border: 1px solid black;
+    margin-top: 15vh;
+}
+
+.left{
+    text-align: left;
+}
+
+.onlyleft{
+    width: 40vw;
+    float: left;
+}
+
+.onlyright{
+    width: 40vw;
+    float: right;
+}
+
+p{
+    display: inline-block;
+    text-align: center;
+}
+
+pre{
+    font-family: "Inter", sans-serif;
+    margin: 0.5rem 2rem;
+    display: inline-block;
+}
+
+.right{
+    text-align: right;
+}
+
+.Wetlands{
+    width: 90%;
+    margin: auto;
+    min-height: 60vh;
+    vertical-align: middle;
+}
