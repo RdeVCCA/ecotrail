@@ -3,6 +3,29 @@ body {
     margin: 0;
     padding: 0;
   }
+  .top-header {
+    background-color: #C4C4C4; /* Gray placeholder color */
+    padding: 32px 16px;
+    text-align: left;
+  }
+  .garden-image {
+    width: 30%; 
+    float:left; 
+    height:300px; 
+    background:gray; 
+    margin-right:10%; 
+    margin-left:10%; 
+    margin-top: 2%; 
+    margin-bottom: 2%;
+  }
+  .garden-text {
+    width: 30%; 
+    float:left; 
+    margin-right:10%; 
+    margin-left:10%; 
+    margin-top: 2%; 
+    margin-bottom: 2%;
+  }
   .container {
     width: 100%;
     max-width: 100%; /* Adjust as per wireframe */
@@ -25,7 +48,6 @@ body {
   .text-section p {
     margin: 0;
     padding: 8px 0;
-    color: green
   }
   .statistics {
     background-color: #C4C4C4; /* Gray placeholder color */
