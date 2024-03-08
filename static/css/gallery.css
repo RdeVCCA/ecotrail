@@ -91,7 +91,6 @@ img {
 
 #plant-info {
   width: 100%;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,27 +98,33 @@ img {
 
 #plant-info > div {
   margin: 10px;
-  width: 80%;
   padding: 0;
   background-color: #d9d9d9;
-  padding: 10px;
 }
 
 #plant-info > div > * {
   margin: 0;
   padding: 0;
-  width: 50%;
+  width: 60%;
   color: #000000;
   text-align: center;
   font-family: "Inter", sans-serif;
 }
 
 .grid-style {
+  width: 80% !important;
   display: grid !important;
-  padding: 0 !important;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  justify-items: center;
+  padding: 10px !important;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-items: center !important;
   align-items: center;
+  grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-style > * {
+  margin: 0;
 }
 
 .grid-style img {
