@@ -10,8 +10,9 @@ h2{
 
 #grid-container1{
     display: grid;
-    border: 1px solid black;
+    align-items: start;
     width: 100%;
+    box-sizing: content-box;
     min-height: 0;
     min-width: 0;
     grid-template-columns: 1fr 1fr;
@@ -25,24 +26,21 @@ h2{
 
 
 .problem{
-    padding-left: calc(7em + 10px);
-    border: 1px solid black;
     animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
     transform: translate(50%, 0%);
+    padding-left: calc(4em + 10px);
 }
 
 .l-normal{
-    padding-left: calc(6em + 10px);
-    border: 1px solid black;
     animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
     transform: translate(-50%, 0%);
+    padding-left: calc(9em + 10px);
 }
 
 .r-normal{
-    padding-left: calc(3em + 10px);
-    border: 1px solid black;
     animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
     transform: translate(50%, 0%);
+    padding-left: calc(4em + 10px);
 }
 
 @keyframes fadeInTranslateAnimation {
@@ -57,33 +55,35 @@ h2{
 
 .text{
     font-size: calc(1.7vw + 10px);
-    width: calc(30vw + 10px);
-    padding-top: calc(0.4em + 10px);
+    width: calc(28vw + 10px);
+    margin-top: calc(1em + 10px);
 }
 
 .text_right{
     font-size: calc(1.7vw + 10px);
     width: calc(30vw + 10px);
     text-align: right;
-    padding-top: calc(1em + 10px);
+    margin-top: calc(1em + 10px);
 }
 
 .box{
-    width: calc(35vw + 10px);
+    width: calc(30vw + 10px);
     height: calc(20vw + 10px);
-    margin-top: calc(1em + 10px);
     background-color: rgb(230, 230, 230);
+    margin-top: calc(2em + 10px);
 }
 
 .smol_left{
     padding-top: calc(0.3em + 10px);
-    font-size: calc(1.2vw + 10px);
+    font-size: calc(1.4vw + 10px);
+    width: calc(25vw + 10px);
     color: grey;
 }
 
 .smol_right{
     padding-top: calc(0.3em + 10px);
-    font-size: calc(1.2vw + 10px);
+    font-size: calc(1.5vw + 10px);
+    width: calc(30vw + 10px);
     color: grey;
     text-align: right;
 }
@@ -102,10 +102,11 @@ h2{
 
 #grid-container2{
     display: grid;
-    border: 1px solid black;
-    width: 100%;
+    width: 75%;
     min-height: 0;
     min-width: 0;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -131,7 +132,8 @@ h2{
     padding-left: calc(5em + 10px);
     padding-right: calc(5em + 10px);
     padding-top: calc(2em + 10px);
-    padding-bottom: calc(3em + 10px);
+    padding-bottom: calc(5em + 10px);
+    margin-bottom: calc(3em + 10px);
 }
 
 .title_date{
@@ -139,7 +141,3 @@ h2{
     align-items: baseline;
     justify-content: space-between;
 }
-
-/* #td{
-    padding-bottom: calc(3em + 10px);
-} */
