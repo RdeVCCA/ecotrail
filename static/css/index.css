@@ -99,3 +99,20 @@ body{
     border: 1px solid lightgrey; /* Add a light grey border */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* More intense shadow */
 }
+
+.video-container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #858585;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
