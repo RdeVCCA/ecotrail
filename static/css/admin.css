@@ -24,6 +24,37 @@ h2{
     "grid_7 grid_8"
 }
 
+#grid_1{
+    grid-area: grid_1;
+}
+
+#grid_2{
+    grid-area: grid_2;
+}
+
+#grid_3{
+    grid-area: grid_3;
+}
+
+#grid_4{
+    grid-area: grid_4;
+}
+
+#grid_5{
+    grid-area: grid_5;
+}
+
+#grid_6{
+    grid-area: grid_6;
+}
+
+#grid_7{
+    grid-area: grid_7;
+}
+
+#grid_8{
+    grid-area: grid_8;
+}
 
 .problem{
     animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
@@ -112,6 +143,14 @@ h2{
     grid-template-areas:
     "grid_9"
     "grid_10"
+}
+
+#grid_9{
+    grid-area: grid_9;
+}
+
+#grid_10{
+    grid-area: grid_10;
 }
 
 #title{
