@@ -163,6 +163,43 @@ body {
     /* If you have an actual image, you would use an <img> tag or background-image here */
   }
   
+  .eco-trail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows */
+    gap: 20px; /* Adjust the gap as needed */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .eco-grid-item {
+    border: 1px solid #ccc; /* For visualization */
+    padding: 10px; /* Adjust the padding as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .eco-grid-item.rain-image {
+    background-color: #cfd8dc; /* Placeholder for image */
+    /* Use background-image in CSS or <img> tags for actual images */
+  }
+  
+  .eco-grid-item.green {
+    background-color: #e8f5e9; /* Example green background */
+    text-align: left; /* Align text to the left for the green boxes */
+  }
+  
+  .eco-grid-item.text-right {
+    text-align: right; /* Align text to the right for the specified box */
+  }
+  
+  @media (max-width: 768px) {
+    .eco-trail-grid {
+      grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    }
+  }
+  
 
   /* Grid item positions */
   .item1, .item2 {
