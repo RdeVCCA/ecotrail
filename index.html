@@ -1,9 +1,10 @@
 <link rel="stylesheet" href="static/css/default.css">
 <link rel="stylesheet" href="static/css/index.css">
+<link rel="stylesheet" href="static/framework/aos-master/dist/aos.css">
 </head>
 
 <body>
-    <section id="About-RV-Eco-Trail" class="page">
+    <section id="About-RV-Eco-Trail" class="page" data-aos="fade-right">
         <h1 class="header">
             About RV Eco Trail
         </h1>
@@ -16,7 +17,7 @@
             </div>
         </div>
     </section>
-    <section id="Wonders-of-Eco-Trail" class="page">
+    <section id="Wonders-of-Eco-Trail" class="page" data-aos="fade-left">
         <div class="video-container">
             <video id="video" autoplay muted>
                 <source src="static/assets/roll.mp4" type="video/mp4">
@@ -35,8 +36,12 @@
             <img src="static/assets/drone shot.webp">
         </div>
     </div> -->
+    <script src="static/framework/aos-master/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="static/framework/jquery-3.7.1-min.js"></script>
     <script src="static/js/index.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
