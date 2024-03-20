@@ -132,56 +132,81 @@ body {
   .grid-container {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr; /* Sum should be 100% */
-    grid-auto-rows: 200px;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-auto-rows: 200px; /* Row height */
     justify-content: center;
-    align-content: center;     
-    gap: 1em; 
-    margin-left:1.5em;
-    margin-right:1.5em;
-    border: 0.5px solid black; /* Specify the style of the border */
+    align-content: center;
+    gap: 1em; /* Space between grid items */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border: 0.5px solid black; /* Border around the grid container */
   }
   
   .grid-item {
-    margin:1em;
-    border: 0.5px solid black; /* Added to visualize the grid items */
+    margin: 1em;
+    border: 0.5px solid black; /* Border around each grid item */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text for items that contain text */
   }
+  
+  .image-text-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .image-container {
+    /* Style for the image container */
+    border: 1px solid black;
+    margin-bottom: 1em; /* Space between the image and the text */
+    /* If you have an actual image, you would use an <img> tag or background-image here */
+  }
+  
 
+  /* Grid item positions */
+  .item1, .item2 {
+    grid-row: 1; /* First row */
+  }
+  
   .item1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column: 1; /* First column */
   }
   
   .item2 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-  }
-  .item3 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-  .item4 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-  .item5 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-  }
-  .item6 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column: 2; /* Second column */
   }
   
+  .item3, .item4 {
+    grid-row: 2; /* Second row */
+  }
+  
+  .item3 {
+    grid-column: 1; /* First column */
+  }
+  
+  .item4 {
+    grid-column: 2; /* Second column */
+  }
+  
+  .item5 {
+    grid-column: 1 / -1; /* Span all columns */
+    grid-row: 3; /* Third row */
+  }
+  
+  .item6 {
+    grid-column: 1 / -1; /* Span all columns */
+    grid-row: 4; /* Fourth row */
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* One column on small screens */
+    }
+    .grid-item {
+      margin: 0.5em; /* Smaller margin on small screens */
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      grid-column: 1; /* All items take the full width */
+    }
+  }
