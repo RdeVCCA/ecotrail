@@ -106,6 +106,7 @@ p {
 
 .fade-in {
     animation: fade-in-left-to-right forwards 1s linear;
+    animation-delay: 1s;
 }
 
 .debugging-thing {
