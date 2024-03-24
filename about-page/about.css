@@ -65,6 +65,7 @@ p {
     height: 40px
 }
 
+
 @media screen and (max-width: 400px) {
     .big_box {
         width: 100%;
@@ -82,4 +83,31 @@ p {
         width: 70%;
         align-self: center;
     }
+}
+
+.container {
+    overflow: hidden;
+}
+
+@keyframes fade-in-left-to-right {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in-left-to-right forwards 1s linear;
+}
+
+.debugging-thing {
+    background-color: green;
 }
