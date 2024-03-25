@@ -1,14 +1,3 @@
-// function checkVisible(elm, evalType) {
-//     evalType = evalType || "visible";
-
-//     var vpH = $(window).height(),
-//         st = $(window).scrollTop(),
-//         y = $(elm).offset().top,
-//         elementHeight = $(elm).height();
-
-//     if (evalType === "visible") return ((y < (vpH + st)) && (y > (st - elementHeight)));
-//     if (evalType === "above") return ((y < (vpH + st)));
-// }
 function inrange(x, lower, upper) {
     return (x > lower && x < upper)
 }
@@ -47,5 +36,4 @@ function load_if_visible() {
             was_visible[i] = false;
         }
     };
-    console.log(checkVisible(sections.item(0)))
 }
