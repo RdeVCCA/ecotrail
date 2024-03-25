@@ -65,6 +65,18 @@ p {
     height: 40px
 }
 
+.pink-box {
+    position: absolute;
+    transform: translateY(40%);
+    background-color: pink;
+}
+
+.RdeV-website {
+    width: 50%;
+    position: relative;
+    scale: 1.5;
+    margin: auto;
+}
 
 @media screen and (max-width: 400px) {
     .big_box {
@@ -85,8 +97,8 @@ p {
     }
 }
 
-.container {
-    overflow: hidden;
+section {
+    opacity: 0.1;
 }
 
 @keyframes fade-in-left-to-right {
@@ -106,7 +118,11 @@ p {
 
 .fade-in {
     animation: fade-in-left-to-right forwards 1s linear;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
+}
+
+.hide {
+    visibility: hidden;
 }
 
 .debugging-thing {

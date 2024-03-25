@@ -28,7 +28,6 @@ function load_if_visible() {
         if (checkVisible(section)) {
             if (!was_visible[i]) {
                 section.classList.add("fade-in");
-                was_visible[i] = true;
             }
         }
         else {
