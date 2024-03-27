@@ -20,19 +20,21 @@ Array.from(sections).forEach(section => {
     section.classList.add("fade-in");
 });
 let ele = sections.item(1);
-let was_visible = Array(sections.length);
+let was_ever_visible = Array(sections.length);
+was_ever_visible.fill(false);
 
 function load_if_visible() {
     for (let i = 0; i < sections.length; i++) {
         let section = sections.item(i)
         if (checkVisible(section)) {
-            if (!was_visible[i]) {
+            if (was_ever_visible[i] != true) {
                 section.classList.add("fade-in");
+                was_ever_visible[i] = true;
             }
         }
         else {
             section.classList.remove("fade-in");
-            was_visible[i] = false;
         }
+        console.log(was_ever_visible)
     };
 }

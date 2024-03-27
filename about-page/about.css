@@ -97,14 +97,11 @@ p {
     }
 }
 
-section {
-    opacity: 0.1;
-}
 
 @keyframes fade-in-left-to-right {
     0% {
-        transform: translateX(-50%);
-        opacity: 0;
+        transform: translateX(-20%);
+        opacity: 0.3;
     }
 
     60% {
@@ -118,7 +115,6 @@ section {
 
 .fade-in {
     animation: fade-in-left-to-right forwards 1s linear;
-    animation-delay: 0.2s;
 }
 
 .hide {
