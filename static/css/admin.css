@@ -1,5 +1,6 @@
 html{
     background: #f8f4dc;
+    overflow-x: hidden;
 }
 
 h2{
@@ -26,55 +27,55 @@ h2{
 
 #grid_1{
     grid-area: grid_1;
+    padding-left: calc(9em + 10px);
 }
 
 #grid_2{
     grid-area: grid_2;
+    padding-left: calc(4em + 10px);
 }
 
 #grid_3{
     grid-area: grid_3;
+    padding-left: calc(9em + 10px);
 }
 
 #grid_4{
     grid-area: grid_4;
+    padding-left: calc(4em + 10px);
 }
 
 #grid_5{
     grid-area: grid_5;
+    padding-left: calc(9em + 10px);
 }
 
 #grid_6{
     grid-area: grid_6;
+    padding-left: calc(4em + 10px);
 }
 
 #grid_7{
     grid-area: grid_7;
+    padding-left: calc(9em + 10px);
 }
 
 #grid_8{
     grid-area: grid_8;
-}
-
-.problem{
-    animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
-    transform: translate(50%, 0%);
     padding-left: calc(4em + 10px);
 }
 
-.l-normal{
-    animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
+.left{
+    --animation: fadeIn 2s ease-in-out 0.5s forwards;
     transform: translate(-50%, 0%);
-    padding-left: calc(9em + 10px);
 }
 
-.r-normal{
-    animation: fadeInTranslateAnimation 2s ease-in-out 0.5s forwards;
+.right{
+    --animation: fadeIn 2s ease-in-out 0.5s forwards;
     transform: translate(50%, 0%);
-    padding-left: calc(4em + 10px);
 }
 
-@keyframes fadeInTranslateAnimation {
+@keyframes fadeIn{
     0% {
         opacity: 0;
     }
