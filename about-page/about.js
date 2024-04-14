@@ -12,15 +12,35 @@ function inrange(x, lower, upper) {
     return (x > lower && x < upper)
 }
 
-function fade_in(was_ever_visible, fade_in_from, section, index){ //hi zhognding dont askme how thsi wroks (i randomly set values of what to return when I return a defualt of 0 the section fades in from the same side but when I return a default of 1 the sections alternate this is some *ooga booga magic*) 
+function fade_in(was_ever_visible, fade_in_from, section, index){ 
     if (was_ever_visible[index] == false) {
         if (fade_in_from == 0){
+            let blue_boxes = section.querySelectorAll('.blue_box_that_has_text')
+            for (let blue_box of blue_boxes){
+                blue_box.style.visibility = 'hidden';
+            }
             section.classList.add("fade-in-l-r");
+            section.addEventListener('animationend', () => {
+                for (let blue_box of blue_boxes){
+                    blue_box.style.visibility = 'visible'; 
+                    blue_box.classList.add("fade-in-l-r") 
+                }
+            });
             was_ever_visible[index] = true;
             return 1
         }
         else if (fade_in_from == 1){
+            let blue_boxes = section.querySelectorAll('.blue_box_that_has_text')
+            for (let blue_box of blue_boxes){
+                blue_box.style.visibility = 'hidden';
+            }
             section.classList.add("fade-in-r-l");
+            section.addEventListener('animationend', () => {
+                for (let blue_box of blue_boxes){
+                    blue_box.style.visibility = 'visible'; 
+                    blue_box.classList.add("fade-in-r-l") 
+                }
+            });
             was_ever_visible[index] = true;
             return 0
         }

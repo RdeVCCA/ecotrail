@@ -89,7 +89,7 @@ p {
         position: absolute;
         height: 60%;
         grid-column: None;
-    }
+        }
 
     .white_box_that_has_text {
         position: absolute;
