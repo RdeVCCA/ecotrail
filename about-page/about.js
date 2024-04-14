@@ -1,5 +1,31 @@
+let sections = document.getElementsByTagName("section");
+let ele = sections.item(1);
+let was_ever_visible = Array(sections.length);
+let fade_in_from = 0
+
+was_ever_visible.fill(false);
+
+$(document).ready(fade_in_if_visible)
+window.addEventListener('scroll', fade_in_if_visible);
+
 function inrange(x, lower, upper) {
     return (x > lower && x < upper)
+}
+
+function fade_in(was_ever_visible, fade_in_from, section, index){ //hi zhognding dont askme how thsi wroks (i randomly set values of what to return when I return a defualt of 0 the section fades in from the same side but when I return a default of 1 the sections alternate this is some *ooga booga magic*) 
+    if (was_ever_visible[index] == false) {
+        if (fade_in_from == 0){
+            section.classList.add("fade-in-l-r");
+            was_ever_visible[index] = true;
+            return 1
+        }
+        else if (fade_in_from == 1){
+            section.classList.add("fade-in-r-l");
+            was_ever_visible[index] = true;
+            return 0
+        }
+    }
+    return 1
 }
 
 function checkVisible(elm) {
@@ -12,29 +38,12 @@ function checkVisible(elm) {
     return (inrange(y_top, st, sb) || inrange(y_bottom, st, sb) || inrange(st, y_top, y_bottom) || inrange(sb, y_top, y_bottom));
 }
 
-window.addEventListener('scroll', load_if_visible);
 
-let sections = document.getElementsByTagName("section");
-
-Array.from(sections).forEach(section => {
-    section.classList.add("fade-in");
-});
-let ele = sections.item(1);
-let was_ever_visible = Array(sections.length);
-was_ever_visible.fill(false);
-
-function load_if_visible() {
+function fade_in_if_visible() {
     for (let i = 0; i < sections.length; i++) {
         let section = sections.item(i)
         if (checkVisible(section)) {
-            if (was_ever_visible[i] != true) {
-                section.classList.add("fade-in");
-                was_ever_visible[i] = true;
-            }
+            fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
         }
-        else {
-            section.classList.remove("fade-in");
-        }
-        console.log(was_ever_visible)
     };
 }
