@@ -7,6 +7,7 @@ h2{
     padding-top: calc(0.5em + 10px);
     font-size: calc(3vw + 10px);
     text-align: center;
+    color: #0B3D2E;
 }
 
 #grid-container1{
@@ -89,6 +90,7 @@ h2{
     font-size: calc(1.7vw + 10px);
     width: calc(28vw + 10px);
     margin-top: calc(1em + 10px);
+    color: #0B3D2E;
 }
 
 .text_right{
@@ -105,18 +107,24 @@ h2{
     margin-top: calc(2em + 10px);
 }
 
+.pic{
+    width: calc(30vw + 10px);
+    height: calc(20vw + 10px);
+    filter: drop-shadow(0px 0px 5px #169766);
+}
+
 .smol_left{
     padding-top: calc(0.3em + 10px);
     font-size: calc(1.4vw + 10px);
     width: calc(25vw + 10px);
-    color: grey;
+    color: #169766;
 }
 
 .smol_right{
     padding-top: calc(0.3em + 10px);
     font-size: calc(1.5vw + 10px);
     width: calc(30vw + 10px);
-    color: grey;
+    color: #169766;
     text-align: right;
 }
 
@@ -130,6 +138,7 @@ h2{
 #img{
     height: calc(40vw + 10px);
     padding-top: calc(2em + 10px);
+    filter: drop-shadow(0px 0px 5px #169766);
 }
 
 #grid-container2{

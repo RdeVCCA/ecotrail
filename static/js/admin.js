@@ -11,7 +11,8 @@ function checkOnScreen(obj){
     );
 }
 // console.log(i)
-document.onscroll = (function(){
+document.onscroll = function(){
+	console.log(left)
 	for (i of left){
     console.log(checkOnScreen(i))
 		if (checkOnScreen(i)){
@@ -26,4 +27,4 @@ document.onscroll = (function(){
 			right.splice(right.indexOf(i),1)
 		}
 	}
-},100)
+}
