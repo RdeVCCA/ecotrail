@@ -20,10 +20,10 @@ body {
     transform: scaleX(-1);
 }
 
-.grey_box {
+.image_box {
     grid-column: 1;
     background-color: grey;
-    height: 60%;
+    height: fit-content;
     width: 100%;
     left: auto;
     z-index: 0;
@@ -33,7 +33,7 @@ body {
 .blue_box_that_has_text {
     position: relative;
     right: 2em;
-    top: 30%; /*cuz the image is 60% height and they share the same parents*/
+    top: 9em; /*cuz the image is 60% height and they share the same parents*/
     transform: translateY(-50%);    
     grid-column: 2;
     border: 1px solid black;
@@ -81,10 +81,6 @@ p {
 }
 
 @media screen and (max-width: 400px) {
-    .big_box {
-        width: 100%;
-    }
-
     .grey_box {
         position: absolute;
         height: 60%;
@@ -132,12 +128,12 @@ p {
 
 
 .fade-in-l-r {
-    animation: fade-in-left-to-right forwards 1s ease-in;
+    animation: fade-in-left-to-right forwards 1s ease-in-out;
     animation-delay: 0.3s;
 }
 
 .fade-in-r-l{
-    animation: fade-in-right-to-left backwards 1s ease-in;
+    animation: fade-in-right-to-left backwards 1s ease-in-out;
     animation-delay: 0.3s;
 }
 

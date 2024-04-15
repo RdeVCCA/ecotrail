@@ -1,5 +1,5 @@
-let sections = document.getElementsByTagName("section");
-let ele = sections.item(1);
+let sections = document.querySelectorAll("#section-no-text");
+// let sections = document.getElementsByTagName("section")
 let was_ever_visible = Array(sections.length);
 let fade_in_from = 0
 
@@ -8,8 +8,22 @@ was_ever_visible.fill(false);
 $(document).ready(fade_in_if_visible)
 window.addEventListener('scroll', fade_in_if_visible);
 
-function inrange(x, lower, upper) {
-    return (x > lower && x < upper)
+$(document).ready(()=>{
+    let image_boxes = document.querySelectorAll('.image_box')
+    let text_boxes = document.querySelectorAll('.blue_box_that_has_text')
+    for (let i = 0; i < 4; i++){
+        text_boxes[i].style.top = `${image_boxes[i].height/2}px`
+    }
+})  
+
+function fade_in_if_visible() {
+    for (let i = 0; i < sections.length; i++) {
+        let section = sections.item(i)
+        // console.log(section)
+        if (checkVisible(section)) {
+            fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
+        }
+    };
 }
 
 function fade_in(was_ever_visible, fade_in_from, section, index){ 
@@ -48,6 +62,10 @@ function fade_in(was_ever_visible, fade_in_from, section, index){
     return 1
 }
 
+function inrange(x, lower, upper) {
+    return (x > lower && x < upper)
+}
+
 function checkVisible(elm) {
     var st = $(window).scrollTop(),
         sb = $(window).scrollTop() + window.innerHeight,
@@ -58,12 +76,3 @@ function checkVisible(elm) {
     return (inrange(y_top, st, sb) || inrange(y_bottom, st, sb) || inrange(st, y_top, y_bottom) || inrange(sb, y_top, y_bottom));
 }
 
-
-function fade_in_if_visible() {
-    for (let i = 0; i < sections.length; i++) {
-        let section = sections.item(i)
-        if (checkVisible(section)) {
-            fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
-        }
-    };
-}
