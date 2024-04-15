@@ -1,0 +1,235 @@
+.title {
+    margin: 0;
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.title #title-image {
+    display: flex;
+    margin-top: 150px;
+}
+
+.title #title-text {
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.title #title-text h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.title #title-text h2 {
+    font-size: 25px;
+}
+
+.title-image-container {
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+.image-container {
+    position: relative;
+    margin: 5%;
+    margin-bottom: 20%;
+}
+
+.description-box {
+    position: absolute;
+    background-color: #ffc0c0;
+    padding: 20px; 
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+.plant-image-vert {
+    width: 30%;
+    height: auto;
+    margin: 35%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.image-container .description {
+    position: absolute;
+    transform: translate(-50%, -125%);
+    font-size: 30px;
+    left: 50%;
+    width: 25%;
+    margin: auto;
+}
+
+.image-container .description--right-side {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    font-size: 30px;
+    left: 75%;
+    width: 25%;
+    margin: auto;
+    text-align: right;
+}
+
+.image-container .description--left-side {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    font-size: 30px;
+    left: 25%;
+    width: 25%;
+    margin: auto;
+}
+
+.plant-image {
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    margin-top: -15%;
+    margin-bottom: 0%;
+}
+
+#koi-pond-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#koi-pond-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+#goldfish-pond-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.small-image {
+    width: 100%;
+    opacity: 0;
+}
+
+
+#goldfish-pond-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+#learn-more {
+    text-decoration: none;
+    color: #000000;
+}
+
+#random-photos {
+    margin-bottom: -250px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px; /* Adjust margin as needed */
+}
+
+.pink-button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #ffc0c0;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+}
+
+/* animations */
+
+.fade-in-top, .fade-in-bottom {
+    opacity: 0;
+}
+
+.fade-in-top {
+    animation: fadeTop 1s ease-in forwards;
+}
+
+.fade-in-bottom {
+    animation: fadeBottom 1s ease-in forwards;
+}
+
+@keyframes fadeTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeBottom {
+    from {
+        transform: translate(-50%,0%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+}
+
+/* Ripple animations for sections */
+.circles {
+    height: 90vmin;
+    position: relative;
+    width: 90vmin;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circles > div {
+    animation: growAndFade 3s infinite ease-out;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .circles .circle1 {
+    animation-delay: 1s;
+  }
+  
+  .circles .circle2 {
+    animation-delay: 2s;
+  }
+  
+  .circles .circle3 {
+    animation-delay: 3s;
+  }
+  
+  @keyframes growAndFade {
+    0% {
+      opacity: .25;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+
+  
+  
