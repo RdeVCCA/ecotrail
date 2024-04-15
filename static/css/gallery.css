@@ -82,10 +82,13 @@ img {
 }
 
 .gallery-image-title-en {
+  color: #c3ffed;
   font-size: clamp(1rem, 4vw, 1.5rem);
+  font-weight: bold;
 }
 
 .gallery-image-title-zh {
+  color: #a4e3cb;
   font-size: clamp(0.75rem, 3vw, 1.25rem);
 }
 
@@ -109,6 +112,12 @@ img {
   color: #000000;
   text-align: center;
   font-family: "Inter", sans-serif;
+}
+
+#plant-info > div > p {
+  background-color: linear-gradient(180deg, #000000 0%, #ffc0c0 100%);
+  /* background blur */
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .grid-style {

@@ -1,19 +1,19 @@
 {
   "imageGalleryContents": [
     {
-      "src": "../static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/plant1.png",
+      "titleEn": "Name",
+      "titleZh": "fruit tree garden"
     },
     {
-      "src": "../static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/Alligator_flag.png",
+      "titleEn": "Alligator Flag",
+      "titleZh": "红鞘水竹芋"
     },
     {
-      "src": "../static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/plant2.png",
+      "titleEn": "Name",
+      "titleZh": "fruit tree garden"
     }
   ],
   "plantInfos": [
@@ -27,12 +27,12 @@
       "learnMore": "https://rdev.x10.mx/"
     },
     {
-      "info1": "Walter black is a black plant",
-      "info2": "NUMBER TWO",
-      "info3": "Walter black makes <b>black powder</b>",
-      "imageLink1": "../static/assets/mike.png",
-      "imageLink2": "../static/assets/pickerel_weed_real.jpg",
-      "imageLink3": "../static/assets/pickerel_weed_real.jpg",
+      "info1": "Cempedak is high in fiber, vitamins, and minerals, but low in calories; it boosts digestion, lowers cholesterol, and lessens the risk of cancer and malaria.",
+      "info2": "Each cempedak fruit can have between <b>100</b> and <b>500 seeds</b>, producing a substantial amount of fruit and making it a cheap food source",
+      "info3": "The <b>inflorescence stalk</b> and <b>basal leaves</b> extend from the <b>submerged base</b> above water.",
+      "imageLink1": "../static/assets/Cempedak.png",
+      "imageLink2": "../static/assets/Cempedak2.png",
+      "imageLink3": "../static/assets/Cempedak3.png",
       "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
     },
     {
