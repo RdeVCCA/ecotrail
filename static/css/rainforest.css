@@ -1,249 +1,129 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  .parent {
-    text-align: center;
-  }
-  .child {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .item1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  .top-header {
-    background-color: #C4C4C4; /* Gray placeholder color */
-    padding: 32px 16px;
-    text-align: left;
-  }
-  .flex-parent-element {
-    display: flex;
-    width: 100%;
-    margin-top:5%;
-    margin-bottom:5%;
-  }
-  
-  .flex-child-element {
-    flex: 1;
-    margin: 5%;
-    width: 40%;
-  }
-  
-  .flex-child-element:first-child {
-    margin-right: 5%;
-    text-align: left;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5DC; /* Beige yellow background for the entire website */
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.top-header, .sub-header {
+  background-color: #C4C4C4;
+  padding: 32px 16px;
+  text-align: left;
+  margin-top: 1%;
+}
+
+.sub-header {
+  text-align: center;
+}
+
+.sub-header h2 {
+  font-size: 36px;
+}
+
+.sub-header p, .text-section p, .eco-grid-item p {
+  font-size: 18px;
+}
+
+.text-section {
+  padding: 8px 16px;
+}
+
+.text-section h1, .text-section h2, .text-section h3 {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 24px;
+}
+
+.grid-container, .eco-trail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  grid-auto-rows: 200px;
+}
+
+.grid-item, .eco-grid-item {
+  border: 0.5px solid black;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item1, .item2, .item5, .item6 {
+  grid-column: 1 / -1; /* Span all columns */
+}
+
+.item3, .item4, .item7, .item8 {
+  grid-column: span 1 / auto; /* Single column span */
+}
+
+.eco-grid-item {
+  background-color: #e8f5e9; /* Example green background for text items */
+}
+
+.eco-grid-item.rain-image {
+  background-color: #cfd8dc; /* Placeholder for images */
+}
+
+.eco-grid-item.text-right, .text-right {
+  text-align: right;
+}
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img, .rain-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .grid-container, .eco-trail-grid {
+    grid-template-columns: 1fr; /* One column for smaller screens */
   }
 
-  .hide {
-    display: none;
-  }
-  
-  .myDIV:hover + .hide {
-    display: block;
-    color: black;
-  }
-  .text-right {
-    text-align: right;
+  .grid-item, .eco-grid-item {
+    margin: 0.5em;
   }
 
-  .bleft{
-    z-index: 10;
+  .top-header, .sub-header {
+    padding: 16px 8px;
   }
-  .bright{
-    z-index: 0;
-  }
-  .garden-image {
-    width: 30%; 
-    float:left; 
-    height:300px; 
-    background:gray; 
-    margin-right:10%; 
-    margin-left:10%; 
-    margin-top: 5%; 
-    margin-bottom: 5%;
-  }
-  .rain-image {
-    width: 30%; 
-    float:left; 
-    height:15em; 
-    background:gray; 
-    margin-right:5%; 
-    margin-left:5%; 
-    margin-top: 2%; 
-    margin-bottom: 2%;
-  }
-  .garden-text {
-    width: 30%; 
-    float:left; 
-    height:15em;
-    margin-right:10%; 
-    margin-left:10%; 
-    margin-top: 2%; 
-    margin-bottom: 2%;
-  }
-  .container {
-    width: 100%;
-    max-width: 100%; /* Adjust as per wireframe */
-    margin: 0 auto;
-  }
-  .image-placeholder {
-    background-color: #C4C4C4; /* Gray placeholder color */
-    width: 100%;
-    height: 40%; /* Adjust as per wireframe */
-    margin: 16px 0;
-  }
-  .text-section {
-    padding: 8px 16px;
-  }
-  .text-box {
-    width:40%;
-    margin:5%
-  }
-  .text-section h1, .text-section h2, .text-section h3 {
-    margin: 0;
-    padding: 16px 0;
-    font-size: 24px; /* Adjust as per wireframe */
-  }
-  .text-section p {
-    margin: 0;
-    padding: 8px 0;
-  }
-  .sub-header {
-    background-color: #C4C4C4; /* Gray placeholder color */
-    padding: 32px 16px;
-    text-align: center;
-    margin-top:1%
-  }
-  .sub-header h2 {
-    font-size: 36px; /* Adjust as per wireframe */
-  }
-  .sub-header p {
-    font-size: 18px; /* Adjust as per wireframe */
-  }
-  .highlight {
-    background-color: #C4C4C4; /* Gray placeholder color */
-    padding: 16px;
-    text-align: center;
-  }
+}
 
-  .grid-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr; /* Two columns */
-    grid-auto-rows: 200px; /* Row height */
-    justify-content: center;
-    align-content: center;
-    gap: 1em; /* Space between grid items */
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    border: 0.5px solid black; /* Border around the grid container */
+@keyframes drop-in {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
   }
-  
-  .grid-item {
-    margin: 1em;
-    border: 0.5px solid black; /* Border around each grid item */
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    text-align: center; /* Center text for items that contain text */
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .image-text-container {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-  }
-  
-  .image-container {
-    /* Style for the image container */
-    border: 1px solid black;
-    margin-bottom: 1em; /* Space between the image and the text */
-    /* If you have an actual image, you would use an <img> tag or background-image here */
-  }
-  
-  .eco-trail-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: repeat(2, auto); /* Two rows */
-    gap: 20px; /* Adjust the gap as needed */
-    padding: 20px; /* Adjust the padding as needed */
-  }
-  
-  .eco-grid-item {
-    border: 1px solid #ccc; /* For visualization */
-    padding: 10px; /* Adjust the padding as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .eco-grid-item.rain-image {
-    background-color: #cfd8dc; /* Placeholder for image */
-    /* Use background-image in CSS or <img> tags for actual images */
-  }
-  
-  .eco-grid-item.green {
-    background-color: #e8f5e9; /* Example green background */
-    text-align: left; /* Align text to the left for the green boxes */
-  }
-  
-  .eco-grid-item.text-right {
-    text-align: right; /* Align text to the right for the specified box */
-  }
-  
-  @media (max-width: 768px) {
-    .eco-trail-grid {
-      grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
-    }
-  }
-  
+}
 
-  /* Grid item positions */
-  .item1, .item2 {
-    grid-row: 1; /* First row */
-  }
-  
-  .item1 {
-    grid-column: 1; /* First column */
-  }
-  
-  .item2 {
-    grid-column: 2; /* Second column */
-  }
-  
-  .item3, .item4 {
-    grid-row: 2; /* Second row */
-  }
-  
-  .item3 {
-    grid-column: 1; /* First column */
-  }
-  
-  .item4 {
-    grid-column: 2; /* Second column */
-  }
-  
-  .item5 {
-    grid-column: 1 / -1; /* Span all columns */
-    grid-row: 3; /* Third row */
-  }
-  
-  .item6 {
-    grid-column: 1 / -1; /* Span all columns */
-    grid-row: 4; /* Fourth row */
-  }
-  
-  @media (max-width: 768px) {
-    .grid-container {
-      grid-template-columns: 1fr; /* One column on small screens */
-    }
-    .grid-item {
-      margin: 0.5em; /* Smaller margin on small screens */
-    }
-    .item1, .item2, .item3, .item4, .item5, .item6 {
-      grid-column: 1; /* All items take the full width */
-    }
-  }
+span.space {
+  white-space: pre; /* This preserves whitespace */
+}
+
+p span {
+  display: inline-block;
+  opacity: 0;
+  animation: drop-in 0.6s forwards;
+}
