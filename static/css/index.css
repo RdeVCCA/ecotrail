@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color: #F5F5DC;
 }
 
 @media only screen and (max-width: 768px) {
@@ -8,15 +9,6 @@ body{
         font-size: 2rem!important;
         padding-top: 1rem!important;
         padding-bottom: 1rem!important;
-    }
-    .flex-holder{
-        width: 95%!important;
-        height: calc(100% - 4rem)!important;
-        flex-direction: column !important;
-        justify-content: center !important;
-    }
-    .flex-reverse{
-        flex-direction: column !important;
     }
     .flex-video{
         width: 95%!important;
@@ -43,6 +35,10 @@ body{
     overflow-y: hidden;
 }
 
+#About-RV-Eco-Trail{
+    height: fit-content;
+}
+
 .header{
     width: 100%;
     height: 6rem;
@@ -54,35 +50,33 @@ body{
     /* background-color: red; */
     margin-top: 0%;
     margin-bottom: 0%;
-}
-
-.flex-reverse{
-    flex-direction: row-reverse;
-}
-
-.flex-holder{
-    /* background-color: aqua; */
-    display: flex;
-    height: calc(100% - 6rem);
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center; /* Vertically center content */
+    color: #0B3D2E;
 }
 
 .flex-video{
-    width: 65%;
-    height: 70%;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; */
+    aspect-ratio: 16/9;
 }
 
 .flex-text{
-    width: 35%;
-    padding: 5%;
-    height: 60%;
-    text-align: justify;
-    font-size: 1.5rem;
+    /* width: 35%; */
+    /* padding: 5%; */
+    /* height: 60%; */
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+    /* text-align: justify; */
+    text-align: center;
+    font-size: 1rem;
+    color: #0B3D2E;
 }
 
 .single-holder{
