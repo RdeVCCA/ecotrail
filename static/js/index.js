@@ -90,7 +90,7 @@ function calculateIndex(increase) {
 
 window.addEventListener('wheel', function(e) {
     if (activate){
-        if (timeStepIndex > 0 && timeStepIndex < timeStep.length - 1){
+        if ((timeStepIndex > 0 && timeStepIndex < timeStep.length - 1) || (e.deltaY < 0 && timeStepIndex == timeStep.length - 1)){
             e.preventDefault();
         }else{
             console.log("limit")
