@@ -24,6 +24,21 @@ body{
         flex-direction: row;
         align-items: center;
     }
+    .video-content .header{
+        font-size: 1.25rem !important;
+    }
+    #wonder-header{
+        font-size: 2rem !important
+    }
+    #wonder-description{
+        font-size: 0.75rem !important;
+    }
+    #wonder-link{
+        font-size: 1rem !important;
+        width: 55% !important;
+    }
+
+
 }
 
 .page{
@@ -128,4 +143,59 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.video-content .header{
+    color: #CDE7F5;
+    z-index: 4;
+    position: absolute;
+    font-weight: bolder;
+}
+
+.wonder-content{
+    position: absolute;
+    z-index: 4;
+    top: 25%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wonder-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+}
+
+#wonder-header{
+    color: #A4E3CB;
+    font-size: 3rem;
+    /* margin-top: 0; */
+    margin-bottom: 0;
+}
+
+#wonder-description{
+    color: #F5F5DC;
+    /* margin: 0; */
+}
+
+#wonder-link{
+    border-radius: 0.5rem;
+    width: 40%;
+    padding: 1rem;
+    color: #0B3D2E;
+    background-color: #A4E3CB;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#content-storage{
+    display: none;
 }
