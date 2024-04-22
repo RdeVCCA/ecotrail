@@ -12,7 +12,6 @@ body {
 }
 
 .top-header, .sub-header {
-  background-color: #C4C4C4;
   padding: 32px 16px;
   text-align: left;
   margin-top: 1%;
@@ -20,6 +19,7 @@ body {
 
 .sub-header {
   text-align: center;
+  width: 100em;
 }
 
 .sub-header h2 {
@@ -54,7 +54,6 @@ body {
 }
 
 .grid-item, .eco-grid-item {
-  border: 0.5px solid black;
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -70,13 +69,6 @@ body {
   grid-column: span 1 / auto; /* Single column span */
 }
 
-.eco-grid-item {
-  background-color: #e8f5e9; /* Example green background for text items */
-}
-
-.eco-grid-item.rain-image {
-  background-color: #cfd8dc; /* Placeholder for images */
-}
 
 .eco-grid-item.text-right, .text-right {
   text-align: right;
@@ -98,9 +90,7 @@ body {
     grid-template-columns: 1fr; /* One column for smaller screens */
   }
 
-  .grid-item, .eco-grid-item {
-    margin: 0.5em;
-  }
+
 
   .top-header, .sub-header {
     padding: 16px 8px;
