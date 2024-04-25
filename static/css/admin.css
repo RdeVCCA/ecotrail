@@ -69,11 +69,13 @@ h2{
 .left{
     --animation: fadeIn 2s ease-in-out 0.5s forwards;
     transform: translate(-50%, 0%);
+    opacity:0;
 }
 
 .right{
     --animation: fadeIn 2s ease-in-out 0.5s forwards;
     transform: translate(50%, 0%);
+    opacity:0;
 }
 
 @keyframes fadeIn{
