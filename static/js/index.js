@@ -2,14 +2,10 @@ const videoA = $('#video-A')[0];
 const videoB = $('#video-B')[0];
 const parent = $("#Wonders-of-Eco-Trail");
 
-const videoLength = videoA.duration;
-
 // const content = $('#video-content');
+const videoLength = videoA.duration;
 videoA.pause();
 videoB.pause();
-
-videoA.currentTime = 0;
-videoB.currentTime = videoLength;
 
 var currentTime = 0;
 var timeStep = [0, 1, 2, 3, 4, 5];
@@ -17,6 +13,12 @@ var reverse = false;
 var playing = false;
 var timeStepIndex = 0;
 var activate = false;
+
+var contentArray = $('#content-storage').find('.collection').toArray();
+console.log(contentArray);
+
+videoA.currentTime = 0;
+videoB.currentTime = videoLength;
 
 function timeInReverse(time){
     return videoLength - time;
@@ -59,8 +61,31 @@ async function playUntil(targetTime){
             }
             await new Promise(r => setTimeout(r, 100));
         }
-    
     }
+}
+
+async function swapContent(oldIndex,newIndex){
+    var newContent = $(contentArray[newIndex]).find("span").toArray();
+    var timeDifference = timeStep[newIndex] - timeStep[oldIndex];
+    if (timeDifference < 0){
+        timeDifference = -timeDifference;
+    }
+    var targetHeader = $("#wonder-header");
+    var targetDescription = $("#wonder-description");
+    var targetLink = $("#wonder-link");
+    targetHeader.animate({opacity: 0}, (timeDifference/2)*1000, function() {
+        targetHeader.html(newContent[0].innerHTML);
+        $(this).animate({opacity: 1}, (timeDifference/2)*1000);
+    });
+    targetDescription.animate({opacity: 0}, (timeDifference/2)*1000, function() {
+        targetDescription.html(newContent[1].innerHTML);
+        $(this).animate({opacity: 1}, (timeDifference/2)*1000);
+    });
+    targetLink.animate({opacity: 0}, (timeDifference/2)*1000, function() {
+        targetLink.attr("href", newContent[2].innerHTML);
+        $(this).animate({opacity: 1}, (timeDifference/2)*1000);
+    });
+
 }
 
 async function playVideoUntilNext(increase){
@@ -68,9 +93,12 @@ async function playVideoUntilNext(increase){
         return;
     }
     var newIndex = calculateIndex(increase);
+    
     var targetTime = timeStep[newIndex];
     if (newIndex == timeStepIndex){
         return;
+    }else{
+        swapContent(timeStepIndex,newIndex);
     }
     await playUntil(targetTime);
     timeStepIndex = newIndex;
@@ -133,70 +161,3 @@ window.addEventListener('touchmove', function(e) {
     }
 }, { passive: false });
 
-// reverseControl();
-
-// async function reverseControl() {
-    //     while (true) {
-    //         if (reversePlay && playing) {
-    //             video[0].pause();
-    //             if (video[0].currentTime > targetTime) {
-    //                 seeking = true;
-    //                 video[0].currentTime -= 0.1;
-    //             } else {
-    //                 reversePlay = false;
-    //             }
-    //         }
-    //         await new Promise(r => setTimeout(r, 100));
-    //     }
-    // }
-    
-    // async function playVideoUntilNext(increase){
-    //     var newIndex = calculateIndex(increase);
-    //     targetTime = timeStep[newIndex];
-    
-    //     if (newIndex == timeStepIndex) {
-    //         return;
-    //     }
-    //     console.log(targetTime, video[0].currentTime)
-    //     if (targetTime >= video[0].currentTime) {
-    //         reversePlay = false;
-    //     } else {
-    //         reversePlay = true;
-    //     }
-    
-    //     video[0].play();
-    //     playing = true;
-    
-    //     if (!reversePlay) {
-    //         console.log(video[0].currentTime, targetTime)
-    //         while (true){
-    //             // console.log("test forward")
-    //             if (video[0].currentTime >= targetTime) {
-    //                 video[0].currentTime = targetTime;
-    //                 video[0].pause();
-    //                 playing = false;
-    //                 timeStepIndex = newIndex;
-    //                 break;
-    //             }else{
-    //                 console.log(video[0].currentTime, targetTime)
-    //             }
-    //             await new Promise(r => setTimeout(r, 100));
-    //         }
-    //     }else{
-    //         console.log(video[0].currentTime, targetTime)
-    //         while (true){
-    //             // console.log("test backward")
-    //             if (video[0].currentTime <= targetTime) {
-    //                 video[0].currentTime = targetTime;
-    //                 video[0].pause();
-    //                 playing = false;
-    //                 timeStepIndex = newIndex;
-    //                 break;
-    //             }else{
-    //                 console.log(video[0].currentTime, targetTime)
-    //             }
-    //             await new Promise(r => setTimeout(r, 100));
-    //         }
-    //     }
-    //     time = targetTime;
-    // }
