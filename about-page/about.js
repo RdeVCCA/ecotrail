@@ -74,4 +74,3 @@ function checkVisible(elm) {
 
     return (inrange(y_top, st, sb) || inrange(y_bottom, st, sb) || inrange(st, y_top, y_bottom) || inrange(sb, y_top, y_bottom));
 }
-
