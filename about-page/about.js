@@ -19,7 +19,6 @@ $(document).ready(()=>{
 function fade_in_if_visible() {
     for (let i = 0; i < sections.length; i++) {
         let section = sections.item(i)
-        // console.log(section)
         if (checkVisible(section)) {
             fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
         }
