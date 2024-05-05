@@ -8,7 +8,7 @@ videoA.pause();
 videoB.pause();
 
 var currentTime = 0;
-var timeStep = [0, 1, 2, 3, 4, 5];
+var timeStep = [0, 3, 4.5, 9];
 var reverse = false;
 var playing = false;
 var timeStepIndex = 0;
