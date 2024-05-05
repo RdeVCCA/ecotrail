@@ -4,6 +4,15 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    /* height:500vh; */
     margin: 0;
     padding: 0;
+}
+
+.paused{
+    animation-play-state: paused;
+}
+
+.paused *{
+    animation-play-state: paused;
 }
