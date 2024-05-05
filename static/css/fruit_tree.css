@@ -1,0 +1,19 @@
+body{
+    color: #0B3D2E;
+    background-color: #F5F5DC;
+    font-family: 'Inter', sans-serif;
+    padding: 1em;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "leaf_image leaf_text" 
+    "root_text root_image"
+    "garden_image garden_image"
+    "garden_text garden_text";
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 48.5% 48.5%;
+    gap: 3%;
+}
