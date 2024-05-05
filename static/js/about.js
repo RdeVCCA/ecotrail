@@ -1,4 +1,4 @@
-let sections = document.querySelectorAll("#section-no-text");
+let sections = document.querySelectorAll(".paused");
 // let sections = document.getElementsByTagName("section")
 let was_ever_visible = Array(sections.length);
 let fade_in_from = 0
@@ -15,12 +15,13 @@ $(document).ready(()=>{
         text_boxes[i].style.top = `${image_boxes[i].height/2}px`
     }
 })  
-
+fade_in()
 function fade_in_if_visible() {
     for (let i = 0; i < sections.length; i++) {
         let section = sections.item(i)
         if (checkVisible(section)) {
-            fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
+            section.classList.remove("paused");
+            // fade_in_from = fade_in(was_ever_visible, fade_in_from, section, i)
         }
     };
 }
@@ -61,53 +62,50 @@ function fade_in_if_visible() {
 //     return 1
 // }
 
-function fade_in(was_ever_visible, fade_in_from, section, index){ 
-    if (was_ever_visible[index] == false) {
-        let hidden = document.querySelectorAll('.scroll-animation')
-        for (let item of hidden){
-            if (!item.classList.contains('animated')){
-                // item.style.visibility = 'hidden';
-            }
+function fade_in(){ 
+
+    let hidden = document.querySelectorAll('.scroll-animation')
+    for (let item of hidden){
+        if (!item.classList.contains('animated')){
+            // item.style.visibility = 'hidden';
         }
-        for (let item of hidden){
-            // display all classes of item
-            console.log(item.classList)
-            if (!item.classList.contains('animated')){
-                item.classList.add('animated');
-                if (item.classList.contains('left')){
-                    item.classList.add('fade-in-l-r');
-                    item.addEventListener('animationend', () => {
-                        item.style.visibility = 'visible'; 
-                        item.classList.remove('scroll-animation');
-                    });
-                }
-                else if (item.classList.contains('right')){
-                    item.classList.add('fade-in-r-l');
-                    item.addEventListener('animationend', () => {
-                        item.style.visibility = 'visible'; 
-                        item.classList.remove('scroll-animation');
-                    });
-                }
-                else if (item.classList.contains('left-center')){
-                    item.classList.add('fade-in-l-r-c');
-                    item.addEventListener('animationend', () => {
-                        item.style.visibility = 'visible'; 
-                        item.classList.remove('scroll-animation');
-                    });
-                }
-                else if (item.classList.contains('right-center')){
-                    item.classList.add('fade-in-r-l-c');
-                    item.addEventListener('animationend', () => {
-                        item.style.visibility = 'visible'; 
-                        item.classList.remove('scroll-animation');
-                    });
-                }
-            }
-        }
-        was_ever_visible[index] = true;
-        return 1
     }
-    return 1
+    for (let item of hidden){
+        // display all classes of item
+        console.log(item.classList)
+        if (!item.classList.contains('animated')){
+            item.classList.add('animated');
+            if (item.classList.contains('left')){
+                item.classList.add('fade-in-l-r');
+                item.addEventListener('animationend', () => {
+                    item.style.visibility = 'visible'; 
+                    item.classList.remove('scroll-animation');
+                });
+            }
+            else if (item.classList.contains('right')){
+                item.classList.add('fade-in-r-l');
+                item.addEventListener('animationend', () => {
+                    item.style.visibility = 'visible'; 
+                    item.classList.remove('scroll-animation');
+                });
+            }
+            else if (item.classList.contains('left-center')){
+                item.classList.add('fade-in-l-r-c');
+                item.addEventListener('animationend', () => {
+                    item.style.visibility = 'visible'; 
+                    item.classList.remove('scroll-animation');
+                });
+            }
+            else if (item.classList.contains('right-center')){
+                item.classList.add('fade-in-r-l-c');
+                item.addEventListener('animationend', () => {
+                    item.style.visibility = 'visible'; 
+                    item.classList.remove('scroll-animation');
+                });
+            }
+        }
+    }
+
 }
 
 function inrange(x, lower, upper) {
