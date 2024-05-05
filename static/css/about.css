@@ -1,0 +1,216 @@
+body {
+    font-size: 20;
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #F5F5DC;
+}
+
+h1{
+    color: #0B3D2E;
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+}
+
+.big_box {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding-bottom: 7.5vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.committees{
+    margin-top: -7.5vh;
+    margin-bottom: 10vh;
+}
+
+.flip_horizontal {
+    transform: scaleX(-1);
+}
+
+.image_box {
+    grid-column: 1;
+    background-color: grey;
+    height: fit-content;
+    width: 100%;
+    left: auto;
+    z-index: 0;
+}
+
+
+.blue_box_that_has_text {
+    position: relative;
+    right: 2em;
+    top: 9em; /*cuz the image is 60% height and they share the same parents*/
+    transform: translateY(-50%);
+    grid-column: 2;
+    border: 1px solid #0B3D2E;
+    z-index: 1;
+    background-color: #C9E5F3;
+    height: fit-content;
+    box-shadow: 0px 0px 25px 4px rgba(206, 234, 249, 0.452);
+    padding: 10px 5px 10px 5px /* all meeee */
+}
+
+.text {
+    font-size: 1.2rem;
+    padding: 0.4em;
+    color: #0B3D2E;
+}
+
+p {
+    font-size: 20;
+    font-family: Arial;
+    font-weight: 400;
+    text-align: center;
+}
+
+.instagram_icon {
+    width: 40px;
+    height: 40px
+}
+
+.pink-box {
+    margin-left: 1rem;
+    position: absolute;
+    transform: translateY(40%);
+    background-color: pink;
+}
+
+.RdeV-website {
+    width: 50%;
+    position: relative;
+    scale: 1.5;
+    margin: auto;
+}
+
+.scroll-animation.left{
+    /* transform: translateX(-20%); */
+    opacity: 0;
+}
+
+.scroll-animation.left-center{
+    /* transform: translateX(-20%) translateY(-50%); */
+    opacity: 0;
+}
+
+.scroll-animation.right-center{
+    /* transform: translateX(20%) translateY(-50%); */
+    opacity: 0;
+}
+
+.scroll-animation.right{
+    /* transform: translateX(20%); */
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 400px) {
+    .grey_box {
+        position: absolute;
+        height: 60%;
+        grid-column: None;
+        }
+
+    .white_box_that_has_text {
+        position: absolute;
+        grid-column: None;
+        width: 70%;
+        align-self: center;
+    }
+}
+
+@keyframes fade-in-left-to-right-center {
+    0% {
+        transform: translateX(-20%) translateY(-50%);
+        opacity: 0.3;
+    }
+
+    60% {
+        transform: translateX(0) translateY(-50%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-right-to-left-center {
+    0% {
+        transform: translateX(20%) translateY(-50%);
+        opacity: 0.3;
+    }
+
+    60% {
+        transform: translateX(0) translateY(-50%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-left-to-right {
+    0% {
+        transform: translateX(-20%);
+        opacity: 0.3;
+    }
+
+    60% {
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-right-to-left {
+    0% {
+        transform: translateX(20%);
+        opacity: 0.3;
+    }
+
+    60% {
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fade-in-l-r {
+    animation: fade-in-left-to-right forwards 1s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.fade-in-r-l{
+    animation: fade-in-right-to-left backwards 1s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.fade-in-l-r-c {
+    animation: fade-in-left-to-right-center forwards 1s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.fade-in-r-l-c{
+    animation: fade-in-right-to-left-center backwards 1s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.debugging-thing {
+    background-color: green;
+}
