@@ -73,6 +73,12 @@ async function swapContent(oldIndex,newIndex){
     var targetHeader = $("#wonder-header");
     var targetDescription = $("#wonder-description");
     var targetLink = $("#wonder-link");
+    var blurEffect = $(".background-cover");
+    var blur = $(".background-blur");
+
+    blurEffect.animate({opacity: 0}, (timeDifference/2)*1000, function() {
+        $(this).animate({opacity: 1}, (timeDifference/2)*1000);
+    });
     targetHeader.animate({opacity: 0}, (timeDifference/2)*1000, function() {
         targetHeader.html(newContent[0].innerHTML);
         $(this).animate({opacity: 1}, (timeDifference/2)*1000);
