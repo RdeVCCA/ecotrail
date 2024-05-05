@@ -3,7 +3,7 @@ const videoB = $('#video-B')[0];
 const parent = $("#Wonders-of-Eco-Trail");
 
 // const content = $('#video-content');
-const videoLength = videoA.duration;
+const videoLength = 10; // hardcoded, need change
 videoA.pause();
 videoB.pause();
 
