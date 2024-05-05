@@ -65,8 +65,8 @@ img {
 }
 
 .plant-gallery-content img {
-  width: 40vw;
-  height: auto;
+  width: 30vw;
+  aspect-ratio: 3 / 4;
 }
 
 .gallery-image-title {

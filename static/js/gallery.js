@@ -14,18 +14,21 @@ const startDragging = (e) => {
 };
 
 const stopDragging = (e) => {
+  console.log("ran")
   mouseDown = false;
   changePlantIndex(currentPlantIndex);
+  gallery.scrollLeft = scrollLeft - scroll;
 };
 
 const move = (e) => {
-  e.preventDefault();
+  
   if (!mouseDown) {
     return;
   }
+  e.preventDefault();
   const x = e.pageX - gallery.offsetLeft;
   const scroll = x - startX;
-  gallery.scrollLeft = scrollLeft - scroll;
+  gallery.scrollTo({ left: scrollLeft - scroll, "behavior":"instant"});
 };
 
 gallery.addEventListener("mousemove", move, false);
@@ -65,6 +68,8 @@ gallery.addEventListener("scroll", (event) => {
 });
 
 function changePlantIndex(index) {
+  if (mouseDown) return;
+  console.log("Ran")
   gallery.style.scrollSnapType = "none"; // disable snapping for smooth scrolling
   gallery.scrollTo({
     left:
