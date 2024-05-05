@@ -1,0 +1,195 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 1.7rem;
+    width: 100%;
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+.box{
+    width: 30vw;
+    border: 1px solid black;
+    margin: 3rem auto;
+    min-height: 20rem;
+    padding: 0.5rem;
+}
+
+#box0{
+    width: 40vw;
+    margin-top: 3rem;
+}
+
+#box1{
+    width: 80vw;
+    padding: 1rem;
+}
+
+#box2{
+    width: 80vw;
+    padding: 1rem;
+}
+
+.bottom{
+    margin-top: 51vh;
+}
+
+button{
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    margin: 1rem auto;
+    display: block;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.C3FFED{
+    color: #C3FFED;
+}
+
+.fadebottom{
+    background-image: linear-gradient(to bottom, rgba(18, 78, 112, 0.49), rgba(18, 78, 112, 0.12)); 
+}
+
+.fadetop{
+    background-image: linear-gradient(to bottom, rgba(18, 78, 112, 0.12), rgba(18, 78, 112, 0.49));
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.fullheight{
+    height: 100vh;
+    width: 100vw;
+}
+
+.grey{
+    text-align: center;
+    color: grey;
+    border: 1px solid black;
+    padding: 5rem;
+    font-size: 4.5rem;
+    height: 30vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 0;
+    grid-template-areas: "a a"
+    "b c";
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.grid-items{
+    padding: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#gridA{
+    grid-area: a;
+}
+
+#gridB{
+    grid-area: b;
+}
+
+#gridC{
+    grid-area: c;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    margin: 0.5rem 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem 10rem 1rem 10rem;
+    display: block;
+}
+
+.halfheight{
+    height: 50vh;
+}
+
+#headerimg{
+    height: 40vh;
+    width: 70vw;
+    margin-top: 15vh;
+}
+
+img{
+    border: 1px solid black;
+}
+
+.marginpls{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#Mangrove1{
+    background-image: url('../assets/Eco Trail Logo.png'), url('../assets/Mangrove1.png');
+}
+
+#Mangrove2{
+    background-image: url('../assets/Mangrove2.png');
+}
+
+#Mangrove3{
+    background-image: url('../assets/Mangrove3.png');
+    height: 90vh;
+}
+
+#Plant_Gallery{
+    background-color: rgb(249, 244, 217);
+}
+
+p{
+    display: block;
+    text-align: center;
+    padding: 3rem; /*changing this will disturb the wetlands div*/
+    bottom: 0;
+}
+
+pre{
+    font-family: "Inter", sans-serif;
+    margin: 0.5rem 2rem;
+    display: inline-block;
+}
+
+.Wetlands{
+    padding-left: 10% 0;
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+#Wetlands_What{
+    background: url('../assets/Wetlands.png');
+}
