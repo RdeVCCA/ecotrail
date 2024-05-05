@@ -33,7 +33,7 @@ async function playUntil(targetTime){
         $(videoA).css('z-index', 3);
         while (true){
             currentTime = videoA.currentTime;
-            console.log(currentTime, targetTime);
+            // console.log(currentTime, targetTime);
             if (currentTime >= targetTime){
                 videoA.pause();
                 playing = false;
@@ -51,7 +51,7 @@ async function playUntil(targetTime){
         $(videoA).css('z-index', 1);
         while (true){
             currentTime = timeInReverse(videoB.currentTime);
-            console.log(currentTime, targetTime);
+            // console.log(currentTime, targetTime);
             if (currentTime <= targetTime){
                 videoB.pause();
                 playing = false;
@@ -93,6 +93,7 @@ async function playVideoUntilNext(increase){
         return;
     }
     var newIndex = calculateIndex(increase);
+    console.log(newIndex, timeStepIndex);
     
     var targetTime = timeStep[newIndex];
     if (newIndex == timeStepIndex){
@@ -148,7 +149,7 @@ window.addEventListener('touchmove', function(e) {
     if (activate) {
         let endY = e.touches[0].clientY;
         let deltaY = startY - endY;
-        if (timeStepIndex > 0 && timeStepIndex < timeStep.length - 1) {
+        if ((timeStepIndex > 0 && timeStepIndex < timeStep.length - 1) || (deltaY < 0 && timeStepIndex == timeStep.length - 1)){
             e.preventDefault();
         } else {
             console.log("limit")
