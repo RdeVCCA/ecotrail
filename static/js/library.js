@@ -1,16 +1,44 @@
 const popup = document.querySelector('.popup_library');
 const popupBg = document.querySelector('.popup_background');
 const library = document.querySelector('.library');
+const popupLabels = document.querySelectorAll('.popup_name,.popup_location');
+function restartAnimation(ele){
+    ele.style.animation = 'none';
+    ele.offsetHeight; /* trigger reflow */
+    ele.style.animation = null; 
+
+}
 function togglePopup(open) {
     if (open){
         document.body.classList.add('no-scroll');
         popup.classList.remove('hidden');
         popupBg.classList.remove('hidden');
+        for (var label of popupLabels){
+            label.classList.remove('reverse');
+        }
+        popup.classList.remove("reverse")
+        popupBg.classList.remove("reverse")
     }
     else{
         document.body.classList.remove('no-scroll');
-        popup.classList.add('hidden');
-        popupBg.classList.add('hidden');
+        
+        popup.classList.add("reverse")
+        popupBg.classList.add("reverse")
+        // retrigger animation
+        restartAnimation(popup);
+        restartAnimation(popupBg);
+
+        for (var label of popupLabels){
+            label.classList.add('reverse');
+            restartAnimation(label);
+        }
+        setTimeout(() => {
+            popup.classList.add('hidden');
+            popupBg.classList.add('hidden');
+        }
+        ,900)
+
+
     }
 }
 

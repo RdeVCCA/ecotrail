@@ -89,7 +89,7 @@
     box-shadow: 0 0 0.5em 0em #0B4F95;
     gap:1em;
     overflow: hidden;
-    animation:fadeIn 1s forwards;
+    animation:fadeIn 1s backwards;
 
 }
 .popup_img{
@@ -118,24 +118,23 @@
 }
 
 .popup_name,.popup_location{
-    animation: fadeFromLeft 1s forwards;
+    animation: fadeFromLeft 1s backwards;
 }
 .popup_img_container>*{
     margin:0;
 }
 .popup_img_container::after{
     content:"";
-    --height:25%;
+    height:25%;
     background:linear-gradient(to bottom,rgba(18, 78, 112, 0.795),rgba(18, 78, 112, 0));
     position:absolute;
     width:100%;
-    backdrop-filter: blur(1em);
     border-top-right-radius:0.5em;
     border-top-left-radius:0.5em;
     top:0;
     left:0;
     z-index:-1;
-    animation:heightTween 1s forwards;
+    animation:heightTween 1s backwards;
 }
 
 .popup_background{
@@ -145,7 +144,8 @@
     left:0;
     top:0;
     background:rgba(255, 255, 255, 0.205) ;
-    animation: background-blur 1s forwards;
+    animation: background-blur 1s backwards;
+    backdrop-filter: blur(1em);
 }
 
 @keyframes fadeIn {
@@ -194,7 +194,6 @@
         opacity: 0;
     }
     to{
-        height:var(--height);
         opacity:1
     }
     
