@@ -10,6 +10,11 @@ body{
     font-size: calc(1vw + 10px)
 }
 
+.no-scroll{
+    overflow:hidden;
+
+}
+
 .button{
     background:#A4E3CB;
     color:#0B3D2E;

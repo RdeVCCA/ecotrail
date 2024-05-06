@@ -15,12 +15,14 @@
 
 .library-element{
     width:100%;
-    aspect-ratio: 1.618034    ;
+    aspect-ratio: 1.3    ;
     display:flex;
     position:relative;
     flex-direction: column-reverse;
     padding:0.5em 1em;
     box-sizing: border-box;
+    -webkit-transition : -webkit-filter 500ms linear;
+    transition: filter 0.5s;
 }
 
 .library-element-background{
@@ -30,25 +32,50 @@
     top:0;
     left:0;
     z-index:-2;
+    transition: 1s filter;
 }
 
 .library-element>*{
     margin:0;
     gap:1em;
+    cursor: pointer;
+
 }
 
 .library-element::after{
     content:"";
-    height:35%;
+    height:3em;
     background:linear-gradient(to top,#124e7077, #124e7000 );
     position:absolute;
     bottom:0;
     width:100%;
     z-index:-1;
     left:0;
-    backdrop-filter: blur(1em);
 }
-
+.library-element:hover{
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+.library-element:hover .description{
+    display:block;
+}
+.library-element:hover .library-element-background{
+    filter: blur(0.1em);
+}
+.description{
+    display:none;
+    position:absolute;
+    --height:3em;
+    height:0;
+    top:0;
+    padding:1em;
+    padding-bottom:2em;
+    overflow: hidden;
+    left:0;
+    text-align: center;
+    background:linear-gradient(to bottom,#124e7077, #124e7000 );
+    animation:heightTween 1s forwards;
+}
 .popup_library{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -164,9 +191,11 @@
 @keyframes heightTween {
     from{
         height:0;
+        opacity: 0;
     }
     to{
         height:var(--height);
+        opacity:1
     }
     
 }
