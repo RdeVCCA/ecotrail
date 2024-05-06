@@ -2,7 +2,45 @@ body{
     color: #0B3D2E;
     background-color: #F5F5DC;
     font-family: 'Inter', sans-serif;
-    padding: 1em;
+    font-size: calc(10px + 1vw);
+}
+
+.grid-container p{
+    text-align: center;
+}
+
+#leaf_text{
+    width: 17.5em;
+    grid-area: leaf_text;
+}
+
+#root_text{
+    width: 17.5em;
+    grid-area: root_text;
+}
+
+#garden_text{
+    width: calc(2.648 * 17.5em);
+    grid-area: garden_text;
+}
+
+#leaf_image{
+    grid-area: leaf_image;
+    text-align: right;
+}
+
+#root_image{
+    grid-area: root_image;
+    text-align: left;
+}
+
+#garden_image{
+    grid-area: garden_image;
+    text-align: center;
+}
+
+#garden_image > img{
+    object-fit: cover;
 }
 
 .grid-container{
@@ -14,6 +52,6 @@ body{
     "garden_text garden_text";
     align-items: center;
     justify-items: center;
-    grid-template-columns: 48.5% 48.5%;
-    gap: 3%;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
 }
