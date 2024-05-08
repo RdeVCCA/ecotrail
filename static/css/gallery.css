@@ -114,9 +114,13 @@ img {
 }
 
 .plant-info1 {
-  width: 50%;
+  width: 60%;
+  aspect-ratio: 0.75;
 }
 
+.plant-info1 img{
+  object-fit: cover;
+}
 #plant-info > div > * {
   margin: 0;
   padding: 0;
@@ -137,7 +141,8 @@ img {
   background: linear-gradient(180deg, #00000000, #124e70);
 }
 .plant-info2,.plant-info3{
-  width:75%;
+  width:100%;
+  aspect-ratio: 2/1;
 }
 
 .plant-info2-div {
