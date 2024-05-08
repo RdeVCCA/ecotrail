@@ -2,7 +2,8 @@ const gallery = document.querySelector("#plant-gallery");
 const nextPlantButton = document.querySelector("#next-plant");
 let currentPlantIndex = 0;
 let plantInfos = [];
-
+const padding = 0.5 * gallery.clientWidth;
+const center = 0.5 * gallery.clientWidth;
 let images = gallery.querySelectorAll(".plant-gallery-content");
 let mouseDown = false;
 let startX, scrollLeft;
@@ -14,10 +15,16 @@ const startDragging = (e) => {
 };
 
 const stopDragging = (e) => {
-  console.log("ran")
+  if (!mouseDown) {
+    return;
+  }
   mouseDown = false;
+  const x = e.pageX - gallery.offsetLeft;
+  const scroll = x - startX;
   changePlantIndex(currentPlantIndex);
-  gallery.scrollLeft = scrollLeft - scroll;
+  
+  console.log(scrollLeft - scroll)
+  // gallery.scrollTo({ left: scrollLeft - scroll, "behavior":"instant"});
 };
 
 const move = (e) => {
@@ -59,17 +66,20 @@ function adjustImageScale(images) {
 
 gallery.addEventListener("scroll", (event) => {
   adjustImageScale(images);
+  console.log(gallery.scrollLeft / images[0].clientWidth)
   const closestImageIndex = Math.round(
-    gallery.scrollLeft / images[0].clientWidth
-  );
+    (gallery.scrollLeft+center-padding+images[0].clientWidth/2)/ images[0].clientWidth
+  )-1;
+  console.log(closestImageIndex)
 
   currentPlantIndex = closestImageIndex;
   loadPlantInfo(currentPlantIndex);
 });
 
 function changePlantIndex(index) {
+  if (index < 0 || index >= images.length) return;
   if (mouseDown) return;
-  console.log("Ran")
+  console.log("changing plant index to", index)
   gallery.style.scrollSnapType = "none"; // disable snapping for smooth scrolling
   gallery.scrollTo({
     left:
@@ -121,7 +131,7 @@ async function loadGalleryInfo(filepath) {
   const obj = await response.json();
   const imageGalleryContents = obj.imageGalleryContents;
   plantInfos = obj.plantInfos;
-
+  
   imageGalleryContents.forEach((content) => {
     createGalleryImageItem(content.src, content.titleEn, content.titleZh);
   });
