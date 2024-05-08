@@ -10,8 +10,12 @@ function getPosition(){
     for (position of positions){
         rect = position.getBoundingClientRect();
         positionOpacity = (rect.top / htmlElement.clientHeight * 100);
+        if (positionOpacity < 0){
+            positionOpacity *= 0.4;
+        }
         if (positionOpacity < 50){
             position.style.opacity = 100 + positionOpacity * 2 + '%';
+            console.log(positionOpacity,position.style.opacity);
         }
     }
 }

@@ -7,6 +7,10 @@ body{
     background-color: #EEEEEE;
 }
 
+section {
+    border-top: solid 2px #0B3D2E;
+}
+
 .box{
     width: 30vw;
     border: 1px solid black;
