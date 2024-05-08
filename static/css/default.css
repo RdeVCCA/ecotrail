@@ -1,10 +1,107 @@
-@font-face {
-    
-}
 
 body{
     font-family: 'Inter', sans-serif;
     height:500vh;
     margin: 0;
     padding: 0;
+    font-size: calc(1vw + 10px);
+    background: #F5F5DC;
+    font-family: Inter;
+}
+
+.no-scroll{
+    overflow:hidden;
+
+}
+
+.reverse{
+    animation-direction:reverse;
+}
+.reverse *{
+    animation-direction:reverse;
+}
+.button{
+    background:#A4E3CB;
+    color:#0B3D2E;
+    box-shadow: 0 0 0.5em 2px #C3FFED;
+    padding: 0.5em 1em;
+    border:none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+
+}
+
+.primary{
+    color: #C3FFED;
+}
+
+.tetriary{
+    color:#74DAB4;
+}
+
+.box-shadow--primary{
+    box-shadow: 0 0 0.5em 2px #C3FFED;
+}
+
+.action-buttons{
+    display:flex;
+    gap:1em;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    display:none;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes fadeFromLeft {
+    from{
+        opacity:0;
+        transform: translateX(-50%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes fadeFromRight {
+
+    from{
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes background-blur {
+    from{
+        backdrop-filter: blur(0em);
+    }
+    to{
+        backdrop-filter: blur(1em);
+    }
+}
+
+@keyframes heightTween {
+    from{
+        height:0;
+        opacity: 0;
+    }
+    to{
+        opacity:1
+    }
+    
 }
