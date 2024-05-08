@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: #f5f5dc;
   padding: 0;
   margin: 0;
 }
@@ -18,6 +19,7 @@ img {
 
 .flex-center {
   display: flex;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -48,13 +50,13 @@ img {
   margin: 0;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory; */
 }
 
 #plant-gallery::before,
 #plant-gallery::after {
   content: "";
-  flex: 0 0 25%; /* Adjust as needed */
+  flex: 0 0 50%; /* Adjust as needed */
 }
 
 .plant-gallery-content {
@@ -63,8 +65,8 @@ img {
 }
 
 .plant-gallery-content img {
-  width: 40vw;
-  height: auto;
+  width: 30vw;
+  aspect-ratio: 3 / 4;
 }
 
 .gallery-image-title {
@@ -82,63 +84,108 @@ img {
 }
 
 .gallery-image-title-en {
+  color: #c3ffed;
   font-size: clamp(1rem, 4vw, 1.5rem);
+  font-weight: bold;
 }
 
 .gallery-image-title-zh {
+  color: #a4e3cb;
   font-size: clamp(0.75rem, 3vw, 1.25rem);
 }
 
 #plant-info {
-  width: 100%;
-  padding: 10px;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+#plant-info img {
+  width: 100%;
+  height: 100%;
 }
 
 #plant-info > div {
+  position: relative;
   margin: 10px;
-  width: 80%;
   padding: 0;
-  background-color: #d9d9d9;
-  padding: 10px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#plant-info > div > * {
-  margin: 0;
-  padding: 0;
-  width: 50%;
-  color: #000000;
-  text-align: center;
-  font-family: "Inter", sans-serif;
 }
 
 .plant-info1 {
-  width: 50% !important;
-  padding-top: 20% !important;
+  width: 60%;
+  aspect-ratio: 0.75;
 }
 
-.plant-info2,
-.plant-info3 {
-  padding-top: 5% !important;
-  padding-bottom: 5% !important;
+.plant-info1 img{
+  object-fit: cover;
+}
+#plant-info > div > * {
+  margin: 0;
+  padding: 0;
 }
 
-#plant-info-1 {
-  margin-top: auto !important;
+.plant-info-div {
+  position: absolute;
+  padding: 0 2em
+  
 }
 
-#plant-info-2 {
-  margin-left: auto !important;
+.plant-info1-div {
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background: linear-gradient(180deg, #00000000, #124e70);
+}
+.plant-info2,.plant-info3{
+  width:100%;
+  aspect-ratio: 2/1;
 }
 
-#plant-info-3 {
-  margin-right: auto !important;
+.plant-info2-div {
+  width: 50%;
+  height: 100%;
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+  background: linear-gradient(90deg, #00000000, #124e70);
+  
+}
+
+.plant-info3-div {
+  width: 50%;
+  height: 100%;
+  top: 50%;
+  left:0;
+  transform: translate(0%, -50%);
+  background: linear-gradient(270deg, #00000000, #124e70);
+}
+
+#plant-info > div > div > * {
+  width: 100%;
+  color: white;
+
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+}
+
+.grid-style {
+  width: 80% !important;
+  display: grid !important;
+  padding: 10px !important;
+  grid-template-columns: repeat(auto-fill);
+  align-items: center;
+  grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-style > * {
+  margin: 0;
 }
 
 #learn-more {

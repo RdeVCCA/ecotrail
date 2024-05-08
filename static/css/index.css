@@ -1,0 +1,235 @@
+body{
+    overflow-x: hidden;
+    background-color: #F5F5DC;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        height: 4rem!important;
+        font-size: 2rem!important;
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .flex-video{
+        width: 95%!important;
+    }
+    .flex-text{
+        width: 90%!important;
+        font-size: 1rem !important;
+    }
+    .single-holder{
+        width: 95%!important;
+        height: calc(100% - 4rem)!important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .video-content .header{
+        font-size: 1.25rem !important;
+    }
+    #wonder-header{
+        font-size: 2rem !important
+    }
+    #wonder-description{
+        font-size: 0.75rem !important;
+    }
+    #wonder-link{
+        font-size: 1rem !important;
+        width: 55% !important;
+    }
+
+
+}
+
+.page{
+    /* background-color: aqua; for debugging
+    border: 2px dotted black;  */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#About-RV-Eco-Trail{
+    height: fit-content;
+}
+
+.header{
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    padding-top: calc(3rem / 2);
+    padding-bottom: calc(3rem / 2);
+    text-align: center;
+    font-weight: bolder;
+    /* background-color: red; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #0B3D2E;
+}
+
+.flex-video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; */
+    aspect-ratio: 16/9;
+}
+
+.flex-text{
+    /* width: 35%; */
+    /* padding: 5%; */
+    /* height: 60%; */
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+    /* text-align: justify; */
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0B3D2E;
+}
+
+.single-holder{
+    height: calc(100% - 6rem);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navmap img{
+    width: 100%;
+    height: auto; /* Allow the width to expand */
+    object-fit: contain; /* Maintain aspect ratio */
+    border: 1px solid lightgrey; /* Add a light grey border */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* More intense shadow */
+}
+
+.video-container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #858585;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#Wonders-of-Eco-Trail {
+    position: relative;
+    z-index: 1;
+}
+
+.video-container .A{
+    z-index: 3;
+}
+
+.video-container .B{
+    z-index: 2;
+}
+
+.video-container.A, .video-container.B {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-content .header{
+    color: #CDE7F5;
+    z-index: 4;
+    position: absolute;
+    font-weight: bolder;
+}
+
+.background-cover{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    backdrop-filter: blur(2px);
+}
+
+.background-blur{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 3;
+    /* background: red; */
+}
+.wonder-content{
+    position: absolute;
+    z-index: 4;
+    top: 25%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wonder-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+}
+
+#wonder-header{
+    color: #A4E3CB;
+    font-size: 3rem;
+    /* margin-top: 0; */
+    margin-bottom: 0;
+    /* box-shadow: 0 0 1rem #A4E3CB; */
+}
+
+#wonder-description{
+    color: #F5F5DC;
+    font-size: 1.5rem;
+    /* box-shadow: 0 0 1rem #A4E3CB; */
+    /* margin: 0; */
+}
+
+#wonder-link{
+    border-radius: 0.5rem;
+    /* width: 40%; */
+    width: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    color: #0B3D2E;
+    background-color: #A4E3CB;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    box-shadow: 0 0 1rem #A4E3CB;
+}
+
+#content-storage{
+    display: none;
+}

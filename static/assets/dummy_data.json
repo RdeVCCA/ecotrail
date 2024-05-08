@@ -1,19 +1,25 @@
 {
   "imageGalleryContents": [
     {
-      "src": "static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/plant1.png",
+      "titleEn": "Name",
+      "titleZh": "fruit tree garden",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     },
     {
-      "src": "static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/Alligator_flag.png",
+      "titleEn": "Alligator Flag",
+      "titleZh": "红鞘水竹芋",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     },
     {
-      "src": "static/assets/walter_black.webp",
-      "titleEn": "Walter Black",
-      "titleZh": "沃爾特·布萊克"
+      "src": "../static/assets/plant2.png",
+      "titleEn": "Name",
+      "titleZh": "fruit tree garden",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     }
   ],
   "plantInfos": [
@@ -21,18 +27,27 @@
       "info1": "The Pickerel Weed is native to American continents, Growing up to <b>120cm</b> tall",
       "info2": "It’s Spike inflorescence is composed of <b>20-30 blue</b> to <b>purple</b>, <b>star-shaped flowers</b>",
       "info3": "The <b>inflorescence stalk</b> and <b>basal leaves</b> extend from the <b>submerged base</b> above water.",
+      "imageLink1": "../static/assets/pickerel_weed_real.jpg",
+      "imageLink2": "../static/assets/pickerel_weed_real.jpg",
+      "imageLink3": "../static/assets/pickerel_weed_real.jpg",
       "learnMore": "https://rdev.x10.mx/"
     },
     {
-      "info1": "Walter black is a black plant",
-      "info2": "NUMBER TWO",
-      "info3": "Walter black makes <b>black powder</b>",
+      "info1": "Cempedak is high in fiber, vitamins, and minerals, but low in calories; it boosts digestion, lowers cholesterol, and lessens the risk of cancer and malaria.",
+      "info2": "Each cempedak fruit can have between <b>100</b> and <b>500 seeds</b>, producing a substantial amount of fruit and making it a cheap food source",
+      "info3": "The <b>inflorescence stalk</b> and <b>basal leaves</b> extend from the <b>submerged base</b> above water.",
+      "imageLink1": "../static/assets/Cempedak.png",
+      "imageLink2": "../static/assets/Cempedak2.png",
+      "imageLink3": "../static/assets/Cempedak3.png",
       "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
     },
     {
       "info1": "Walter black is a black plant",
       "info2": "NUMBER THREE",
       "info3": "Walter black makes black powder",
+      "imageLink1": "../static/assets/pickerel_weed_real.jpg",
+      "imageLink2": "../static/assets/mike.png",
+      "imageLink3": "../static/assets/pickerel_weed_real.jpg",
       "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
     }
   ]

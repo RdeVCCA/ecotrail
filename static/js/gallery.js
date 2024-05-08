@@ -2,8 +2,46 @@ const gallery = document.querySelector("#plant-gallery");
 const nextPlantButton = document.querySelector("#next-plant");
 let currentPlantIndex = 0;
 let plantInfos = [];
-
+const padding = 0.5 * gallery.clientWidth;
+const center = 0.5 * gallery.clientWidth;
 let images = gallery.querySelectorAll(".plant-gallery-content");
+let mouseDown = false;
+let startX, scrollLeft;
+
+const startDragging = (e) => {
+  mouseDown = true;
+  startX = e.pageX - gallery.offsetLeft;
+  scrollLeft = gallery.scrollLeft;
+};
+
+const stopDragging = (e) => {
+  if (!mouseDown) {
+    return;
+  }
+  mouseDown = false;
+  const x = e.pageX - gallery.offsetLeft;
+  const scroll = x - startX;
+  changePlantIndex(currentPlantIndex);
+  
+  console.log(scrollLeft - scroll)
+  // gallery.scrollTo({ left: scrollLeft - scroll, "behavior":"instant"});
+};
+
+const move = (e) => {
+  
+  if (!mouseDown) {
+    return;
+  }
+  e.preventDefault();
+  const x = e.pageX - gallery.offsetLeft;
+  const scroll = x - startX;
+  gallery.scrollTo({ left: scrollLeft - scroll, "behavior":"instant"});
+};
+
+gallery.addEventListener("mousemove", move, false);
+gallery.addEventListener("mousedown", startDragging, false);
+gallery.addEventListener("mouseup", stopDragging, false);
+gallery.addEventListener("mouseleave", stopDragging, false);
 
 function addGalleryItemFunc(image, index) {
   const center = gallery.scrollLeft + gallery.clientWidth / 2;
@@ -28,15 +66,20 @@ function adjustImageScale(images) {
 
 gallery.addEventListener("scroll", (event) => {
   adjustImageScale(images);
+  console.log(gallery.scrollLeft / images[0].clientWidth)
   const closestImageIndex = Math.round(
-    gallery.scrollLeft / images[0].clientWidth
-  );
+    (gallery.scrollLeft+center-padding+images[0].clientWidth/2)/ images[0].clientWidth
+  )-1;
+  console.log(closestImageIndex)
 
   currentPlantIndex = closestImageIndex;
   loadPlantInfo(currentPlantIndex);
 });
 
 function changePlantIndex(index) {
+  if (index < 0 || index >= images.length) return;
+  if (mouseDown) return;
+  console.log("changing plant index to", index)
   gallery.style.scrollSnapType = "none"; // disable snapping for smooth scrolling
   gallery.scrollTo({
     left:
@@ -45,9 +88,6 @@ function changePlantIndex(index) {
       images[index].clientWidth / 2,
     behavior: "smooth",
   });
-  setTimeout(() => {
-    gallery.style.scrollSnapType = "x mandatory";
-  }, 500);
   currentPlantIndex = index;
 
   loadPlantInfo(currentPlantIndex);
@@ -91,7 +131,7 @@ async function loadGalleryInfo(filepath) {
   const obj = await response.json();
   const imageGalleryContents = obj.imageGalleryContents;
   plantInfos = obj.plantInfos;
-
+  
   imageGalleryContents.forEach((content) => {
     createGalleryImageItem(content.src, content.titleEn, content.titleZh);
   });
@@ -106,15 +146,21 @@ async function loadGalleryInfo(filepath) {
 const plantInfo1 = document.querySelector("#plant-info-1");
 const plantInfo2 = document.querySelector("#plant-info-2");
 const plantInfo3 = document.querySelector("#plant-info-3");
+const plantImage1 = document.querySelector("#plant-image-1");
+const plantImage2 = document.querySelector("#plant-image-2");
+const plantImage3 = document.querySelector("#plant-image-3");
 const learnMore = document.querySelector("#learn-more");
 
 function loadPlantInfo(index) {
   plantInfo1.innerHTML = plantInfos[index].info1;
   plantInfo2.innerHTML = plantInfos[index].info2;
   plantInfo3.innerHTML = plantInfos[index].info3;
+  plantImage1.src = plantInfos[index].imageLink1;
+  plantImage2.src = plantInfos[index].imageLink2;
+  plantImage3.src = plantInfos[index].imageLink3;
   learnMore.href = plantInfos[index].learnMore;
 }
 
-loadGalleryInfo("./static/assets/dummy_data.json");
+loadGalleryInfo("../static/assets/dummy_data.json");
 
 window.addEventListener("load", () => adjustImageScale(images));
