@@ -12,11 +12,13 @@ body{
 #leaf_text{
     width: 17.5em;
     grid-area: leaf_text;
+    text-align: justify;
 }
 
 #root_text{
     width: 17.5em;
     grid-area: root_text;
+    text-align: justify;
 }
 
 #garden_text{
