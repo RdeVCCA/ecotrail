@@ -52,6 +52,68 @@ body{
 }
 .hidden{
     display:none;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes fadeFromLeft {
+    from{
+        opacity:0;
+        transform: translateX(-50%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes fadeFromRight {
+
+    from{
+        opacity:0;
+        transform: translateX(50%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes background-blur {
+    from{
+        backdrop-filter: blur(0em);
+    }
+    to{
+        backdrop-filter: blur(1em);
+    }
+}
+
+@keyframes heightTween {
+    from{
+        height:0;
+        opacity: 0;
+    }
+    to{
+        opacity:1
+    }
+    
+}
+
+.action-buttons{
+    display:flex;
+    gap:1em;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    display:none;
 
 .paused{
     animation-play-state: paused;
