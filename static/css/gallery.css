@@ -56,7 +56,7 @@ img {
 #plant-gallery::before,
 #plant-gallery::after {
   content: "";
-  flex: 0 0 25%; /* Adjust as needed */
+  flex: 0 0 50%; /* Adjust as needed */
 }
 
 .plant-gallery-content {
@@ -65,8 +65,8 @@ img {
 }
 
 .plant-gallery-content img {
-  width: 40vw;
-  height: auto;
+  width: 30vw;
+  aspect-ratio: 3 / 4;
 }
 
 .gallery-image-title {
@@ -114,9 +114,13 @@ img {
 }
 
 .plant-info1 {
-  width: 80%;
+  width: 60%;
+  aspect-ratio: 0.75;
 }
 
+.plant-info1 img{
+  object-fit: cover;
+}
 #plant-info > div > * {
   margin: 0;
   padding: 0;
@@ -124,8 +128,8 @@ img {
 
 .plant-info-div {
   position: absolute;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 2em
+  
 }
 
 .plant-info1-div {
@@ -136,21 +140,26 @@ img {
   transform: translate(-50%, 0%);
   background: linear-gradient(180deg, #00000000, #124e70);
 }
+.plant-info2,.plant-info3{
+  width:100%;
+  aspect-ratio: 2/1;
+}
 
 .plant-info2-div {
-  width: 55%;
+  width: 50%;
   height: 100%;
   top: 50%;
-  left: 45%;
+  right: 0;
   transform: translate(0%, -50%);
   background: linear-gradient(90deg, #00000000, #124e70);
+  
 }
 
 .plant-info3-div {
-  width: 70%;
+  width: 50%;
   height: 100%;
   top: 50%;
-  right: 30%;
+  left:0;
   transform: translate(0%, -50%);
   background: linear-gradient(270deg, #00000000, #124e70);
 }
@@ -161,7 +170,7 @@ img {
 
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: clamp(0.5rem, 1rem, 2rem);
+  font-size: 1.5em;
 }
 
 .grid-style {

@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    height:500vh;
+    /* height:500vh; */
     margin: 0;
     padding: 0;
     font-size: calc(1vw + 10px);
@@ -104,4 +104,22 @@ body{
         opacity:1
     }
     
+
+}
+
+.action-buttons{
+    display:flex;
+    gap:1em;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    display:none;
+
+.paused{
+    animation-play-state: paused;
+}
+
+.paused *{
+    animation-play-state: paused;
 }
