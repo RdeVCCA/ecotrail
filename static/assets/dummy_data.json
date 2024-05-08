@@ -39,16 +39,16 @@
       "imageLink1": "../static/assets/Cempedak.png",
       "imageLink2": "../static/assets/Cempedak2.png",
       "imageLink3": "../static/assets/Cempedak3.png",
-      "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
+      "learnMore": "/templates/gallery.html"
     },
     {
-      "info1": "Walter black is a black plant",
+      "info1": "Plant description",
       "info2": "NUMBER THREE",
-      "info3": "Walter black makes black powder",
+      "info3": "Sample text",
       "imageLink1": "../static/assets/pickerel_weed_real.jpg",
-      "imageLink2": "../static/assets/mike.png",
+      "imageLink2": "../static/assets/pickerel_weed_real.jpg",
       "imageLink3": "../static/assets/pickerel_weed_real.jpg",
-      "learnMore": "https://youtu.be/dQw4w9WgXcQ?si=yiVt8su8RmZWFx7o"
+      "learnMore": "/templates/gallery.html"
     }
   ]
 }

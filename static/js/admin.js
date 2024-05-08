@@ -28,3 +28,21 @@ document.onscroll = function(){
 		}
 	}
 }
+
+function init(){
+	console.log(left)
+	for (i of left){
+    console.log(checkOnScreen(i))
+		if (checkOnScreen(i)){
+			i.style.animation = "var(--animation)"
+			left.splice(left.indexOf(i),1)
+		}
+	}
+	for (i of right){
+    console.log(checkOnScreen(i))
+		if (checkOnScreen(i)){
+			i.style.animation = "var(--animation)"
+			right.splice(right.indexOf(i),1)
+		}
+	}
+}
