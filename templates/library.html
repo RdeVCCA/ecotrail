@@ -4,21 +4,18 @@
         <title>Library Page</title>
         <link rel = "stylesheet" href = "../static/css/library.css">
         <link rel = "stylesheet" href = "../static/css/default.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class = "action-buttons">
-            <input type = "text" placeholder = "Search" class = "button">
+            <input id = "search" type = "text" placeholder = "Search" class = "button">
             <input type = "button" value = "Area" placeholder = "Search" class = "button">
             <input type = "button" value = "Type" placeholder = "Search" class = "button">
         </div>
         <div class = "library">
-            <div class = "library-element box-shadow--primary" onclick="libraryElementClick()">
-                <p class = "description tetriary">Description Goes here bla bla</p>
-                <img class = "library-element-background" src = "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=">
-                <p class = "location tetriary">Location</p>
-                <h3 class = "name primary">Name</h3>
-                
-            </div>
+
         </div>
         <div class = "popup_background hidden"></div>
         <div class = "popup_library hidden">
@@ -36,6 +33,7 @@
                 <p></p>
             </section>
         </div>
+        <script src = "/static/js/default.js"></script>
         <script src = "/static/js/library.js"></script>
     </body>
 </html>

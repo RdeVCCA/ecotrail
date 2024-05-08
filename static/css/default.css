@@ -1,13 +1,12 @@
-@font-face {
-    
-}
 
 body{
     font-family: 'Inter', sans-serif;
     height:500vh;
     margin: 0;
     padding: 0;
-    font-size: calc(1vw + 10px)
+    font-size: calc(1vw + 10px);
+    background: #F5F5DC;
+    font-family: Inter;
 }
 
 .no-scroll{

@@ -3,17 +3,23 @@
     {
       "src": "../static/assets/plant1.png",
       "titleEn": "Name",
-      "titleZh": "fruit tree garden"
+      "titleZh": "fruit tree garden",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     },
     {
       "src": "../static/assets/Alligator_flag.png",
       "titleEn": "Alligator Flag",
-      "titleZh": "红鞘水竹芋"
+      "titleZh": "红鞘水竹芋",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     },
     {
       "src": "../static/assets/plant2.png",
       "titleEn": "Name",
-      "titleZh": "fruit tree garden"
+      "titleZh": "fruit tree garden",
+      "zone":"Fruit Tree Garden",
+      "image":"../static/assets/plant1.png"
     }
   ],
   "plantInfos": [
