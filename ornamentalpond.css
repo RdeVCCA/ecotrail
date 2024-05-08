@@ -41,10 +41,17 @@
 
 .description-box {
     position: absolute;
-    background-color: #ffc0c0;
+    background-color: rgba(18, 78, 112, 0.72);
     padding: 20px; 
     transform: translate(-50%,-50%);
     left: 50%;
+    width: 60%;
+}
+
+.description-box p {
+    color: #c3ffed;
+    font-size: 32px;
+    text-align: center;
 }
 
 .plant-image-vert {
@@ -58,29 +65,31 @@
 .image-container .description {
     position: absolute;
     transform: translate(-50%, -125%);
-    font-size: 30px;
+    font-size: 40px;
     left: 50%;
     width: 25%;
     margin: auto;
+    text-align: center;
 }
 
 .image-container .description--right-side {
     position: absolute;
-    transform: translate(-50%, -100%);
-    font-size: 30px;
-    left: 75%;
-    width: 25%;
+    transform: translate(-50%, -135%);
+    font-size: 40px;
+    left: 70%;
+    width: 30%;
     margin: auto;
-    text-align: right;
+    text-align: center;
 }
 
 .image-container .description--left-side {
     position: absolute;
-    transform: translate(-50%, -100%);
-    font-size: 30px;
-    left: 25%;
-    width: 25%;
+    transform: translate(-50%, -135%);
+    font-size: 40px;
+    left: 30%;
+    width: 30%;
     margin: auto;
+    text-align: center;
 }
 
 .plant-image {
@@ -102,7 +111,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 96px;
+    background-color: rgba(18, 78, 112, 0.72);
+    line-height: 10%;
+    width: 100%;
+    text-align: center;
+    color: #c3ffed;
 }
 
 #goldfish-pond-image {
@@ -122,7 +136,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 96px;
+    background-color: rgba(18, 78, 112, 0.72);
+    line-height: 10%;
+    width: 100%;
+    text-align: center;
+    color: #c3ffed;
 }
 
 #learn-more {
@@ -193,13 +212,13 @@
     height: 90vmin;
     position: relative;
     width: 90vmin;
-    top: -100px;
+    top: -30vh;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
   .circles > div {
-    animation: growAndFade 3s infinite ease-out;
+    animation: growAndFade 0.75s forwards;
     background-color: dodgerblue;
     border-radius: 50%;
     height: 100%;
@@ -209,15 +228,15 @@
   }
   
   .circles .circle1 {
-    animation-delay: 1s;
+    animation-delay: 0.25s;
   }
   
   .circles .circle2 {
-    animation-delay: 2s;
+    animation-delay: 0.50s;
   }
   
   .circles .circle3 {
-    animation-delay: 3s;
+    animation-delay: 0.6s;
   }
   
   @keyframes growAndFade {
@@ -227,9 +246,10 @@
     }
     100% {
       opacity: 0;
-      transform: scale(1);
+      transform: scale(2.5);
     }
   }
 
-  
-  
+body {
+    background-color: #F5F5DC;
+}
