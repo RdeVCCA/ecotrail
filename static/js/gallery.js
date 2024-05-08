@@ -4,6 +4,34 @@ let currentPlantIndex = 0;
 let plantInfos = [];
 
 let images = gallery.querySelectorAll(".plant-gallery-content");
+let mouseDown = false;
+let startX, scrollLeft;
+
+const startDragging = (e) => {
+  mouseDown = true;
+  startX = e.pageX - gallery.offsetLeft;
+  scrollLeft = gallery.scrollLeft;
+};
+
+const stopDragging = (e) => {
+  mouseDown = false;
+  changePlantIndex(currentPlantIndex);
+};
+
+const move = (e) => {
+  e.preventDefault();
+  if (!mouseDown) {
+    return;
+  }
+  const x = e.pageX - gallery.offsetLeft;
+  const scroll = x - startX;
+  gallery.scrollLeft = scrollLeft - scroll;
+};
+
+gallery.addEventListener("mousemove", move, false);
+gallery.addEventListener("mousedown", startDragging, false);
+gallery.addEventListener("mouseup", stopDragging, false);
+gallery.addEventListener("mouseleave", stopDragging, false);
 
 function addGalleryItemFunc(image, index) {
   const center = gallery.scrollLeft + gallery.clientWidth / 2;
@@ -45,9 +73,6 @@ function changePlantIndex(index) {
       images[index].clientWidth / 2,
     behavior: "smooth",
   });
-  setTimeout(() => {
-    gallery.style.scrollSnapType = "x mandatory";
-  }, 500);
   currentPlantIndex = index;
 
   loadPlantInfo(currentPlantIndex);
@@ -106,12 +131,18 @@ async function loadGalleryInfo(filepath) {
 const plantInfo1 = document.querySelector("#plant-info-1");
 const plantInfo2 = document.querySelector("#plant-info-2");
 const plantInfo3 = document.querySelector("#plant-info-3");
+const plantImage1 = document.querySelector("#plant-image-1");
+const plantImage2 = document.querySelector("#plant-image-2");
+const plantImage3 = document.querySelector("#plant-image-3");
 const learnMore = document.querySelector("#learn-more");
 
 function loadPlantInfo(index) {
   plantInfo1.innerHTML = plantInfos[index].info1;
   plantInfo2.innerHTML = plantInfos[index].info2;
   plantInfo3.innerHTML = plantInfos[index].info3;
+  plantImage1.src = plantInfos[index].imageLink1;
+  plantImage2.src = plantInfos[index].imageLink2;
+  plantImage3.src = plantInfos[index].imageLink3;
   learnMore.href = plantInfos[index].learnMore;
 }
 
