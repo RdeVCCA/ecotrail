@@ -80,7 +80,7 @@ function createLibraryElement(details){
 }
 
 async function loadLibrary(){
-    const res = await fetch("../static/assets/dummy_data.json")
+    const res = await fetch("static/assets/dummy_data.json")
     data = (await res.json())["imageGalleryContents"]
     for (var i = 0; i < data.length; i++){
         data[i].id = i;
