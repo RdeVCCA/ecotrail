@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
         <title>Wetlands Page</title>
         <link rel = "stylesheet" href = "/static/css/wetlands.css">
-        <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
+        <?php 
+            include('templates/defaults/nav.tpl.php');
+            include('templates/defaults/hero.tpl.php');
+        ?>
+
         <section id = "header">
             <img id = "headerimg" src = "https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.88847xw:1xh;center,top&resize=1200:*">
             <h1 id = "load1">Wetland Zone</h1>

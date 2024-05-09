@@ -39,7 +39,7 @@
       "imageLink1": "../static/assets/Cempedak.png",
       "imageLink2": "../static/assets/Cempedak2.png",
       "imageLink3": "../static/assets/Cempedak3.png",
-      "learnMore": "/templates/gallery.html"
+      "learnMore": "/index.php?filename=gallery"
     },
     {
       "info1": "Plant description",
@@ -48,7 +48,7 @@
       "imageLink1": "../static/assets/pickerel_weed_real.jpg",
       "imageLink2": "../static/assets/pickerel_weed_real.jpg",
       "imageLink3": "../static/assets/pickerel_weed_real.jpg",
-      "learnMore": "/templates/gallery.html"
+      "learnMore": "/index.php?filename=gallery"
     }
   ]
 }

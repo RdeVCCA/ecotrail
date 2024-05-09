@@ -1,9 +1,13 @@
-<link rel="stylesheet" href="static/css/default.css">
 <link rel="stylesheet" href="static/css/index.css">
 <link rel="stylesheet" href="static/framework/aos-master/dist/aos.css">
 </head>
 
 <body>
+    <?php 
+        include('templates/defaults/nav.tpl.php');
+        include('templates/defaults/hero.tpl.php');
+    ?>
+
     <section id="About-RV-Eco-Trail" class="page">
         <h1 class="header" data-aos="fade-down" data-aos-duration="2000">
             About RV Eco Trail

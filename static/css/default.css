@@ -51,7 +51,7 @@ body{
     justify-content: center;
 }
 .hidden{
-    display:none;
+    display:none !important;
 }
 
 @keyframes fadeIn {

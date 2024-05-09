@@ -1,19 +1,12 @@
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Us</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="">
     <link rel="stylesheet" href="/static/css/about.css">
-    <link rel="stylesheet" href="/static/css/default.css">
-    <script src="/static/framework/jquery-3.7.1-min.js"></script>
-    
 </head>
 
 <body>
+    <?php 
+        include('templates/defaults/nav.tpl.php');
+        include('templates/defaults/hero.tpl.php');
+    ?>
     <section>
         <h1>About TESLA</h1>
         <div id="section-no-text">
@@ -77,6 +70,7 @@
             </div>
         </div>
     </section>
+    <script src="/static/framework/jquery-3.7.1-min.js"></script>
     <script src="/static/js/about.js" defer></script>
 </body>
 

@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ornamental Pond</title>
         <link rel="stylesheet" href="/static/css/ornamentalpond.css" />
-        <link rel="stylesheet" href="/static/css/default.css" />
     </head>
 
     <body>
+        <?php 
+            include('templates/defaults/nav.tpl.php');
+            include('templates/defaults/hero.tpl.php');
+        ?>
         <!-- <div class="title">
             <div id="title-image">
                 <img

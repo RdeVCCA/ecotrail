@@ -1,12 +1,14 @@
-<html lang="en">
 
-<head>
 	<title>Fruit Tree Garden</title>
 	<link rel="stylesheet" href="/static/css/fruit_tree.css">
 	<link rel="stylesheet" href="/static/framework/aos-master/dist/aos.css">
 </head>
 
 <body>
+	<?php 
+        include('templates/defaults/nav.tpl.php');
+        include('templates/defaults/hero.tpl.php');
+    ?>
 	<section class="grid-container">
 		<div class="grid-item" id = "leaf_image" data-aos="fade-right">
 			<img src="/static/assets/fruitTreeLeaf.png.jpg" alt="fruit tree leaf" style="aspect-ratio: 1; height: 17.5em;">
