@@ -1,5 +1,5 @@
         <title>Ornamental Pond</title>
-        <link rel="stylesheet" href="/static/css/ornamentalpond.css" />
+        <link rel="stylesheet" href="static/css/ornamentalpond.css" />
     </head>
 
     <body>
@@ -23,7 +23,7 @@
         <section id="goldfish-pond">
             <!-- Goldfish Pond title pic -->
             <div class="title-image-container ripple">
-                <img src="/static/assets/Rectangle 9.png" id="goldfish-pond-image" class="orna-img" />
+                <img src="static/assets/Rectangle 9.png" id="goldfish-pond-image" class="orna-img" />
                 <div id="goldfish-pond-title">
                     <h2>Goldfish Pond</h2>
                 </div>
@@ -36,7 +36,7 @@
 
             <!-- Goldfish Pond description -->
             <div class="image-container">
-                <img src="/static/assets/Rectangle 10.png" class="small-image orna-img"/>
+                <img src="static/assets/Rectangle 10.png" class="small-image orna-img"/>
                 <div class="description-box">
                     <p>
                         Extending from the <b>Fruit Tree Garden</b>, the first
@@ -50,7 +50,7 @@
         <section id="koi-pond">
             <!-- Koi pond title pic -->
             <div class="title-image-container ripple">
-                <img src="/static/assets/Rectangle 9(1).png" id="koi-pond-image" class="orna-img"/>
+                <img src="static/assets/Rectangle 9(1).png" id="koi-pond-image" class="orna-img"/>
                 <div id="koi-pond-title">
                     <h2>Koi Pond</h2>
                 </div>
@@ -63,7 +63,7 @@
 
             <!-- Koi Pond description -->
             <div class="image-container">
-                <img src="/static/assets/Rectangle 10.png" class="small-image orna-img"/>
+                <img src="static/assets/Rectangle 10.png" class="small-image orna-img"/>
                 <div class="description-box">
                     <p>
                         The <b>Koi Pond</b> flourishes with frenetic energy.
@@ -138,7 +138,7 @@
         </section> -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="/static/js/orna_animations.js"></script>
-        <script src="/static/js/ripple.js"></script>
+        <script src="static/js/orna_animations.js"></script>
+        <script src="static/js/ripple.js"></script>
     </body>
 </html>

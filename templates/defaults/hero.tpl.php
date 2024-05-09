@@ -9,7 +9,7 @@
         <p>Short Description</p>
     </div>
     <video autoplay muted> 
-        <source src = "/static/assets/Hero/main.mp4" type = "video/mp4" >
+        <source src = "static/assets/Hero/main.mp4" type = "video/mp4" >
     </video>
 </div>
 

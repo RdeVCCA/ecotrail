@@ -1,4 +1,4 @@
-    <link rel="stylesheet" href="/static/css/admin.css">
+    <link rel="stylesheet" href="static/css/admin.css">
 </head>
 <body>
     <?php 
@@ -17,10 +17,10 @@
                 </div>
             </div>
             <div id = "grid_2" class = "right">
-                <div class = "box"><img  class = "pic" src = "/static/assets/webp/Image Gallery of Eco Trail (3).webp"></div>
+                <div class = "box"><img  class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (3).webp"></div>
             </div>
             <div id = "grid_3" class = "left">
-                <div class = "box"><img class = "pic" src = "/static/assets/webp/Image Gallery of Eco Trail (2).webp"></div>
+                <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (2).webp"></div>
             </div>
             <div id = "grid_4" class = "right">
                 <div class = "text_right">
@@ -39,10 +39,10 @@
                 </div>
             </div>
             <div id = "grid_6" class = "right">
-                <div class = "box"><img class = "pic" src = "/static/assets/webp/Image Gallery of Eco Trail.webp"></div>
+                <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail.webp"></div>
             </div>
             <div id = "grid_7" class = "left">
-                <div class = "box"><img class = "pic" src = "/static/assets/webp/Image Gallery of Eco Trail (1).webp"></div>
+                <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (1).webp"></div>
             </div>
             <div id = "grid_8" class = "right">
                 <div class = "text">
@@ -58,7 +58,7 @@
         </div>
         <br>
         <div id = "img_div">
-            <img id = "img" src = "/static/assets/webp/Rules.webp">
+            <img id = "img" src = "static/assets/webp/Rules.webp">
         </div>
         <br>
     </section>
@@ -85,6 +85,6 @@
             </div>
         </div>
     </section>
-<script src = "/static/js/admin.js" onload="init()"></script>
+<script src = "static/js/admin.js" onload="init()"></script>
 </body>
 </html>

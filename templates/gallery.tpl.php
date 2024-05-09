@@ -1,5 +1,5 @@
     <title>Gallery</title>
-    <link rel="stylesheet" href="/static/css/gallery.css" />
+    <link rel="stylesheet" href="static/css/gallery.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
@@ -64,6 +64,6 @@
       </div>
     </div>
 
-    <script src="/static/js/gallery.js"></script>
+    <script src="static/js/gallery.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-        <link rel = "stylesheet" href = "/static/css/library.css">
+        <link rel = "stylesheet" href = "static/css/library.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
                 <p></p>
             </section>
         </div>
-        <script src = "/static/js/default.js"></script>
-        <script src = "/static/js/library.js"></script>
+        <script src = "static/js/default.js"></script>
+        <script src = "static/js/library.js"></script>
     </body>
 </html>

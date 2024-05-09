@@ -1,5 +1,5 @@
     <title>About Us</title>
-    <link rel="stylesheet" href="/static/css/about.css">
+    <link rel="stylesheet" href="static/css/about.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <div id="section-no-text">
             <div class="big_box paused">
                 <img class="image_box left scroll-animation"
-                    src="/static/assets/Image Gallery of Eco Trail@2x (1st image).png">
+                    src="static/assets/Image Gallery of Eco Trail@2x (1st image).png">
                 <div class="blue_box_that_has_text right-center scroll-animation">
                     <p class="text">
                         TESLA is an academy of knowledge leaders and advocates who inspire actions in eco-sustainability
@@ -21,7 +21,7 @@
             </div>
             <div class="big_box flip_horizontal paused">
                 <img class="image_box left scroll-animation"
-                    src="/static/assets/Image Gallery of Eco Trail (2nd image).png">
+                    src="static/assets/Image Gallery of Eco Trail (2nd image).png">
                 <div class="blue_box_that_has_text right-center scroll-animation">
                     <p class=" text flip_horizontal">
                         TESLA’s Mission is to Educate students and the public on the importance of eco-sustainability,
@@ -32,7 +32,7 @@
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
                 <a href="https://www.youtube.com/watch?v=lGJeiEwFYjo">
-                    <img class="instagram_icon" src="/static/assets/instagram.png">
+                    <img class="instagram_icon" src="static/assets/instagram.png">
                 </a>
             </div>
         </div>
@@ -44,7 +44,7 @@
         <div id="section-no-text">
             <div class="big_box paused">
                 <img class="image_box left scroll-animation"
-                    src="/static/assets/Image Gallery of Eco Trail (3rd image).png">
+                    src="static/assets/Image Gallery of Eco Trail (3rd image).png">
                 <div class="blue_box_that_has_text right-center scroll-animation">
                     <p class="text">
                         This website was developed and designed with the help of RdeV, a software development CCA in RV
@@ -53,7 +53,7 @@
             </div>
             <div class="big_box flip_horizontal paused">
                 <img class="image_box left scroll-animation"
-                    src="/static/assets/Image Gallery of Eco Trail (4th image).png">
+                    src="static/assets/Image Gallery of Eco Trail (4th image).png">
                 <div class="blue_box_that_has_text right-center scroll-animation">
                     <p class="text flip_horizontal">
                         RdeV aims to empower students to use their programming skills to contribute to the schools digital
@@ -70,8 +70,8 @@
             </div>
         </div>
     </section>
-    <script src="/static/framework/jquery-3.7.1-min.js"></script>
-    <script src="/static/js/about.js" defer></script>
+    <script src="static/framework/jquery-3.7.1-min.js"></script>
+    <script src="static/js/about.js" defer></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
         <title>Wetlands Page</title>
-        <link rel = "stylesheet" href = "/static/css/wetlands.css">
+        <link rel = "stylesheet" href = "static/css/wetlands.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     </head>
 
@@ -193,5 +193,5 @@ Welcome to the wetland zone!
 
 
     </body>
-    <script src = "/static/js/wetlands.js"></script>
+    <script src = "static/js/wetlands.js"></script>
 </html>
