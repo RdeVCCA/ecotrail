@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .title {
     margin: 0;
     background-color: #d9d9d9;
@@ -29,7 +33,7 @@
     position: relative;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 0%;
 }
 
@@ -117,6 +121,7 @@
     width: 100%;
     text-align: center;
     color: #c3ffed;
+    font-size: 4rem;
 }
 
 #goldfish-pond-image {
@@ -136,12 +141,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 96px;
     background-color: rgba(18, 78, 112, 0.72);
     line-height: 10%;
     width: 100%;
     text-align: center;
     color: #c3ffed;
+    font-size: 4rem;
 }
 
 #learn-more {
@@ -178,11 +183,11 @@
 }
 
 .fade-in-top {
-    animation: fadeTop 1s ease-in forwards;
+    animation: fadeTop 0.75s ease-in forwards;
 }
 
 .fade-in-bottom {
-    animation: fadeBottom 1s ease-in forwards;
+    animation: fadeBottom 0.75s ease-in forwards;
 }
 
 @keyframes fadeTop {
@@ -215,6 +220,7 @@
     top: -30vh;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: -70vmin;
   }
   
   .circles > div {
@@ -252,4 +258,44 @@
 
 body {
     background-color: #F5F5DC;
+}
+
+.orna-img{
+    border: solid 0.5rem #0b4583a0;
+    border-radius: 1rem;
+}
+
+.ripple-parent::after {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #1876e2;
+    border-radius: 100%;
+    animation-name: ripple;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale3d(0.75, 0.75, 1);
+   }
+    to {
+        opacity: 0;
+        transform: scale3d(1.25, 1.25, 1);
+   }
 }
