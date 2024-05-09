@@ -7,6 +7,7 @@ body{
     font-size: calc(1vw + 10px);
     background: #F5F5DC;
     font-family: Inter;
+    overflow-x: hidden;
 }
 
 .no-scroll{
