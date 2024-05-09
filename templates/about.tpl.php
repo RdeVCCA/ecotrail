@@ -64,7 +64,7 @@
             </div>
             <div class="RdeV-website left scroll-animation paused">
                 <a href="https://www.instagram.com/rv.devs/">
-                    <img class="instagram_icon" src="/static/assets/instagram.png">
+                    <img class="instagram_icon" src="static/assets/instagram.png">
                 </a>
                 <a href="https://rdev.x10.mx/"><span class="pink-box">Website</span></a>
             </div>
