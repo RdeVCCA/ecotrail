@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5DC; /* Beige yellow background for the entire website */
+}
+
+.container {
+  width: 100%;
+  max-width: 100%; /* Ensure container does not exceed the viewport width */
+  margin: 0 auto;
+}
+
+.top-header, .sub-header {
+  padding: 32px 16px;
+  text-align: left;
+  margin-top: 1%;
+}
+
+.sub-header {
+  text-align: center;
+  max-width: 100%; /* Change from a fixed width to max-width to prevent overflow */
+}
+
+.sub-header h2 {
+  font-size: 36px;
+}
+
+.sub-header .image-overlay-container {
+  position: relative;
+  text-align: center; /* Helps keep the image centered in all resolutions */
+}
+
+.sub-header .image-overlay-container img {
+  display: block; /* Removes bottom margin/gap */
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.sub-header .image-overlay-container .centered-image {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust the position to truly center the image */
+  max-width: 90%; /* Optional: limits the size of the overlay image */
+}
+
+
+.sub-header p, .text-section p, .eco-grid-item p {
+  font-size: 18px;
+}
+
+.text-section {
+  padding: 8px 16px;
+}
+
+.text-section h1, .text-section h2, .text-section h3 {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 24px;
+}
+
+.grid-container, .eco-trail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column layout */
+  gap: 1em;
+  margin: 1.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item, .eco-grid-item {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item1, .item2, .item5, .item6 {
+  grid-column: 1 / -1; /* Span all columns */
+}
+
+.item3, .item4, .item7, .item8 {
+  grid-column: span 1 / auto; /* Single column span */
+}
+
+.eco-grid-item.text-right, .text-right {
+  text-align: right;
+}
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img, .rain-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .grid-container, .eco-trail-grid {
+    grid-template-columns: 1fr; /* Stack to one column on smaller screens */
+  }
+
+  .top-header, .sub-header {
+    padding: 16px 8px;
+  }
+}
+
+@keyframes drop-in {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+span.space {
+  white-space: pre; /* This preserves whitespace */
+}
+
+p span {
+  display: inline-block;
+  opacity: 0;
+  animation: drop-in 0.6s forwards;
+}
