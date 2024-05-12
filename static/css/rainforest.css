@@ -11,6 +11,30 @@ body {
   margin: 0 auto;
 }
 
+.centered-container {
+  display: flex;
+  align-items: center;  /* Aligns vertically center */
+  justify-content: center;  /* Aligns horizontally center */
+  min-height: 100vh;  /* At least the height of the viewport */
+  margin: 0 10%;  /* Adds 10% margin to left and right */
+}
+
+.image-text-container {
+  /* If there are specific styles, they can be adjusted or added here */
+}
+
+.image-container {
+  /* Ensures the image does not overflow its container */
+  max-width: 100%;  /* Limits the image width to the container's width */
+  overflow: hidden;  /* Prevents any overflow */
+}
+
+.image-container img {
+  width: 100%;  /* Makes the image fill the container */
+  height: auto;  /* Maintains aspect ratio */
+  max-height: 90vh;  /* Adjusts height so it's slightly less than the viewport to account for any top/bottom margins */
+}
+
 .top-header, .sub-header {
   padding: 32px 16px;
   text-align: left;
