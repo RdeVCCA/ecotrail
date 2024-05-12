@@ -1,6 +1,6 @@
 // animations.js
 document.addEventListener("DOMContentLoaded", function() {
-    const paragraphs = document.querySelectorAll('p', 'div');
+    const paragraphs = document.querySelectorAll('p');
   
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -31,3 +31,4 @@ document.addEventListener("DOMContentLoaded", function() {
       p.innerHTML = innerHTML;
     }
   });
+  
