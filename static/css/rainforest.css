@@ -36,9 +36,11 @@ body {
 }
 
 .top-header, .sub-header {
-  padding: 32px 16px;
+  border-top: 0.5rem solid #0b3d2e8d;
+  border-bottom: 0.5rem solid #0b3d2e8d;
+  /* padding: 32px 16px; */
   text-align: left;
-  margin-top: 1%;
+  /* margin-top: 1%; */
 }
 
 .sub-header {
@@ -110,7 +112,7 @@ body {
 }
 
 .eco-grid-item.text-right, .text-right {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .image-text-container {
@@ -130,7 +132,7 @@ body {
   }
 
   .top-header, .sub-header {
-    padding: 16px 8px;
+    /* padding: 16px 8px; */
   }
 }
 

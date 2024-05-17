@@ -20,15 +20,20 @@ document.addEventListener("DOMContentLoaded", function() {
     function animateText(p) {
       let innerHTML = '';
       const text = p.textContent;
-      for (let letter of text) {
-        if (letter === ' ') {
-          innerHTML += '<span class="space"> </span>';
-        } else {
+      const words = text.split(' ');
+      for (let word of words) {
+        var span = "<span class='letter-container'>";
+        for (let letter of word) {
           const delay = (Math.random() * 2).toFixed(2); // Random delay between 0 and 2 seconds
-          innerHTML += `<span style="animation-delay: ${delay}s;">${letter}</span>`;
+          span += `<span style="animation-delay: ${delay}s;">${letter}</span>`;
         }
+        span += '<span class="space"> </span>'
+        span += '</span>';
+        console.log(span);
+        innerHTML += span;
       }
       p.innerHTML = innerHTML;
-    }
+      }
+
   });
   

@@ -32,9 +32,12 @@ switch ($filename) {
         break;
     case "garden":
         include('templates/fruit tree garden.tpl.php');
-            break;
+        break;
     case "pond":
         include('templates/ornamentalpond.tpl.php');
+        break;
+    case "rainforest":
+        include('templates/rainforest.tpl.php');
         break;
     default:
         include('index.tpl.php');

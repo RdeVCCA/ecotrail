@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eco-Trail Information</title>
-<link rel="stylesheet" href="..\static\css\rainforest.css">
+    <title>Rainforest Zone</title>
+    <link rel="stylesheet" href="..\static\css\rainforest.css">
 </head>
+
 <body>
-
+  <?php 
+      include('templates/defaults/nav.tpl.php');
+      include('templates/defaults/hero.tpl.php');
+  ?>
 <div class="container">
-
-  <section class="top-header">
+  <!-- <section class="top-header">
     <img src="..\static\assets\image.png" alt="image placeholder">
   <div class="text-section">
     <h2>Rainforest Zone</h2>
-    <p>
-      The rainforest zone in our Eco-Trail features over 50 species of 
-      flora and fauna, thriving in an environment with abundant rainfall 
-      and dominated by tall evergreen trees.
-    </p>
-  </div>
+    <p>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
+  </div> -->
   </section>
 <div class="sub-header">
   <div class="image-overlay-container">
@@ -33,8 +27,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 <section class="eco-trail-grid">
   <div class="eco-grid-item rain-image"><img src="../static/assets/fern1.png" alt="Fern image"></div>
   <div class="eco-grid-item rain-image"><img src="../static/assets/fern1.png" alt="Fern image"></div>
-  <div class="eco-grid-item green"><p>Rainforests are home to a rich biodiversity of living organisms, 
-    while also acting as important carbon sinks.</p></div>
+  <div class="eco-grid-item green"><p>Rainforests are home to a rich biodiversity of living organisms, while also acting as important carbon sinks.</p></div>
   <div class="eco-grid-item green text-right"><p>Furthermore, due to its large expanse across Earth, rainforests influence global weather patterns and rainfall.</p></div>
   <div class="eco-grid-item">
     <div class="image-text-container">
