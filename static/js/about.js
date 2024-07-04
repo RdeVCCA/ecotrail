@@ -1,5 +1,6 @@
 let sections = document.querySelectorAll(".paused");
 // let sections = document.getElementsByTagName("section")
+let images = document.querySelectorAll(".image_box");
 let was_ever_visible = Array(sections.length);
 let fade_in_from = 0
 
