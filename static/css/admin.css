@@ -78,6 +78,26 @@ h2{
     opacity:0;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #grid-container1 {
+        grid-template-columns: 1fr;
+    }
+
+    #grid_1, #grid_2, #grid_3, #grid_4, #grid_5, #grid_6, #grid_7, #grid_8 {
+        padding-left: 10px; /* or adjust this value as needed */
+        text-align: center;
+    }
+
+    .left, .right {
+        text-align: center;
+    }
+
+    .text, .text_right {
+        text-align: center;
+    }
+}
+
 @keyframes fadeIn{
     0% {
         opacity: 0;
