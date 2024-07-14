@@ -22,7 +22,7 @@ body{
 }
 
 #garden_text{
-    width: calc(2.648 * 17.5em);
+    width: 100%;
     grid-area: garden_text;
 }
 
