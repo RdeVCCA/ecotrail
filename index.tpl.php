@@ -22,13 +22,13 @@
     <section id="Wonders-of-Eco-Trail" class="page" onmouseenter="activate = true" onmouseleave="activate = false">
         <div class="video-container A">
             <video class="video" id="video-A" autoplay muted>
-                <source src="static/assets/Sample Background.mp4" type="video/mp4">
+                <source src="static/assets/Background Forward.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <div class="video-container B">
             <video class="video" id="video-B" autoplay muted>
-                <source src="static/assets/Sample Background Reverse.mp4" type="video/mp4">
+                <source src="static/assets/Background Reverse.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -38,24 +38,24 @@
         </div>
         <div id="content-storage">
             <div class="collection">
-                <span>1A</span>
-                <span>1B</span>
-                <span>1C</span>
+                <span>Rainforest Zone</span>
+                <span>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</span>
+                <span>index.php?filename=rainforest</span>
             </div>
             <div class="collection">
-                <span>2A</span>
-                <span>2B</span>
-                <span>2C</span>
+                <span>Wetland Zone</span>
+                <span>As you walk further into our Eco-Trail, you will be greeted by an expanse of glittering water. Welcome to the Wetland zone! </span>
+                <span>index.php?filename=wetlands</span>
             </div>
             <div class="collection">
-                <span>3A</span>
-                <span>3B</span>
-                <span>3C</span>
+                <span>Ornamental Pond</span>
+                <span>Ornamental short description</span>
+                <span>index.php?filename=pond</span>
             </div>
             <div class="collection">
-                <span>4A</span>
-                <span>4B</span>
-                <span>4C</span>
+                <span>Fruitree Garden</span>
+                <span>In our garden, a selection of tropical fruit trees can be found. The fruit trees gently invite one to step into our Eco-Trail with their scent, beauty and shade.</span>
+                <span>index.php?filename=garden</span>
             </div>
         </div>
         <div class="video-content">
@@ -63,9 +63,9 @@
                 The Wonders of the Eco Trail
             </h2>
             <div class="wonder-content">
-                <h3 id="wonder-header" class="wonder-item">Ornamental Ponds</h3>
-                <p id="wonder-description" class="wonder-item">Short Description</p>
-                <a id="wonder-link" href="" class="wonder-item"><span>Find out more</span></a>
+                <h3 id="wonder-header" class="wonder-item">Rainforest Zone</h3>
+                <p id="wonder-description" class="wonder-item">The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
+                <a id="wonder-link" href="index.php?filename=rainforest" class="wonder-item"><span>Find out more</span></a>
             </div>
             
         </div>
