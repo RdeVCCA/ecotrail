@@ -46,3 +46,9 @@ function init(){
 		}
 	}
 }
+
+function expand(element){
+	$(element).css("max-height","fit-content");
+	$(element).css("cursor","auto");
+	$(element).find(".arrow")[0].remove();
+}
