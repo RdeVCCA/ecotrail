@@ -47,23 +47,24 @@ function checkOnScreen(obj) {
 
 //paragraph fade ins
 function fadeIn(){
-    fadeList = document.getElementsByClassName('hidden');
-    for (i of fadeList){
-        if (checkOnScreen(i)){
-            i.style.opacity = '100%'
-            i.style.transform = 'scale(1)'
-        } else{
-            i.style.transform = 'scale(0.8)'
-        }
-    }
+    // fadeList = document.getElementsByClassName('hidden');
+    // for (i of fadeList){
+    //     if (checkOnScreen(i)){
+    //         console.log('yesir')
+    //         i.style.opacity = '100%'
+    //         i.style.transform = 'scale(1)'
+    //     } else{
+    //         i.style.transform = 'scale(0.8)'
+    //     }
+    // }
 
     floatLeftList = document.getElementsByClassName('floatLeft');
     for (i of floatLeftList){
         if (checkOnScreen(i)){
             i.style.opacity = '100%'
-            i.style.transform = 'translate(8vh)'
+            i.style.transform = 'translate(2vw)'
         } else{
-            i.style.transform = 'translate(-8vh)'
+            i.style.transform = 'translate(-2vw)'
         }
     }
 
@@ -71,9 +72,9 @@ function fadeIn(){
     for (i of floatRightList){
         if (checkOnScreen(i)){
             i.style.opacity = '100%'
-            i.style.transform = 'translate(-8vh)'
+            i.style.transform = 'translate(-2vw)'
         } else{
-            i.style.transform = 'translate(8vh)'
+            i.style.transform = 'translate(2vw)'
         }
     }
 }

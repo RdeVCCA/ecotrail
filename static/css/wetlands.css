@@ -92,6 +92,7 @@ button:hover{
 .floatLeft, .floatRight{
     opacity: 0;
     transition: all 3s;
+    transform: translate(-2vw);
 }
 
 .fullheight{
@@ -191,11 +192,11 @@ h3{
     margin-top: 0;
     height: 25vh;
 }
-
+/* 
 .hidden{
-    opacity: 0;
+    opacity: 0%;
     transition: all 2s;
-}
+} */
 
 .halfheight{
     height: 50vh;
@@ -216,20 +217,27 @@ img{
     border: 1px solid black;
 }
 
+.left{
+    text-align: left;
+}
+
 #marginpls{
     padding-top: 30vh;
 }
 
 #Mangrove1{
     background-image: url('../assets/Eco Trail Logo.png'), url('../assets/Mangrove1.png');
+    background-size: cover;
 }
 
 #Mangrove2{
     background-image: url('../assets/Mangrove2.png');
+    background-size: cover;
 }
 
 #Mangrove3{
     background-image: url('../assets/Mangrove3.png');
+    background-size: cover;
 }
 
 #Plant_Gallery{
@@ -239,7 +247,8 @@ img{
 p{
     display: block;
     text-align: center;
-    padding: 0 5rem;
+    padding: 0 2.8rem;
+    padding-right: 5rem;
     bottom: 0;
 }
 
@@ -277,4 +286,99 @@ section{
 
 #Wetlands_What{
     background: url('../assets/Wetlands.png');
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 0.8rem;
+    }
+
+    .mobileback{
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 1.5rem 1rem;
+        width: 90vw;
+        margin-left: 0;
+        margin-right: 0;
+        /* padding-left: 0.2rem;
+        padding-right: 0.2rem; */
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+        padding: 0.2rem;
+    }
+
+    .grey{
+        font-size: 2rem;
+        height: 10vh;
+        padding: calc(20vh) 0;
+    }
+    
+    .grey:hover{
+        font-size: 2rem;
+        height: 10vh;
+        padding: calc(20vh) 0;
+        transition: 0s;
+    }
+
+    .grey2{
+        font-size: 1.6rem;
+        padding-top: calc(100vh/3 - 7rem);
+    }
+
+    .grey2:hover{
+        font-size: 1.6rem;
+        padding-top: calc(100vh/3 - 7rem);
+    }
+
+    .gridPaddingRemove{
+        padding: 0;
+    }
+    
+    #load1, #load2{
+        translate: -15vw;
+        padding: 0 0.5rem;
+    }
+
+    #mobileShift{
+        grid-area: b;
+    }
+
+    p{
+        padding: 0 1rem;
+    }
+
+    .paddingChange{
+        width: 90vw !important;
+        padding-left: 0.5rem !important;
+    }
+
+    .remove{
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "a"
+        "b";
+        color: #C3FFED;
+    }
+
+    .resize{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30%;
+        grid-template-areas:
+        "a"
+        "b";
+    }
+
+    .resize2{
+        grid-template-rows: 40% 60%;
+    }
 }
