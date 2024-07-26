@@ -22,7 +22,7 @@ body{
 }
 
 #garden_text{
-    width: 100%;
+    width: 38em;
     grid-area: garden_text;
 }
 
@@ -41,9 +41,9 @@ body{
     text-align: center;
 }
 
-#garden_image > img{
+/* #garden_image > img{
     object-fit: cover;
-}
+} */
 
 .grid-container{
     display: grid;
