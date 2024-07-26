@@ -148,53 +148,7 @@
     backdrop-filter: blur(1em);
 }
 
-@keyframes fadeIn {
-    from{
-        opacity:0;
-    }
-    to{
-        opacity:1;
-    }
-}
-@keyframes fadeFromLeft {
-    from{
-        opacity:0;
-        transform: translateX(-50%);
-    }
-    to{
-        opacity:1;
-        transform: translateX(0);
-    }
-    
+body{
+    padding-top: 5vh;
 }
 
-@keyframes fadeFromRight {
-
-    from{
-        opacity:0;
-        transform: translateX(50%);
-    }
-    to{
-        opacity:1;
-        transform: translateX(0);
-    }
-}
-@keyframes background-blur {
-    from{
-        backdrop-filter: blur(0em);
-    }
-    to{
-        backdrop-filter: blur(1em);
-    }
-}
-
-@keyframes heightTween {
-    from{
-        height:0;
-        opacity: 0;
-    }
-    to{
-        opacity:1
-    }
-    
-}

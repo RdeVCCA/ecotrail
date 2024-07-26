@@ -35,9 +35,10 @@ body{
     }
     #wonder-link{
         font-size: 1rem !important;
-        width: 55% !important;
+        width: 70% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
-
 
 }
 
@@ -207,6 +208,7 @@ body{
 #wonder-description{
     color: #F5F5DC;
     font-size: 1.5rem;
+    text-align: justify;
     /* box-shadow: 0 0 1rem #A4E3CB; */
     /* margin: 0; */
 }

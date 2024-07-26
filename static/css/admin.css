@@ -1,3 +1,94 @@
+@media only screen and (max-width: 768px) {
+    #grid-container1{
+        grid-template-columns: 1fr!important;
+        grid-template-rows: auto auto auto auto auto auto auto auto!important;
+        grid-template-areas:
+        "grid_2"
+        "grid_1"
+        "grid_3"
+        "grid_4"
+        "grid_6"
+        "grid_5"
+        "grid_7"
+        "grid_8" !important;
+    }
+
+    .grid-item{
+        width: 90% !important;
+        padding-left: 5% !important;
+    }
+
+    .grid-item .box{
+        width: 100% !important;
+        height: fit-content !important;
+    }
+
+    .grid-item .pic{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .grid-item .text{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .grid-item .text div{
+        width: 90% !important;
+        padding: 5% !important;
+        text-align: justify;
+    }
+
+    .grid-item .text_right{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .grid-item .text_right div{
+        width: 90% !important;
+        padding: 5% !important;
+        text-align: justify;
+    }
+
+    #img{
+        height: auto !important;
+        width: 100vw;
+    }
+
+    .noticeboard{
+        position: relative;
+        max-height: 80vw;
+        transition: 1s;
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+        padding-bottom: 4vw !important;
+        cursor: pointer;
+    }
+
+    .noticeboard .grey{
+        text-overflow: ellipsis;
+        overflow-y: hidden;
+    }
+
+    .arrow{
+        display: block !important;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        margin-left: calc(-1em - 5px - 2vw);
+        color: grey;
+    }
+}
+
+.arrow{
+    display: none;
+}
+
+.center-text{
+    text-align: center !important;
+}
+
 html{
     background: #f8f4dc;
     overflow-x: hidden;
@@ -106,7 +197,7 @@ h2{
     width: calc(30vw + 10px);
     height: calc(20vw + 10px);
     background-color: rgb(230, 230, 230);
-    margin-top: calc(2em + 10px);
+    margin-top: calc(1em + 10px + 0.25vw);
 }
 
 .pic{
@@ -174,17 +265,19 @@ h2{
     color: grey;
     display: block;
     font-size: calc(1.2vw + 10px);
-    padding-top: calc(1em + 10px);
+    padding-top: 3vw;
     text-align: justify;
 }
 
 .noticeboard{
     background-color: rgb(230, 230, 230);
-    padding-left: calc(5em + 10px);
-    padding-right: calc(5em + 10px);
-    padding-top: calc(2em + 10px);
-    padding-bottom: calc(5em + 10px);
-    margin-bottom: calc(3em + 10px);
+    padding-left: calc(1em + 5px + 2vw);
+    padding-right: calc(1em + 5px + 2vw);
+    padding-top: calc(2vw);
+    padding-bottom: calc(2vw);
+    margin-bottom: calc(4vw);
+    display: flex;
+    flex-direction: column;
 }
 
 .title_date{

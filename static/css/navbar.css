@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #0B3D2E;
+    color: #F5F5DC;
+    display: flex;
+    gap:1em;
+    align-items: center;
+    width:fit-content;
+    position:fixed;
+    right:0;
+    top:1em;
+    z-index: 1000;
+    font-size: calc(1vw + 10px) !important;
+}
+
+.navbar a{
+    color: #F5F5DC;
+    text-decoration: none;
+    padding:0.5em 1em;
+    cursor:pointer;
+}
+
+.navbar a:hover{
+    filter: brightness(0.8);
+    backdrop-filter: brightness(0.8);
+}
