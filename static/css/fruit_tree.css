@@ -22,8 +22,9 @@ body{
 }
 
 #garden_text{
-    width: 38em;
+    /* width: 38em; */
     grid-area: garden_text;
+    width: calc(((100vw - 38em) / 2) + 38em);
 }
 
 #leaf_image{
@@ -39,6 +40,7 @@ body{
 #garden_image{
     grid-area: garden_image;
     text-align: center;
+    width: calc(((100vw - 38em) / 2) + 38em);
 }
 
 /* #garden_image > img{
