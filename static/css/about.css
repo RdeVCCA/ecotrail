@@ -69,6 +69,11 @@ p {
     font-family: Arial;
     font-weight: 400;
     text-align: center;
+    line-height: 24px;
+}
+
+h1{
+    padding: 0px 20px 30px;
 }
 
 .instagram_icon {
@@ -111,18 +116,22 @@ p {
 }
 
 
-@media screen and (max-width: 400px) {
-    .grey_box {
-        position: absolute;
-        height: 60%;
-        grid-column: None;
-        }
+@media screen and (max-width: 700px) {
+    .big_box{
+        grid-template-columns: 1fr; /* Stack items on smaller screens */
+        gap: 10px;
+        padding-bottom: 200px;
+        min-width: 400px;
+    }
 
-    .white_box_that_has_text {
+
+    .blue_box_that_has_text {
         position: absolute;
+        transform: translateY(100px);
         grid-column: None;
-        width: 70%;
+        width: 90%;
         align-self: center;
+        min-width: 100px;
     }
 }
 
@@ -206,6 +215,8 @@ p {
     animation: fade-in-right-to-left-center backwards 1s ease-in-out;
     animation-delay: 0.3s;
 }
+
+
 
 .hide {
     visibility: hidden;
