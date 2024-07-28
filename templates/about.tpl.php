@@ -1,5 +1,6 @@
     <title>About Us</title>
     <link rel="stylesheet" href="static/css/about.css">
+    <link rel="stylesheet" href="/static/css/default.css">
 </head>
 
 <body>
