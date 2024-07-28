@@ -22,8 +22,9 @@ body{
 }
 
 #garden_text{
-    width: calc(2.648 * 17.5em);
+    /* width: 38em; */
     grid-area: garden_text;
+    width: calc(((100vw - 38em) / 2) + 38em);
 }
 
 #leaf_image{
@@ -39,11 +40,12 @@ body{
 #garden_image{
     grid-area: garden_image;
     text-align: center;
+    width: calc(((100vw - 38em) / 2) + 38em);
 }
 
-#garden_image > img{
+/* #garden_image > img{
     object-fit: cover;
-}
+} */
 
 .grid-container{
     display: grid;
@@ -56,4 +58,26 @@ body{
     justify-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 3em;
+}
+
+@media only screen and (max-width: 768px) { 
+    .grid-container{
+        grid-template-areas: 
+        "leaf_image"
+        "leaf_text"
+        "root_image" 
+        "root_text"
+        "garden_image"
+        "garden_image"
+        "garden_text"
+        "garden_text"!important;
+        grid-template-columns: 1fr!important;
+        gap: 3em;
+    }
+    #garden_image{
+        width:17.5em!important;
+    }
+    #garden_text{
+        width:17.5em!important;
+    }
 }
