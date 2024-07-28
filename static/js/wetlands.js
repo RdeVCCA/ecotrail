@@ -23,9 +23,9 @@ function getPosition(){
 //does starting fade in 
 function floatIn1(){ //float in for the text
     document.getElementById('load1').style.transition = '3s'
-    document.getElementById('load1').style.transform = 'translate(10vh)'
+    document.getElementById('load1').style.transform = 'translate(5vh)'
     document.getElementById('load2').style.transition = '3s'
-    document.getElementById('load2').style.transform = 'translate(10vh)'
+    document.getElementById('load2').style.transform = 'translate(5vh)'
 }
 
 function floatIn2(){ //float in for the image
@@ -77,8 +77,6 @@ function fadeIn(){
         }
     }
 }
-
-
 
 //initialise fading onload
 window.onload = setTimeout(floatIn2, 700)

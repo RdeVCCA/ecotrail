@@ -1,7 +1,7 @@
 body{
     font-family: "Inter", sans-serif;
     font-size: 1.7rem;
-    width: 100%;
+    width: 100vw;
     margin: 0; 
     overflow-x: hidden;
     background-color: #EEEEEE;
@@ -43,7 +43,7 @@ section {
 }
 
 .bottom{
-    margin-top: calc(100vh - 15vh - 4rem - 20vh);
+    margin-top: calc(100vh - 6rem - 20vh);
     margin-bottom: 0;
     padding: 1rem;
     height: 20vh;
@@ -178,9 +178,7 @@ h1{
 h2{
     text-align: center;
     font-size: 4rem;
-    padding: 1rem;
     margin: 0;
-    height: 15vh;
 }
 
 h3{
@@ -216,6 +214,12 @@ img{
     border: 1px solid black;
 }
 
+#load2{
+    text-align: left;
+    padding-left: 0;
+    margin: 0.5rem 2rem;
+}
+
 #marginpls{
     padding-top: 30vh;
 }
@@ -241,27 +245,23 @@ p{
     text-align: center;
     padding: 0 5rem;
     bottom: 0;
+    padding-left: 0;
 }
 
 #plant1{
     width: 27vw;
-    height: 40vh;
+    height: 38vh;
 }
 
 #plant2{
     width: 35vw;
-    height: 50vh;
+    height: 48vh;
 }
 
 #plant3{
     width: 27vw;
-    height: 40vh;
-}
-
-pre{
-    font-family: "Inter", sans-serif;
-    margin: 0.5rem 2rem;
-    display: inline-block;
+    height: 38vh;
+    margin-right: 5vh;
 }
 
 section{
@@ -277,4 +277,69 @@ section{
 
 #Wetlands_What{
     background: url('../assets/Wetlands.png');
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 1rem;
+    }
+
+    .floatLeft{
+        padding-right: 2rem;
+        padding-left: 0;
+    }
+
+    .floatRight{
+        padding-left: 2rem;
+        padding-right: 0;
+    }
+
+    .grid{
+        padding: 0;
+        padding-right: 0;
+    }
+
+    .grid-items{
+        padding: 0;
+    }
+
+    .grey{
+        font-size: 3.5rem;
+        padding-top: calc(100vh/2 - 10rem);
+    }
+
+    .grey2{
+        font-size: 3rem;
+    }
+
+    .grey:hover{
+        font-size: 3.8rem;
+        padding-top: calc(100vh/2 - 10.3rem);
+    }
+
+    .grey2:hover{
+        font-size: 3.3rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: 3.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    #Mangrove3 > .grid-items > .floatRight{
+        color: #C3FFED;
+    }
+
+    p{
+        padding: 0;
+        margin: 1rem;
+    }
 }
