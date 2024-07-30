@@ -43,10 +43,17 @@ section {
 }
 
 .bottom{
-    margin-top: calc(100vh - 15vh - 4rem - 20vh);
+    position: absolute;
+    bottom: 0 !important;
     margin-bottom: 0;
     padding: 1rem;
     height: 20vh;
+    right: 2vw;
+}
+
+.bottom20{
+    position: absolute;
+    bottom: 20vh;
 }
 
 button{
@@ -92,7 +99,15 @@ button:hover{
 .floatLeft, .floatRight{
     opacity: 0;
     transition: all 3s;
-    transform: translate(-2vw);
+    position: absolute;
+}
+
+.floatLeft{
+    right: 2vw;
+}
+
+.floatRight{
+    left: 2vw;
 }
 
 .fullheight{
@@ -138,6 +153,7 @@ button:hover{
     margin-bottom: 0;
     grid-template-areas: "a a"
     "b c";
+    /* place-items: center; */
 }
 
 .grid2{
@@ -173,7 +189,7 @@ button:hover{
 h1{
     font-size: 4.5rem;
     margin-bottom: 0;
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 0rem;
 }
 
 h2{
@@ -282,10 +298,12 @@ section{
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 #Wetlands_What{
     background: url('../assets/Wetlands.png');
+    position: relative;
 }
 
 @media only screen and (max-width: 768px) {
@@ -299,8 +317,8 @@ section{
         width: 90vw;
         margin-left: 0;
         margin-right: 0;
-        /* padding-left: 0.2rem;
-        padding-right: 0.2rem; */
+        position: absolute;
+        bottom: 20vh;
     }
 
     h1{
@@ -315,6 +333,7 @@ section{
     h3{
         font-size: 1.3rem;
         padding: 0.2rem;
+        height: 20vh;
     }
 
     .grey{
@@ -347,19 +366,12 @@ section{
     #load1, #load2{
         translate: -15vw;
         padding: 0 0.5rem;
-    }
-
-    #mobileShift{
-        grid-area: b;
+        margin-left: 3vw;
+        width: 80vw;
     }
 
     p{
         padding: 0 1rem;
-    }
-
-    .paddingChange{
-        width: 90vw !important;
-        padding-left: 0.5rem !important;
     }
 
     .remove{
@@ -380,5 +392,19 @@ section{
 
     .resize2{
         grid-template-rows: 40% 60%;
+    }
+
+    #topText{
+        position: absolute;
+        top: 30vh;
+    }
+
+    #bottomText{
+        position: absolute;
+        top: 70vh;
+    }
+
+    .bottom50{
+        bottom: 50vh;
     }
 }

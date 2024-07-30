@@ -45,18 +45,18 @@ Welcome to the wetland zone!
         <section id = "section5">
             <div class = "Wetlands grid2 resize2">
                 <h2>Rich Biodiversity</h2>
-                <div class = "grid resize">
-                    <p class = "floatLeft">The <b>Sungei Buloh Wetland Reserve</b> in Singapore is home to native
+                <div class = "grid">
+                    <p class = "floatLeft" id = "topText">The <b>Sungei Buloh Wetland Reserve</b> in Singapore is home to native
                     species like mudskippers, crabs, water snakes, herons, kingfishers, and sunbirds,
                     and attracts various migratory shorebirds during the migration season.</p>
-                    <p class = "floatRight">The wetland also acts as an important carbon sink in our fight against climate change.</p>
+                    <p class = "floatRight" id = "bottomText">The wetland also acts as an important carbon sink in our fight against climate change.</p>
                 </div>
             </div>
         </section>
 
         <section class = "Wetlands fullheight grid2" id = "Mangrove1">
             <h2 class = "C3FFED grid-items">Mangroves</h2>
-            <p class = "C3FFED grid-items floatRight mobileback">Right beside the main wetland, you can find the mangrove section. In collaboration with
+            <p class = "C3FFED grid-items floatRight mobileback bottom20">Right beside the main wetland, you can find the mangrove section. In collaboration with
                 the Sungei Buloh Wetland Reserve, RVHS is proud to showcase the mangrove habitat in our Eco-Trail.
             </p>
         </section>
@@ -64,16 +64,16 @@ Welcome to the wetland zone!
         <section class = "Wetlands fullheight" id = "Mangrove2">
             <div class = "grid resize">
                 <h3 class = "C3FFED fadebottom" id = "gridA"><b>Mangroves are extremely important in our fight against climate change.</b></h3>
-                <p class = "C3FFED floatLeft mobileback paddingChange" id = "gridB">The muddy waters of coastal wetlands are extremely carbon-rich and mangrove plants help to sequester
+                <p class = "C3FFED floatLeft mobileback paddingChange bottom20" id = "gridB">The muddy waters of coastal wetlands are extremely carbon-rich and mangrove plants help to sequester
                     large amounts of carbon as they grow.</p>
                 <div id = "gridC"></div>
             </div>
         </section>
 
-        <section class = "fullheight grid remove" id = "Mangrove3">
+        <section class = "Wetlands fullheight grid remove" id = "Mangrove3">
             <div class = "grid-items gridPaddingRemove"></div>
             <div class = "grid-items gridPaddingRemove">
-                <p class = "floatRight mobileback ">The trees are coastal guardians as they help prevent coastal erosion while providing a habitat for various
+                <p class = "floatRight mobileback bottom20">The trees are coastal guardians as they help prevent coastal erosion while providing a habitat for various
                     aquatic animals.
                 </p>
             </div>
@@ -101,17 +101,17 @@ Welcome to the wetland zone!
         </section>
 
         <section id = "section12">
-            <div class = "grid resize">
+            <div class = "Wetlands grid resize">
                 <div></div>
-                <p class = "floatRight">mangroves in Singapore are under that due to the pressures exerted on the habitat from urbanisation and human
+                <p class = "floatRight bottom50">mangroves in Singapore are under that due to the pressures exerted on the habitat from urbanisation and human
                     population growth
                 </p>
             </div>
         </section>
 
         <section id = "section13">
-            <div class = "grid resize">
-                <p class = "floatLeft" id = "mobileShift">It is important to protect these forests in order to protect our coasts and biodiversity to thrive</p>
+            <div class = "Wetlands grid resize">
+                <p class = "floatLeft bottom50" id = "mobileShift">It is important to protect these forests in order to protect our coasts and biodiversity to thrive</p>
                 <div></div>
             </div>
         </section>
