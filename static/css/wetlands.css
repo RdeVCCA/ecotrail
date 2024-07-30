@@ -298,11 +298,16 @@ section{
 #Wetlands_What{
     background: url('../assets/Wetlands.png');
     position: relative;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
     body{
         font-size: 0.8rem;
+    }
+
+    .bottom{
+        height: 15vh;
     }
 
     .mobileback{
@@ -312,6 +317,7 @@ section{
         margin-right: 0;
         position: absolute;
         bottom: 20vh;
+        width: 90vw;
     }
 
     .floatLeft, .floatRight{
@@ -365,10 +371,6 @@ section{
         padding: 0 0.5rem;
         margin-left: 3vw;
         width: 80vw;
-    }
-
-    .mobileback{
-        width: 90vw;
     }
 
     p{
