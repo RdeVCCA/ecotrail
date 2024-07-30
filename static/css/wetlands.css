@@ -51,11 +51,6 @@ section {
     right: 2vw;
 }
 
-.bottom20{
-    position: absolute;
-    bottom: 20vh;
-}
-
 button{
     padding: 1rem 3rem;
     border: 1px solid black;
@@ -99,7 +94,6 @@ button:hover{
 .floatLeft, .floatRight{
     opacity: 0;
     transition: all 3s;
-    position: absolute;
 }
 
 .floatLeft{
@@ -314,11 +308,14 @@ section{
     .mobileback{
         background-color: rgba(0, 0, 0, 0.3);
         padding: 1.5rem 1rem;
-        width: 90vw;
         margin-left: 0;
         margin-right: 0;
         position: absolute;
         bottom: 20vh;
+    }
+
+    .floatLeft, .floatRight{
+        position: absolute;
     }
 
     h1{
@@ -370,6 +367,10 @@ section{
         width: 80vw;
     }
 
+    .mobileback{
+        width: 90vw;
+    }
+
     p{
         padding: 0 1rem;
     }
@@ -402,6 +403,11 @@ section{
     #bottomText{
         position: absolute;
         top: 70vh;
+    }
+
+    .bottom20{
+        position: absolute;
+        bottom: 20vh;
     }
 
     .bottom50{
