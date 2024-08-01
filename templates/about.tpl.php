@@ -1,6 +1,6 @@
     <title>About Us</title>
     <link rel="stylesheet" href="static/css/about.css">
-    <link rel="stylesheet" href="/static/css/default.css">
+    <link rel="stylesheet" href="static/css/default.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
                 <a href="https://www.youtube.com/watch?v=lGJeiEwFYjo">
-                    <img class="instagram_icon" src="static/assets/instagram.png">
+                    <img class="instagram_icon_1" src="static/assets/instagram.png">
                 </a>
             </div>
         </div>
@@ -65,7 +65,7 @@
             </div>
             <div class="RdeV-website left scroll-animation paused">
                 <a href="https://www.instagram.com/rv.devs/">
-                    <img class="instagram_icon" src="static/assets/instagram.png">
+                    <img class="instagram_icon_2" src="static/assets/instagram.png">
                 </a>
                 <a href="https://rdev.x10.mx/"><span class="pink-box">Website</span></a>
             </div>
