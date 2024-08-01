@@ -30,7 +30,7 @@
                     </p>
                 </div>
             </div>
-            <br>
+            <br><br>
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
                 <a href="https://www.instagram.com/rv_tesla/">
