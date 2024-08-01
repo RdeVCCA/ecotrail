@@ -30,9 +30,10 @@
                     </p>
                 </div>
             </div>
+            <br>
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
-                <a href="https://www.youtube.com/watch?v=lGJeiEwFYjo">
+                <a href="https://www.instagram.com/rv_tesla/">
                     <img class="instagram_icon_1" src="static/assets/instagram.png">
                 </a>
             </div>
