@@ -20,7 +20,7 @@
                     </p>
                 </div>
             </div>
-            <div class="big_box flip_horizontal paused">
+            <div class="big_box flip_horizontal paused spaceBelow">
                 <img class="image_box left scroll-animation"
                     src="static/assets/Image Gallery of Eco Trail (2nd image).png">
                 <div class="blue_box_that_has_text right-center scroll-animation">
@@ -30,7 +30,6 @@
                     </p>
                 </div>
             </div>
-            <br><br>
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
                 <a href="https://www.instagram.com/rv_tesla/">

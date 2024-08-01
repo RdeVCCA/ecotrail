@@ -129,6 +129,10 @@ h1{
     opacity: 0;
 }
 
+.spaceBelow{
+    margin-bottom: 10vh;
+}
+
 
 @media screen and (max-width: 700px) {
     .big_box{
