@@ -76,16 +76,30 @@ h1{
     padding: 0px 20px 30px;
 }
 
-.instagram_icon {
+.instagram_icon_1 {
     width: 40px;
-    height: 40px
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instagram_icon_2 {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .pink-box {
-    margin-left: 1rem;
-    position: absolute;
-    transform: translateY(40%);
     background-color: pink;
+    text-decoration: None;
 }
 
 .RdeV-website {
