@@ -130,6 +130,10 @@ body{
     display: block;
 }
 
+#goldfish-pond-title, #koi-pond-title{
+    margin-left: 0.5rem;
+}
+
 .small-image {
     width: 100%;
     opacity: 0;
@@ -263,6 +267,7 @@ body {
 .orna-img{
     border: solid 0.5rem #0b4583a0;
     border-radius: 1rem;
+    width: 85vw;
 }
 
 .ripple-parent::after {
@@ -299,3 +304,16 @@ body {
         transform: scale3d(1.25, 1.25, 1);
    }
 }
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 2rem;
+    }
+
+    .description-box{
+        width: 70vw;
+    }
+    .description-box p{
+        font-size: 0.8rem;
+    }
+  }
