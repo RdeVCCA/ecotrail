@@ -63,8 +63,8 @@ function fadeIn(){
         if (checkOnScreen(i)){
             i.style.opacity = '100%'
             i.style.transform = 'translate(2vw)'
-        } else{
-            i.style.transform = 'translate(-2vw)'
+        // } else{
+        //     i.style.transform = 'translate(-2vw)'
         }
     }
 
@@ -73,8 +73,8 @@ function fadeIn(){
         if (checkOnScreen(i)){
             i.style.opacity = '100%'
             i.style.transform = 'translate(-2vw)'
-        } else{
-            i.style.transform = 'translate(2vw)'
+        // } else{
+        //     i.style.transform = 'translate(2vw)'
         }
     }
 }

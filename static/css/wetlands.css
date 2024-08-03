@@ -49,6 +49,7 @@ section {
     padding: 1rem;
     height: 20vh;
     right: 2vw;
+    /* border: 5px solid black; */
 }
 
 button{
@@ -96,12 +97,14 @@ button:hover{
     transition: all 3s;
 }
 
-.floatLeft{
-    right: 2vw;
+#Wetlands_What > .floatLeft{
+    position: absolute;
+    left: -2vw;
 }
 
-.floatRight{
-    left: 2vw;
+#Wetlands_What > .floatRight{
+    position: absolute;
+    right: -2vw;
 }
 
 .fullheight{
@@ -285,7 +288,16 @@ pre{
 
 section{
     height: 100vh;
+    width: 100vw;
     margin: 0;
+}
+
+#topText{
+    position: relative;
+}
+
+#bottomText{
+    position: relative;
 }
 
 .Wetlands{
@@ -306,10 +318,6 @@ section{
         font-size: 1.2rem;
     }
 
-    .bottom{
-        height: 15vh;
-    }
-
     .mobileback{
         background-color: rgba(0, 0, 0, 0.3);
         padding: 1.5rem 1rem;
@@ -324,17 +332,21 @@ section{
         position: absolute;
     }
 
+    .fadebottom{
+        height: 15vh;
+    }
+
     h1{
         font-size: 2rem;
         margin-left: 0;
     }
 
     h2{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     h3{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         padding: 0.2rem;
         height: 20vh;
     }
@@ -400,11 +412,15 @@ section{
     #topText{
         position: absolute;
         top: 30vh;
+        width: 90vw;
+        left: 0;
     }
 
     #bottomText{
         position: absolute;
         top: 70vh;
+        width: 95vw;
+        left: 0;
     }
 
     .bottom20{
@@ -414,5 +430,20 @@ section{
 
     .bottom50{
         bottom: 50vh;
+    }
+
+    #Mangrove1 > .floatRight{
+        position: absolute;
+        right: -1vw;
+    }
+
+    #Mangrove2 > div > .floatLeft{
+        position: absolute;
+        left: -1vw;
+    }
+
+    #Mangrove3 > div > .floatRight{
+        position: absolute;
+        right: -1vw;
     }
 }
