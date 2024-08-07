@@ -1,4 +1,4 @@
-// animations.js
+animations.js
 document.addEventListener("DOMContentLoaded", function() {
     const paragraphs = document.querySelectorAll('p');
   

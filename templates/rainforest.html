@@ -6,6 +6,7 @@
 <title>Eco-Trail Information</title>
 <link rel="stylesheet" href="..\static\css\rainforest.css">
 </head>
+
 <body>
 
 <div class="container">
@@ -13,11 +14,8 @@
     <img src="..\static\assets\image.png" alt="image placeholder">
   <div class="text-section">
     <h2>Rainforest Zone</h2>
-    <p>
-      The rainforest zone in our Eco-Trail features over 50 species of 
-      flora and fauna, thriving in an environment with abundant rainfall 
-      and dominated by tall evergreen trees.
-    </p>
+
+    <p>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
   </div>
   </section>
 </div>
@@ -39,10 +37,14 @@
 use span to use JS to transform letters to be at different positions despite being in same element. should start at the top and fade it as it comes to the bottom
 each span starts at the top. Using JS to make the timing random and bring each element down. But CSS is for animation use keyframes-->
 <section class="eco-trail-grid">
-  <div class="eco-grid-item rain-image"><img src="../static/assets/fern1.png" alt="Fern image"></div>
-  <div class="eco-grid-item rain-image"><img src="../static/assets/fern1.png" alt="Fern image"></div>
-  <div class="eco-grid-item green"><p>Rainforests are home to a rich biodiversity of living organisms, while also acting as important carbon sinks.</p></div>
-  <div class="eco-grid-item green text-right"><p>Furthermore, due to its large expanse across Earth, rainforests influence global weather patterns and rainfall.</p></div>
+  <div class="eco-grid-item rain-image">
+    <img src="../static/assets/fern1.png" alt="Fern image">
+    <p>Rainforests are home to a rich biodiversity of living organisms, while also acting as important carbon sinks.</p>
+  </div>
+  <div class="eco-grid-item rain-image">
+    <img src="../static/assets/fern1.png" alt="Fern image">
+    <p>Furthermore, due to its large expanse across Earth, rainforests influence global weather patterns and rainfall.</p>
+  </div>
 </section>
 
 <div class="centered-container">
@@ -65,12 +67,12 @@ each span starts at the top. Using JS to make the timing random and bring each e
   </div>
 
 <section class="eco-trail-grid">
-  <div class="eco-grid-item green text-left"><p>Rainforests once covered</p></div>
-  <div class="eco-grid-item green text-right"><p>Reduced to just</p></div>
-  <div style ="font-size: 48px" class="statistic eco-grid-item green text-left"><p style ="font-size: 48px"><b>14%</b></p></div>
-  <div style ="font-size: 48px" class="statistic eco-grid-item green text-right"><p style ="font-size: 48px"><b>6%</b></p></div>
-  <div class="eco-grid-item green text-left"><p>of land on Earth</p></div>
-  <div class="eco-grid-item green text-right"><p>due to deforestation and climate change</p></div>
+  <div class="eco-grid-item green"><p>Rainforests once covered</p></div>
+  <div class="eco-grid-item green"><p>Reduced to just</p></div>
+  <div style ="font-size: 48px" class="statistic eco-grid-item green"><p style ="font-size: 48px"><b>14%</b></p></div>
+  <div style ="font-size: 48px" class="statistic eco-grid-item green"><p style ="font-size: 48px"><b>6%</b></p></div>
+  <div class="eco-grid-item green"><p>of land on Earth</p></div>
+  <div class="eco-grid-item green"><p>due to deforestation and climate change</p></div>
 </section>
 <div class="centered-container">
   <div class="image-text-container">
@@ -81,7 +83,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 </div>
 <section class="eco-trail-grid">
   <div class="eco-grid-item green"><p>As a mindfulness practice, enjoy <b>“Shinrin-yoku”</b> in our rainforest zone.</p></div>
-  <div class="eco-grid-item green text-right"><p>Absorb the forest ambiance with a leisurely walk, engaging your senses with the scenery, fragrances, and the touch of nature.</p></div>
+  <div class="eco-grid-item green"><p>Absorb the forest ambiance with a leisurely walk, engaging your senses with the scenery, fragrances, and the touch of nature.</p></div>
 </section>
 
 
@@ -101,7 +103,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
     <div class="eco-grid-item rain-image">
       <img src="..\static\assets\fern1.png" alt="image">
     </div>
-    <div class="eco-grid-item green text-right">
+    <div class="eco-grid-item green">
       <p>As you walk into the Eco-Trail, you will be greeted by our rain garden on the left. </br> The rain garden is a shallow area planted with various native ground vegetation to reroute rain runoff.</p>
     </div>
     <div class="eco-grid-item green">
@@ -132,13 +134,13 @@ each span starts at the top. Using JS to make the timing random and bring each e
     <div class="eco-grid-item rain-image">
       <img src="..\static\assets\fern4.png" alt="image">
     </div>  
-    <div class="eco-grid-item green text-right">
+    <div class="eco-grid-item green">
       <p>There are thousands of species of these non-flowering vascular plants and they reproduce by spores.</p>
     </div>
   </div>
   <div class="spacer"></div>
 
 </div>
-<script src="..\static\js\rainforest.js"></script>
+<!-- <script src="..\static\js\rainforest.js"></script> -->
 </body>
 </html>
