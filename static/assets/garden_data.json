@@ -1,0 +1,87 @@
+{
+  "imageGalleryContents": [
+    {
+      "src": "static/assets/Cempedak2.jpg",
+      "titleEn": "Cempedak",
+      "titleZh": "波罗蜜",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Cempedak2.jpg"
+    },
+    {
+      "src": "static/assets/Jambu.jpg",
+      "titleEn": "Jambu",
+      "titleZh": "红鞘水竹芋",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Jambu.jpg"
+    },
+    {
+      "src": "static/assets/Mango.png",
+      "titleEn": "Mango",
+      "titleZh": "芒果",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Mango.png"
+    },
+    {
+      "src": "static/assets/Chiku.jpg",
+      "titleEn": "Chiku",
+      "titleZh": "人心果",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Chiku.jpg"
+    },
+    {
+      "src": "static/assets/Kaffir Lime2.jpg",
+      "titleEn": "Kaffir Lime",
+      "titleZh": "箭叶橙",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Kaffir Lime2.jpg"
+    }
+  ],
+  "plantInfos": [
+    {
+      "info1": "Cempedak fruit is a good source of fibre, low in calories and  rich in vitamins and minerals, including B-complex vitamins, vitamin C, potassium, magnesium and iron. It helps to maintain digestive tract, decrease cholesterol and reduce risks of cancer and malaria.",
+      "info2": "Each cempedak fruit can have between 100 and 500 seeds, producing a substantial amount of fruit and making it a cheap food source",
+      "info3": "Cempedak and Jackfruit are not the same. Cempedak is smaller, rounder and bulgier, while Jackfruit is larger and oval.",
+      "imageLink1": "static/assets/Cempedak.png",
+      "imageLink2": "static/assets/Cempedak2.jpg",
+      "imageLink3": "static/assets/Cempedak3.jpeg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3309"
+    },
+    {
+      "info1": "Jambu’s high fiber content aids in digestion. This helps to relieve constipation and other health problems. Jambu seeds have been used for preventing diarrhoea and dysentery. Besides, Jambu Air fruits are rich in vitamin A, vitamin C, calcium, potassium, and iron.",
+      "info2": "Jambu has a special adaptation where the plant has the ability to store water in the trunk so that water is readily available when needed.",
+      "info3": "Jambu trees are often seen in the streetscapes of neighbourhoods in Jakarta. Jambu air is used in a local salad known as Rojak and is often enjoyed with a sprinkle of lime juice and salt.",
+      "imageLink1": "static/assets/Jambu.jpg",
+      "imageLink2": "static/assets/Jambu2.jpg",
+      "imageLink3": "static/assets/Jambu3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3153"
+    },
+    {
+      "info1": "Mango is a good source of immune-boosting nutrients. One cup (165g) of mango provides 10% of our daily vitamin A needs.",
+      "info2": "Mango trees are super absorbers of carbon. Mexican mangoes from Nayarit and Sinaloa sequester two and half times the amount of carbon that is emitted during the growing, harvesting and shipping process",
+      "info3": "In India, mango is an intrinsic part of the country’s culture, found in religion, art, poetry, and literature. Mango leaves are seen as a symbol of good luck and are strung up over the front doors of homes, especially during weddings and celebrations. ",
+      "imageLink1": "static/assets/Mango.png",
+      "imageLink2": "static/assets/Mango2.jpeg",
+      "imageLink3": "static/assets/Mango3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3013"
+    },
+    {
+      "info1": "Food: While the fruit can be consumed raw, it is commercialised for its sweet flavour such as in sherbet, drinks, butter and ice cream. It can also be used to make syrup, sauces and jam, or fermented to produce wine and vinegar.",
+      "info2": "Economy: Chiku is a cash crop for Indian farmers, creating hundreds of new cultivars and uses, and allowing India to become the world leader in Chiku production.",
+      "info3": "Industrial applications: The gummy latex is used in tropics to fill dental cavities, make figurines, adhesives and chewing gum. Since the wood is strong and durable, it can be used to make beams and furniture, specifically in the Philippines, the bark is used to tan the sails of boats, whereas in Indonesia, the wood is sold for woodcarving purposes.",
+      "imageLink1": "static/assets/Chiku.jpg",
+      "imageLink2": "static/assets/Chiku2.png",
+      "imageLink3": "static/assets/Chiku3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3014"
+    },
+    {
+      "info1": "Kaffir Lime leaves are common herbs and spices given their unique and strong aroma that can overwhelm the flavour of an entire dish. They add a lemon flavour to various types of dishes, such as Tom Yum soup found in Thai and Lao cuisines, chicken dishes in Vietnamese cuisine, and soto ayam in Indonesian cuisine.",
+      "info2": "Oil extracted from the leaves, as well as the leaves themselves, are commonly used for medicinal purposes, including maintaining oral health, detoxifying blood, stimulating digestive system and repelling insects.",
+      "info3": "Kaffir lime strengthens hair health. Decoctions and mixtures to the scalp and hair can slow the onset of male pattern baldness and strengthen the follicles of the hair, while moisturising the skin to prevent dandruff and improve the appearance and shine.",
+      "imageLink1": "static/assets/Kaffir Lime.jpg",
+      "imageLink2": "static/assets/Kaffir Lime2.jpg",
+      "imageLink3": "static/assets/Kaffir Lime3.png",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/6/3670"
+    }
+    
+  ]
+}

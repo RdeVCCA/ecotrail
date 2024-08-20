@@ -39,22 +39,24 @@
         <div id="content-storage">
             <div class="collection">
                 <span>Rainforest Zone</span>
-                <span>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</span>
+                <span>In our Eco-Trail, the rainforest zone is home to more than 50 species of plants and insects. Let us take a look at the Rainforest zone and learn more about the different species present.</span>
                 <span>index.php?filename=rainforest</span>
             </div>
             <div class="collection">
                 <span>Wetland Zone</span>
-                <span>As you walk further into our Eco-Trail, you will be greeted by an expanse of glittering water. Welcome to the Wetland zone! </span>
+                <span>As you walk further into our Eco-Trail, you will be greeted by an expanse of glittering water. Welcome to the wetland zone! Wetlands have key ecological roles as they serve as a habitat for diverse aquatic plants and animals. Now, let us take a look at the Wetland zone and learn more about the different species present.
+                </span>
                 <span>index.php?filename=wetlands</span>
             </div>
             <div class="collection">
                 <span>Ornamental Pond</span>
-                <span>Ornamental short description</span>
+                <span>Extending from the Fruit Tree Garden, the first ornamental pond, the goldfish pond, draws us in with its tranquil beauty.
+                In comparison, the koi pond flourishes with frenetic energy. Look out for the coloured schools darting between the manicured aquascape of diverse aquatic plants. Now, let us take a look at the Ornamental Ponds and learn more about the different species present.</span>
                 <span>index.php?filename=pond</span>
             </div>
             <div class="collection">
                 <span>Fruitree Garden</span>
-                <span>In our garden, a selection of tropical fruit trees can be found. The fruit trees gently invite one to step into our Eco-Trail with their scent, beauty and shade.</span>
+                <span> In our garden, a selection of tropical fruit trees can be found. The fruit trees gently invite one to step into our Eco-Trail with their scent, beauty and shade. </span>
                 <span>index.php?filename=garden</span>
             </div>
         </div>
