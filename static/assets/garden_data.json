@@ -29,11 +29,18 @@
       "image":"static/assets/Chiku.jpg"
     },
     {
-      "src": "static/assets/Kaffir Lime2.jpg",
+      "src": "static/assets/Kaffir Lime.avif",
       "titleEn": "Kaffir Lime",
       "titleZh": "箭叶橙",
       "zone":"Fruit Tree Garden",
-      "image":"static/assets/Kaffir Lime2.jpg"
+      "image":"static/assets/Kaffir Lime.avif"
+    },
+    {
+      "src": "static/assets/Guava.jpg",
+      "titleEn": "Guava",
+      "titleZh": "斑叶番石榴",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Guava.jpg"
     }
   ],
   "plantInfos": [
@@ -77,11 +84,19 @@
       "info1": "Kaffir Lime leaves are common herbs and spices given their unique and strong aroma that can overwhelm the flavour of an entire dish. They add a lemon flavour to various types of dishes, such as Tom Yum soup found in Thai and Lao cuisines, chicken dishes in Vietnamese cuisine, and soto ayam in Indonesian cuisine.",
       "info2": "Oil extracted from the leaves, as well as the leaves themselves, are commonly used for medicinal purposes, including maintaining oral health, detoxifying blood, stimulating digestive system and repelling insects.",
       "info3": "Kaffir lime strengthens hair health. Decoctions and mixtures to the scalp and hair can slow the onset of male pattern baldness and strengthen the follicles of the hair, while moisturising the skin to prevent dandruff and improve the appearance and shine.",
-      "imageLink1": "static/assets/Kaffir Lime.jpg",
+      "imageLink1": "static/assets/Kaffir Lime.avif",
       "imageLink2": "static/assets/Kaffir Lime2.jpg",
       "imageLink3": "static/assets/Kaffir Lime3.png",
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/6/3670"
+    },
+    {
+      "info1": "A single serving of guava has more than 6 times the vitamin C of an equivalent serving of orange! Vital to the body, vitamin C not only improves wound healing, it also improves iron absorption and helps the body’s immune system to function properly. As vitamin C is a water soluble vitamin which is not retained by the body, it relies on a daily intake to maintain healthy levels.",
+      "info2": "Guava is low in glycaemic index and glycaemic load, making it a great choice for people with diabetes. Also, because of the high-fibre content, it can help to regulate blood sugar levels by slowing down the release of sugars into the bloodstream. A popular way for Singaporeans to consume the guava fruit is to have it cut raw, sprinkled with plum / prune powder. However, the powder could be high in sugar, diminishing the benefits of intaking guava.",
+      "info3": "Guava leaf extract has been shown to have an anticancer effect in recent studies. Test-tube and animal studies show that guava extract can prevent and even stop the growth of cancer cells. This is likely due to the high levels of powerful antioxidants that prevent free radicals from damaging cells, one of the main causes of cancer. Meanwhile, the guava leaves in particular are commonly used in Traditional East Asian Medicine remedies.",
+      "imageLink1": "static/assets/Guava.jpg",
+      "imageLink2": "static/assets/Guava2.jpg",
+      "imageLink3": "static/assets/Guava3.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2377"
     }
-    
   ]
 }
