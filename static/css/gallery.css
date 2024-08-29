@@ -114,7 +114,7 @@ img {
 }
 
 .plant-info1 {
-  width: 60%;
+  width: 50vw;
   aspect-ratio: 0.75;
 }
 
@@ -140,8 +140,9 @@ img {
   transform: translate(-50%, 0%);
   background: linear-gradient(180deg, #00000000, #124e70);
 }
+
 .plant-info2,.plant-info3{
-  width:100%;
+  height: 90vh;
   aspect-ratio: 2/1;
 }
 
@@ -170,7 +171,7 @@ img {
 
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .grid-style {
@@ -192,7 +193,7 @@ img {
   text-decoration: none;
   color: #000000;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .plant-gallery-content img {
     width: 50vw;
     aspect-ratio: 3 / 4;
@@ -201,6 +202,15 @@ img {
     font-size:1.25em;
   }
   .plant-info2,.plant-info3{
-    width:80%;
+    width:80%; */
+
+@media only screen and (max-width: 700px) {
+  .plant-info2,.plant-info3{
+    height: 30vh;
+    aspect-ratio: 2/1;
+  }
+
+  #plant-info > div > div > * {
+    font-size: 0.9em;
   }
 }
