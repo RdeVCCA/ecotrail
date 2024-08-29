@@ -65,6 +65,7 @@ img {
 }
 
 .plant-gallery-content img {
+  object-fit: cover;
   width: 30vw;
   aspect-ratio: 3 / 4;
 }
@@ -118,7 +119,7 @@ img {
   aspect-ratio: 0.75;
 }
 
-.plant-info1 img{
+.plant-info1 img,.plant-info2 img,.plant-info3 img{
   object-fit: cover;
 }
 #plant-info > div > * {
@@ -194,10 +195,7 @@ img {
   color: #000000;
 }
 /* @media only screen and (max-width: 768px) {
-  .plant-gallery-content img {
-    width: 50vw;
-    aspect-ratio: 3 / 4;
-  }
+  
   #plant-info > div > div > *{
     font-size:1.25em;
   }
@@ -205,6 +203,10 @@ img {
     width:80%; */
 
 @media only screen and (max-width: 700px) {
+  .plant-gallery-content img {
+    width: 50vw;
+    aspect-ratio: 3 / 4;
+  }
   .plant-info2,.plant-info3{
     height: 30vh;
     aspect-ratio: 2/1;
