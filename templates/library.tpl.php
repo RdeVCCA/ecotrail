@@ -9,10 +9,10 @@
             include('templates/defaults/hero.tpl.php');
         ?>
 
-        <div class = "action-buttons">
-            <input id = "search" type = "text" placeholder = "Search" class = "button">
-            <input type = "button" value = "Area" placeholder = "Search" class = "button">
-            <input type = "button" value = "Type" placeholder = "Search" class = "button">
+        <div class = "search_buttons">
+            <input id = "search" style = "grid-area:search" type = "text" placeholder = "Search" class = "button">
+            <input type = "button" style = "grid-area:area" value = "Area" class = "button">
+            <input type = "button" style = "grid-area:type" value = "Type" placeholder = "Search" class = "button">
         </div>
         <div class = "library">
 

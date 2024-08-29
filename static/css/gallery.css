@@ -192,3 +192,15 @@ img {
   text-decoration: none;
   color: #000000;
 }
+@media only screen and (max-width: 768px) {
+  .plant-gallery-content img {
+    width: 50vw;
+    aspect-ratio: 3 / 4;
+  }
+  #plant-info > div > div > *{
+    font-size:1.25em;
+  }
+  .plant-info2,.plant-info3{
+    width:80%;
+  }
+}
