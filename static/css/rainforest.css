@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F5F5DC; /* Beige yellow background for the entire website */
+  overflow-x: hidden;
 }
 .p {
   color:#0B3D2E;
@@ -24,6 +25,7 @@ body {
 
 .z3 {
   z-index: 3;
+  max-width: 50%;
 }
 
 .spacer {
@@ -89,6 +91,10 @@ body {
   max-width: 100%; /* Optional: limits the size of the overlay image */
 }
 
+#header-txt-overlay {
+  max-width: 90%;
+}
+
 .image-overlay-container {
   top:10px;
   bottom: 10px;
@@ -128,13 +134,13 @@ body {
   color: #006400; /* Dark green text color */
 }
 
-.item1, .item2, .item5, .item6 {
+/* .item1, .item2, .item5, .item6 {
   grid-column: 1 / -1; /* Span all columns */
-}
 
-.item3, .item4, .item7, .item8 {
+
+/* .item3, .item4, .item7, .item8 {
   grid-column: span 1 / auto; /* Single column span */
-}
+
 
 .text-left {
   text-align: left; /* Aligns text to the left */
@@ -170,6 +176,22 @@ body {
 
   .top-header, .sub-header {
     padding: 16px 8px;
+  }
+
+  .item-1 {
+      order: 2;
+  }
+
+  .item-2 {
+      order: 1;
+  }
+
+  .item-3 {
+      order: 3;
+  }
+
+  .item-4 {
+      order: 4;
   }
 }
 
