@@ -16,10 +16,10 @@ body{
 }
 
 .reverse{
-    animation-direction:reverse;
+    animation-direction:reverse !important;
 }
 .reverse *{
-    animation-direction:reverse;
+    animation-direction:reverse !important;
 }
 .button{
     background:#A4E3CB;
@@ -116,6 +116,7 @@ body{
 }
 .hidden{
     display:none;
+}
 
 .paused{
     animation-play-state: paused;
