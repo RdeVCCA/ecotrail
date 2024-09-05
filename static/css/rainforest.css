@@ -38,7 +38,7 @@ body {
   display: flex;
   align-items: center;  /* Aligns vertically center */
   justify-content: center;  /* Aligns horizontally center */
-  min-height: 100vh;  /* At least the height of the viewport */
+  min-height: 75vh;  /* At least the height of the viewport */
   margin: 0 10%;  /* Adds 10% margin to left and right */
 }
 
@@ -132,6 +132,11 @@ body {
   padding: 1em;
   text-align: center;
   color: #006400; /* Dark green text color */
+  height: auto;
+}
+
+#stats {
+  height: 0px;
 }
 
 /* .item1, .item2, .item5, .item6 {
@@ -151,6 +156,7 @@ body {
 }
 
 .statistic {
+  font-size: 48px;
   margin: px;
   font-size: 100px; /* Larger font size for statistics */
   font-weight: bold; /* Makes the statistic bold */
@@ -192,6 +198,22 @@ body {
 
   .item-4 {
       order: 4;
+  }
+
+  .item-5 {
+    order: 1;
+  }
+
+  .item-6 {
+      order: 2;
+  }
+
+  .item-7 {
+      order: 4;
+  }
+
+  .item-8 {
+      order: 3;
   }
 }
 
