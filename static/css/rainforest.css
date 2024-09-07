@@ -50,9 +50,14 @@ body {
 }
 
 .image-container img {
-  width: 100%;  /* Makes the image fill the container */
+  /* width: 100%;  Makes the image fill the container */
   height: auto;  /* Maintains aspect ratio */
   max-height: 90vh;  /* Adjusts height so it's slightly less than the viewport to account for any top/bottom margins */
+}
+
+.image{
+  width: 80vw;
+  height: auto;
 }
 
 .top-header, .sub-header {

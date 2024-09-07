@@ -8,7 +8,10 @@
 </head>
 
 <body>
-
+<?php 
+  include('templates/defaults/nav.tpl.php');
+  include('templates/defaults/hero.tpl.php');
+?>
 
 
 <!-- <div class="container">
@@ -39,11 +42,11 @@ use span to use JS to transform letters to be at different positions despite bei
 each span starts at the top. Using JS to make the timing random and bring each element down. But CSS is for animation use keyframes-->
 <section class="eco-trail-grid">
   <div class="eco-grid-item rain-image">
-    <img src="static/assets/fern1.png" alt="Fern image">
+    <img src="static/assets/rainforestBiodiversity.jpg" alt="image">
     <p>Rainforests are home to a rich biodiversity of living organisms, while also acting as important carbon sinks.</p>
   </div>
   <div class="eco-grid-item rain-image">
-    <img src="static/assets/fern1.png" alt="Fern image">
+    <img src="static/assets/rainforestExpanse.jpg" alt="image">
     <p>Furthermore, due to its large expanse across Earth, rainforests influence global weather patterns and rainfall.</p>
   </div>
 </section>
@@ -51,7 +54,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 <div class="centered-container">
   <div class="image-text-container">
     <div class="image-container">
-      <img src="static/assets/fern1.png" alt="Meditation practice in the rainforest">
+      <img class = "image" src="static/assets/rainforestHerbs.jpg" alt="Meditation practice in the rainforest">
     </div>
   </div>
 </div>
@@ -62,7 +65,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
   <div class="centered-container">
     <div class="image-text-container">
       <div class="image-container">
-        <img src="static/assets/fern1.png" alt="Meditation practice in the rainforest">
+        <img src="static/assets/rainforestZone.jpg" alt="Meditation practice in the rainforest">
       </div>
     </div>
   </div>
