@@ -23,7 +23,7 @@ const stopDragging = (e) => {
   const scroll = x - startX;
   changePlantIndex(currentPlantIndex);
   
-  console.log(scrollLeft - scroll)
+  // console.log(scrollLeft - scroll)
   // gallery.scrollTo({ left: scrollLeft - scroll, "behavior":"instant"});
 };
 
@@ -66,11 +66,11 @@ function adjustImageScale(images) {
 
 gallery.addEventListener("scroll", (event) => {
   adjustImageScale(images);
-  console.log(gallery.scrollLeft / images[0].clientWidth)
+  // console.log(gallery.scrollLeft / images[0].clientWidth)
   const closestImageIndex = Math.round(
     (gallery.scrollLeft+center-padding+images[0].clientWidth/2)/ images[0].clientWidth
   )-1;
-  console.log(closestImageIndex)
+  // console.log(closestImageIndex)
 
   currentPlantIndex = closestImageIndex;
   loadPlantInfo(currentPlantIndex);
@@ -79,7 +79,7 @@ gallery.addEventListener("scroll", (event) => {
 function changePlantIndex(index) {
   if (index < 0 || index >= images.length) return;
   if (mouseDown) return;
-  console.log("changing plant index to", index)
+  // console.log("changing plant index to", index)
   gallery.style.scrollSnapType = "none"; // disable snapping for smooth scrolling
   gallery.scrollTo({
     left:

@@ -15,7 +15,7 @@ var timeStepIndex = 0;
 var activate = false;
 
 var contentArray = $('#content-storage').find('.collection').toArray();
-console.log(contentArray);
+// console.log(contentArray);
 
 videoA.currentTime = 0;
 videoB.currentTime = videoLength;
@@ -99,7 +99,7 @@ async function playVideoUntilNext(increase){
         return;
     }
     var newIndex = calculateIndex(increase);
-    console.log(newIndex, timeStepIndex);
+    // console.log(newIndex, timeStepIndex);
     
     var targetTime = timeStep[newIndex];
     if (newIndex == timeStepIndex){
@@ -128,7 +128,7 @@ window.addEventListener('wheel', function(e) {
         if ((timeStepIndex > 0 && timeStepIndex < timeStep.length - 1) || (e.deltaY < 0 && timeStepIndex == timeStep.length - 1)){
             e.preventDefault();
         }else{
-            console.log("limit")
+            // console.log("limit")
         }
         if (e.deltaY < 0){
             playVideoUntilNext(-1);
@@ -141,8 +141,8 @@ window.addEventListener('wheel', function(e) {
 let startY;
 
 window.addEventListener('touchstart', function(e) {
-    console.log("touched");
-    console.log($(e.target), parent);
+    // console.log("touched");
+    // console.log($(e.target), parent);
     if ($(e.target).closest(parent).length > 0) {
         activate = true;
         startY = e.touches[0].clientY;
@@ -158,7 +158,7 @@ window.addEventListener('touchmove', function(e) {
         if ((timeStepIndex > 0 && timeStepIndex < timeStep.length - 1) || (deltaY < 0 && timeStepIndex == timeStep.length - 1)){
             e.preventDefault();
         } else {
-            console.log("limit")
+            // console.log("limit")
         }
         if (deltaY > 0) {
             playVideoUntilNext(1);

@@ -15,7 +15,7 @@ function getPosition(){
         }
         if (positionOpacity < 50){
             position.style.opacity = 100 + positionOpacity * 2 + '%';
-            console.log(positionOpacity,position.style.opacity);
+            // console.log(positionOpacity,position.style.opacity);
         }
     }
 }

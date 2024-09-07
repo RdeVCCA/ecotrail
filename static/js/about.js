@@ -72,7 +72,7 @@ function fade_in(){
     }
     for (let item of hidden){
         // display all classes of item
-        console.log(item.classList)
+        // console.log(item.classList)
         if (!item.classList.contains('animated')){
             item.classList.add('animated');
             if (item.classList.contains('left')){

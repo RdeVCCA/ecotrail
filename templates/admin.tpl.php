@@ -31,11 +31,9 @@
             </div>
             <div id = "grid_5" class = "grid-item left">
                 <div class = "text">
-                    <div class = "text">
-                        Be Considerate to other Trail Users
-                        <br>
-                        <!-- <div class = "smol_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum eget purus in eleifend.</div> -->
-                    </div>
+                    Be Considerate to other Trail Users
+                    <br>
+                    <!-- <div class = "smol_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum eget purus in eleifend.</div> -->
                 </div>
             </div>
             <div id = "grid_6" class = "grid-item right">

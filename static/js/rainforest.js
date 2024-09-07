@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         span += '<span class="space"> </span>'
         span += '</span>';
-        console.log(span);
+        // console.log(span);
         innerHTML += span;
       }
       p.innerHTML = innerHTML;

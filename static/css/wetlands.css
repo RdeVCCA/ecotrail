@@ -1,6 +1,6 @@
 body{
     font-family: "Inter", sans-serif;
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     width: 100%;
     margin: 0; 
     overflow-x: hidden;
@@ -152,8 +152,9 @@ button:hover{
     height: 100vh;
     margin: 0;
     margin-bottom: 0;
-    grid-template-areas: "a a"
-    "b c";
+    place-items: center;
+    /* grid-template-areas: "a a"
+    "b c"; */
     /* place-items: center; */
 }
 
@@ -318,9 +319,9 @@ section{
 }
 
 @media only screen and (max-width: 768px) {
-    body{
-        font-size: 1.2rem;
-    }
+    /* body{
+        font-size: 1.8em;
+    } */
 
     .mobileback{
         background-color: rgba(0, 0, 0, 0.3);
@@ -341,41 +342,47 @@ section{
     }
 
     h1{
-        font-size: 2.3rem;
+        font-size: 3em;
         margin-left: 0;
     }
 
     h2{
-        font-size: 2.2rem;
+        font-size: 2.5em;
     }
 
     h3{
-        font-size: 1.4rem;
+        font-size: 2em;
         padding: 0.2rem;
         height: 20vh;
     }
 
     .grey{
-        font-size: 2rem;
+        font-size: 1.8em;
         height: 10vh;
+        width: 50vw;
         padding: calc(20vh) 0;
+        place-items: center;
     }
     
     .grey:hover{
-        font-size: 2rem;
+        font-size: 1.8em;
         height: 10vh;
         padding: calc(20vh) 0;
         transition: 0s;
     }
 
     .grey2{
-        font-size: 1.6rem;
-        padding-top: calc(100vh/3 - 7rem);
+        font-size: 1.6em;
+        height: 15vh;
+        width: 50vw;
+        place-items: center;
+        padding: 9vh 0;
     }
 
     .grey2:hover{
-        font-size: 1.6rem;
-        padding-top: calc(100vh/3 - 7rem);
+        font-size: 1.6em;
+        height: 15vh;
+        padding: 9vh 0;
     }
 
     .gridPaddingRemove{
