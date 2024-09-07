@@ -3,14 +3,16 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F5F5DC; /* Beige yellow background for the entire website */
+  overflow-x: hidden;
 }
 .p {
-  color:#0B3D2E
+  color:#0B3D2E;
 }
 .container {
   width: 100%;
   max-width: 100%; /* Ensure container does not exceed the viewport width */
   margin: 0 auto;
+  word-wrap: break-word; 
 }
 
 .z1 {
@@ -23,6 +25,7 @@ body {
 
 .z3 {
   z-index: 3;
+  max-width: 50%;
 }
 
 .spacer {
@@ -35,7 +38,7 @@ body {
   display: flex;
   align-items: center;  /* Aligns vertically center */
   justify-content: center;  /* Aligns horizontally center */
-  min-height: 100vh;  /* At least the height of the viewport */
+  min-height: 75vh;  /* At least the height of the viewport */
   margin: 0 10%;  /* Adds 10% margin to left and right */
 }
 
@@ -88,6 +91,10 @@ body {
   max-width: 100%; /* Optional: limits the size of the overlay image */
 }
 
+#header-txt-overlay {
+  max-width: 90%;
+}
+
 .image-overlay-container {
   top:10px;
   bottom: 10px;
@@ -117,22 +124,28 @@ body {
   color: #006400; /* Dark green text color */
 }
 
+.eco-trail-grid p {
+  align-items: start;
+}
+
 .grid-item, .eco-grid-item {
   padding: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   color: #006400; /* Dark green text color */
+  height: auto;
 }
 
-.item1, .item2, .item5, .item6 {
+#stats {
+  height: 0px;
+}
+
+/* .item1, .item2, .item5, .item6 {
   grid-column: 1 / -1; /* Span all columns */
-}
 
-.item3, .item4, .item7, .item8 {
+
+/* .item3, .item4, .item7, .item8 {
   grid-column: span 1 / auto; /* Single column span */
-}
+
 
 .text-left {
   text-align: left; /* Aligns text to the left */
@@ -143,6 +156,7 @@ body {
 }
 
 .statistic {
+  font-size: 48px;
   margin: px;
   font-size: 100px; /* Larger font size for statistics */
   font-weight: bold; /* Makes the statistic bold */
@@ -168,6 +182,38 @@ body {
 
   .top-header, .sub-header {
     padding: 16px 8px;
+  }
+
+  .item-1 {
+      order: 2;
+  }
+
+  .item-2 {
+      order: 1;
+  }
+
+  .item-3 {
+      order: 3;
+  }
+
+  .item-4 {
+      order: 4;
+  }
+
+  .item-5 {
+    order: 1;
+  }
+
+  .item-6 {
+      order: 2;
+  }
+
+  .item-7 {
+      order: 4;
+  }
+
+  .item-8 {
+      order: 3;
   }
 }
 
