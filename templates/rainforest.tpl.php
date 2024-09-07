@@ -4,29 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Eco-Trail Information</title>
-<link rel="stylesheet" href="..\static\css\rainforest.css">
+<link rel="stylesheet" href="static/css/rainforest.css">
 </head>
 
 <body>
 
-<div class="container">
+
+
+<!-- <div class="container">
   <section class="top-header">
-    <img src="..\static\assets\image.png" alt="image placeholder">
+    <img src="static/assets/image.png" alt="image placeholder">
   <div class="text-section">
     <h2>Rainforest Zone</h2>
     <p>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
   </div>
   </section>
-</div>
+</div> -->
 
 <div class="spacer"></div>
 
 
 <div class="sub-header">
   <div class="image-overlay-container">
-    <img src="..\static\assets\rainforest_garden_title.png" alt="Background image of ferns title" class="centered-image z1">
-    <img src="..\static\assets\rainforestgardentext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
-    <img src="..\static\assets\rainforest_garden_rectangle.png" class="centered-image z2">
+    <img src="static/assets/rainforest_garden_title.png" alt="Background image of ferns title" class="centered-image z1">
+    <img src="static/assets/rainforestgardentext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
+    <img src="static/assets/rainforest_garden_rectangle.png" class="centered-image z2">
   </div>
 </div>  
 
@@ -37,11 +39,11 @@ use span to use JS to transform letters to be at different positions despite bei
 each span starts at the top. Using JS to make the timing random and bring each element down. But CSS is for animation use keyframes-->
 <section class="eco-trail-grid">
   <div class="eco-grid-item rain-image">
-    <img src="../static/assets/fern1.png" alt="Fern image">
+    <img src="static/assets/fern1.png" alt="Fern image">
     <p>Rainforests are home to a rich biodiversity of living organisms, while also acting as important carbon sinks.</p>
   </div>
   <div class="eco-grid-item rain-image">
-    <img src="../static/assets/fern1.png" alt="Fern image">
+    <img src="static/assets/fern1.png" alt="Fern image">
     <p>Furthermore, due to its large expanse across Earth, rainforests influence global weather patterns and rainfall.</p>
   </div>
 </section>
@@ -49,7 +51,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 <div class="centered-container">
   <div class="image-text-container">
     <div class="image-container">
-      <img src="../static/assets/fern1.png" alt="Meditation practice in the rainforest">
+      <img src="static/assets/fern1.png" alt="Meditation practice in the rainforest">
     </div>
   </div>
 </div>
@@ -60,7 +62,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
   <div class="centered-container">
     <div class="image-text-container">
       <div class="image-container">
-        <img src="../static/assets/fern1.png" alt="Meditation practice in the rainforest">
+        <img src="static/assets/fern1.png" alt="Meditation practice in the rainforest">
       </div>
     </div>
   </div>
@@ -81,7 +83,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 <div class="centered-container">
   <div class="image-text-container">
     <div class="image-container">
-      <img src="../static/assets/meditation_practice.png" alt="Meditation practice in the rainforest">
+      <img src="static/assets/meditation_practice.png" alt="Meditation practice in the rainforest">
     </div>
   </div>
 </div>
@@ -94,9 +96,9 @@ each span starts at the top. Using JS to make the timing random and bring each e
 
   <div class="sub-header">
     <div class="image-overlay-container">
-      <img src="..\static\assets\rain_garden_title.png" alt="Background image of ferns title" class="centered-image z1">
-      <img src="..\static\assets\raingardentext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
-      <img src="..\static\assets\rain_garden_rectangle.png" class="centered-image z2">
+      <img src="static/assets/rain_garden_title.png" alt="Background image of ferns title" class="centered-image z1">
+      <img src="static/assets/raingardentext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
+      <img src="static/assets/rain_garden_rectangle.png" class="centered-image z2">
     </div>
   </div>  
 
@@ -104,7 +106,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
 
   <div class="eco-trail-grid">
     <div class="eco-grid-item rain-image item-5">
-      <img src="..\static\assets\fern1.png" alt="image">
+      <img src="static/assets/fern1.png" alt="image">
     </div>
     <div class="eco-grid-item green item-6">
       <p>As you walk into the Eco-Trail, you will be greeted by our rain garden on the left. </br> The rain garden is a shallow area planted with various native ground vegetation to reroute rain runoff.</p>
@@ -113,7 +115,7 @@ each span starts at the top. Using JS to make the timing random and bring each e
       <p>The rain garden is dry most of the time but is designed to temporarily hold and soak in rainwater runoff within 12 hours.</p>
     </div>
     <div class="eco-grid-item rain-image item-8">
-      <img src="..\static\assets\fern2.png" alt="image">
+      <img src="static/assets/fern2.png" alt="image">
     </div>
   </div>
   
@@ -121,9 +123,9 @@ each span starts at the top. Using JS to make the timing random and bring each e
 
   <div class="sub-header">
     <div class="image-overlay-container">
-      <img src="..\static\assets\ferns_title.png" alt="Background image of ferns title" class="centered-image z1">
-      <img src="..\static\assets\fernstext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
-      <img src="..\static\assets\ferns_rectangle.png" class="centered-image z2">
+      <img src="static/assets/ferns_title.png" alt="Background image of ferns title" class="centered-image z1">
+      <img src="static/assets/fernstext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
+      <img src="static/assets/ferns_rectangle.png" class="centered-image z2">
     </div>
   </div>  
   <div class="spacer"></div>
@@ -132,10 +134,10 @@ each span starts at the top. Using JS to make the timing random and bring each e
       <p>Ferns are some of the oldest living plants in the world. They can be found in diverse habitats from cold, temperate, and tropical climates.</p>
     </div>
     <div class="eco-grid-item rain-image item-2">
-      <img src="..\static\assets\fern3.png" alt="image">
+      <img src="static/assets/fern3.png" alt="image">
     </div>  
     <div class="eco-grid-item rain-image item-3">
-      <img src="..\static\assets\fern4.png" alt="image">
+      <img src="static/assets/fern4.png" alt="image">
     </div>  
     <div class="eco-grid-item green item-4">
       <p>There are thousands of species of these non-flowering vascular plants and they reproduce by spores.</p>
