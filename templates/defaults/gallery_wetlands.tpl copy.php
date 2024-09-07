@@ -1,15 +1,7 @@
-    <title>Gallery</title>
     <link rel="stylesheet" href="static/css/gallery.css"/>
-    <link
-      href="https://fonts.googleapis.com/css?family=Inter"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <?php 
-        include('templates/defaults/nav.tpl.php');
-        include('templates/defaults/hero.tpl.php');
-    ?>
+</head>
+
+<body>
     <h1 class="title">Plant Gallery</h1>
 
     <div class="flex-center">
@@ -64,6 +56,6 @@
       </div>
     </div>
 
-    <script src="static/js/gallery.js"></script>
+    <script src="static/js/gallery_wetlands.js"></script>
   </body>
 </html>

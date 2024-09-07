@@ -1,6 +1,7 @@
 // animations.js
 document.addEventListener("DOMContentLoaded", function() {
-    const paragraphs = document.querySelectorAll('p');
+    animated = document.getElementById('main');
+    const paragraphs = animated.querySelectorAll('p');
   
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -24,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
       for (let word of words) {
         var span = "<span class='letter-container'>";
         for (let letter of word) {
-          const delay = (Math.random() * 2).toFixed(2); // Random delay between 0 and 2 seconds
+          const delay = (Math.random() * 1).toFixed(2); // Random delay between 0 and 2 seconds
           span += `<span style="animation-delay: ${delay}s;">${letter}</span>`;
         }
         span += '<span class="space"> </span>'
@@ -36,4 +37,3 @@ document.addEventListener("DOMContentLoaded", function() {
       }
 
   });
-  

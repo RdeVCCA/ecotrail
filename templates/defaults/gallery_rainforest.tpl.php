@@ -56,6 +56,6 @@
       </div>
     </div>
 
-    <script src="static/js/gallery.js"></script>
+    <script src="static/js/gallery_rainforest.js"></script>
   </body>
 </html>

@@ -73,6 +73,7 @@ gallery.addEventListener("scroll", (event) => {
   console.log(closestImageIndex)
 
   currentPlantIndex = closestImageIndex;
+  
   loadPlantInfo(currentPlantIndex);
 });
 
@@ -131,15 +132,22 @@ function createGalleryImageItem(imageSrc, imageTitleEn, imageTitleZh) {
   images = gallery.querySelectorAll(".plant-gallery-content");
 }
 
+var plant_idx_lst = [];
 async function loadGalleryInfo(filepath) {
   const response = await fetch(filepath);
   const obj = await response.json();
   const imageGalleryContents = obj.imageGalleryContents;
   plantInfos = obj.plantInfos;
   
+  var idx = 0;
   imageGalleryContents.forEach((content) => {
-    createGalleryImageItem(content.src, content.titleEn, content.titleZh);
+    if (content.zone == 'Fruit Tree Garden' || content.zone == 'Rain Garden'){
+      createGalleryImageItem(content.src, content.titleEn, content.titleZh);
+      plant_idx_lst.push(idx);
+    }
+    idx += 1;
   });
+  
 
   currentPlantIndex = 0;
   loadPlantInfo(currentPlantIndex);
@@ -161,6 +169,8 @@ const plantdiv2 = document.querySelector(".plant-info2");
 const plantdiv3 = document.querySelector(".plant-info3");
 
 function loadPlantInfo(index) {
+  index = plant_idx_lst[index];
+  console.log(index);
   if (plantInfos[index].info1 == undefined && plantInfos[index].imageLink1 == undefined){
     plantdiv1.style.display = 'none';
   } else{

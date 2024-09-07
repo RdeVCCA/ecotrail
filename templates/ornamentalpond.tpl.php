@@ -140,5 +140,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="static/js/orna_animations.js"></script>
         <script src="static/js/ripple.js"></script>
+
+        <?php
+            include('templates/defaults/gallery_pond.tpl.php');
+        ?>
     </body>
 </html>

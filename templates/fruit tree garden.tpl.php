@@ -28,6 +28,10 @@
 		</div>
 	</section>
 	<script src="static/framework/aos-master/dist/aos.js" onload="AOS.init();"></script>
+
+	<?php
+		include('templates/defaults/gallery_garden.tpl.php');
+	?>
 </body>
 
 </html>

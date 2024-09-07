@@ -184,7 +184,7 @@
 
 
     <?php
-    include('templates/defaults/gallery.tpl.php');
+    include('templates/defaults/gallery_wetlands.tpl.php');
     ?>
 
     </body>
