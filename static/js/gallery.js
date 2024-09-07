@@ -73,6 +73,7 @@ gallery.addEventListener("scroll", (event) => {
   console.log(closestImageIndex)
 
   currentPlantIndex = closestImageIndex;
+  console.log(window. location. pathname);
   loadPlantInfo(currentPlantIndex);
 });
 

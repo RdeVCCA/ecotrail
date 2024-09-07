@@ -150,5 +150,9 @@ each span starts at the top. Using JS to make the timing random and bring each e
 
 </div>
 <!-- <script src="..\static\js\rainforest.js"></script> -->
+<?php
+  include('templates/defaults/gallery.tpl.php');
+?>
+
 </body>
 </html>

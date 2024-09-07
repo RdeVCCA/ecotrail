@@ -183,6 +183,10 @@
         </div> -->
 
 
+    <?php
+    include('templates/defaults/gallery.tpl.php');
+    ?>
+
     </body>
     <script src = "static/js/wetlands.js"></script>
 </html>
