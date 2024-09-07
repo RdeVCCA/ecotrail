@@ -10,7 +10,7 @@
     {
       "src": "static/assets/Jambu.jpg",
       "titleEn": "Jambu",
-      "titleZh": "红鞘水竹芋",
+      "titleZh": "水莲雾",
       "zone":"Fruit Tree Garden",
       "image":"static/assets/Jambu.jpg"
     },
@@ -36,11 +36,580 @@
       "image":"static/assets/Kaffir Lime.avif"
     },
     {
-      "src": "static/assets/Guava.jpg",
+      "src": "static/assets/Guava2.jpg",
       "titleEn": "Guava",
       "titleZh": "斑叶番石榴",
       "zone":"Fruit Tree Garden",
-      "image":"static/assets/Guava.jpg"
+      "image":"static/assets/Guava2.jpg"
+    },
+    {
+      "src": "static/assets/Longan.jpg",
+      "titleEn": "Longan",
+      "titleZh": "龙眼",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Longan.jpg"
+    },
+    {
+      "src": "static/assets/Fig.jpg",
+      "titleEn": "Fig",
+      "titleZh": "无花果",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Fig.jpg"
+    },
+    {
+      "src": "static/assets/Wild Cinnamon.jpg",
+      "titleEn": "Wild Cinnamon",
+      "titleZh": "大叶桂",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Wild Cinnamon.jpg"
+    },
+    {
+      "src": "static/assets/Nutmeg2.jpg",
+      "titleEn": "Nutmeg",
+      "titleZh": "玉果, 肉果",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Nutmeg2.jpg"
+    },
+    {
+      "src": "static/assets/Rubber Tree2.jpg",
+      "titleEn": "Rubber Tree",
+      "titleZh": "橡胶",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Rubber Tree2.jpg"
+    },
+    {
+      "src": "static/assets/Jackfruit.jpg",
+      "titleEn": "Jackfruit",
+      "titleZh": "菠萝蜜",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Jackfruit.jpg"
+    },
+    {
+      "src": "static/assets/Starfruit.jpg",
+      "titleEn": "Starfruit",
+      "titleZh": "杨桃",
+      "zone":"Fruit Tree Garden",
+      "image":"static/assets/Starfruit.jpg"
+    },
+    {
+      "src": "static/assets/Wild Pepper3.webp",
+      "titleEn": "Wild Pepper",
+      "titleZh": "假蒟, 细叶青萎藤, 青蒟",
+      "zone":"Rainforest - Ferns",
+      "image":"static/assets/Wild Pepper3.webp"
+    },
+    {
+      "src": "static/assets/Willdenow's spikemoss2.jpg",
+      "titleEn": "Willdenow's spikemoss",
+      "titleZh": "藤卷柏",
+      "zone":"Rainforest - Ferns",
+      "image":"static/assets/Willdenow's spikemoss2.jpg"
+    },
+    {
+      "titleEn": "Dwarf Tree Fern",
+      "titleZh": "矮树蕨",
+      "zone":"Rainforest - Ferns"
+    },
+    {
+      "src": "static/assets/Bird's Nest Fern.jpg",
+      "titleEn": "Bird's Nest Fern",
+      "titleZh": "巢蕨",
+      "zone":"Rainforest - Ferns",
+      "image":"static/assets/Bird's Nest Fern.jpg"
+    },
+    {
+      "src": "static/assets/Boston Fern.jpg",
+      "titleEn": "Boston Fern ",
+      "titleZh": "高大肾蕨",
+      "zone":"Rainforest - Ferns",
+      "image":"static/assets/Boston Fern.jpg"
+    },
+    {
+      "titleEn": "Yellow Walking Iris",
+      "titleZh": "粗点黄扇鸢尾",
+      "zone":"Rainforest - Ferns"
+    },
+    {
+      "titleEn": "Lady Palm",
+      "titleZh": "棕竹",
+      "zone":"Rainforest - Ferns"
+    },
+    {
+      "src": "static/assets/Yellow Creeping Daisy.jpg",
+      "titleEn": "Yellow Creeping Daisy",
+      "titleZh": "地锦花",
+      "zone":"Rainforest - Ferns",
+      "image":"static/assets/Yellow Creeping Daisy.jpg"
+    },
+    {
+      "src": "static/assets/Pickerel Weed0.jpg",
+      "titleEn": "Pickerel Weed",
+      "titleZh": "海寿花; 梭鱼草",
+      "zone":"Oramental Pond",
+      "image":"static/assets/Pickerel Weed0.jpg"
+    },
+    {
+      "src": "static/assets/Elephant Ear, Taro, Yam3.avif",
+      "titleEn": "Elephant Ear, Taro, Yam",
+      "titleZh": "芋头",
+      "zone":"Oramental Pond",
+      "image":"static/assets/Elephant Ear, Taro, Yam3.avif"
+    },
+    {
+      "src": "static/assets/Water hyssop.jpg",
+      "titleEn": "Water hyssop",
+      "titleZh": "假马齿苋",
+      "zone":"Oramental Pond",
+      "image":"static/assets/Water hyssop.jpg"
+    },
+    {
+      "src": "static/assets/Water hyacinth.jpeg",
+      "titleEn": "Water hyacinth",
+      "titleZh": "布袋蓮",
+      "zone":"Oramental Pond",
+      "image":"static/assets/Water hyacinth.jpeg"
+    },
+    {
+      "src": "static/assets/Purple Fountain Grass.jpg",
+      "titleEn": "Purple Fountain Grass",
+      "titleZh": "紫叶狼尾草",
+      "zone":"Rain Garden",
+      "image":"static/assets/Purple Fountain Grass.jpg"
+    },
+    {
+      "src": "static/assets/Pandan.jpg",
+      "titleEn": "Pandan",
+      "titleZh": "班兰",
+      "zone":"Rain Garden",
+      "image":"static/assets/Pandan.jpg"
+    },
+    {
+      "titleEn": "Miniature Cyperus",
+      "titleZh": "紙莎草",
+      "zone":"Rain Garden"
+    },
+    {
+      "src": "static/assets/Rough Horsetail.jpg",
+      "titleEn": "Rough Horsetail",
+      "titleZh": "紙莎草",
+      "zone":"Rain Garden",
+      "image": "static/assets/Rough Horsetail.jpg"
+    },
+    {
+      "src": "static/assets/Lemongrass.jpg",
+      "titleEn": "Lemongrass",
+      "titleZh": "柠檬草, 柠檬香茅, 香茅草",
+      "zone":"Rain Garden",
+      "image": "static/assets/Lemongrass.jpg"
+    },
+    {
+      "titleEn": "Weeping Tea Tree",
+      "titleZh": "柳树",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Alligator Flag.jpg",
+      "titleEn": "Alligator Flag",
+      "titleZh": "红鞘水竹芋",
+      "zone":"Wetland",
+      "image": "static/assets/Alligator Flag.jpg"
+    },
+    {
+      "src": "static/assets/Umbrella Sedge.jpg",
+      "titleEn": "Umbrella Sedge",
+      "titleZh": "光桿輪傘莎草",
+      "zone":"Wetland",
+      "image": "static/assets/Umbrella Sedge.jpg"
+    },
+    {
+      "src": "static/assets/Water Lettuce3.jpg",
+      "titleEn": "Water Lettuce",
+      "titleZh": "水浮莲, 大萍",
+      "zone":"Wetland",
+      "image": "static/assets/Water Lettuce3.jpg"
+    },
+    {
+      "src": "static/assets/Water Lily.jpg",
+      "titleEn": "Water Lily",
+      "titleZh": "睡莲",
+      "zone":"Wetland",
+      "image": "static/assets/Water Lily.jpg"
+    },
+    {
+      "src": "static/assets/Water Lotus.jpg",
+      "titleEn": "Water Lotus",
+      "titleZh": "荷花",
+      "zone":"Wetland",
+      "image": "static/assets/Water Lotus.jpg"
+    },
+    {
+      "src": "static/assets/Indian Pennywort.jpg",
+      "titleEn": "Indian Pennywort",
+      "titleZh": "积雪草, 崩大碗",
+      "zone":"Wetland",
+      "image": "static/assets/Indian Pennywort.jpg"
+    },
+    {
+      "src": "static/assets/Grey Sedge.webp",
+      "titleEn": "Grey Sedge",
+      "titleZh": "石龙刍",
+      "zone":"Wetland",
+      "image": "static/assets/Grey Sedge.webp"
+    },
+    {
+      "titleEn": "White Bamboo Orchid",
+      "titleZh": "竹叶兰",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Chinese Croton.jpg",
+      "titleEn": "Chinese Croton",
+      "titleZh": "红背桂",
+      "zone":"Rainforest",
+      "image": "static/assets/Chinese Croton.jpg"
+    },
+    {
+      "titleEn": "Fire Dragon",
+      "titleZh": "乳叶紅桑",
+      "zone":"Rainforest"
+    },
+    {
+      "titleEn": "Golden Dew Drop",
+      "titleZh": "金露花",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/MacArthur Palm2.jpg",
+      "titleEn": "MacArthur Palm",
+      "titleZh": "青棕",
+      "zone":"Rainforest",
+      "image": "static/assets/MacArthur Palm2.jpg"
+    },
+    {
+      "titleEn": "Mousetail Plant",
+      "titleZh": "锡兰叶下珠",
+      "zone":"Rainforest"
+    },
+    {
+      "titleEn": "Lady Di Heliconia",
+      "titleZh": "鸚黃赫蕉",
+      "zone":"Rainforest"
+    },
+    {
+      "titleEn": "Ixora",
+      "titleZh": "龙船花",
+      "zone":"Wetland"
+    },
+    {
+      "src": "static/assets/Fele (Egyptian Starcluster).jpg",
+      "titleEn": "Fele (Egyptian Starcluster)",
+      "titleZh": "繁星花; 非洲玉叶金花",
+      "zone":"Rainforest",
+      "image": "static/assets/Fele (Egyptian Starcluster).jpg"
+    },
+    {
+      "src": "static/assets/Chinese Fringe Flower.jpg",
+      "titleEn": "Chinese Fringe Flower",
+      "titleZh": "红花木继木",
+      "zone":"Rainforest",
+      "image": "static/assets/Chinese Fringe Flower.jpg"
+    },
+    {
+      "src": "static/assets/Crepe Jasmine.jpg",
+      "titleEn": "Crepe Jasmine",
+      "titleZh": "狗牙花",
+      "zone":"Rainforest",
+      "image": "static/assets/Crepe Jasmine.jpg"
+    },
+    {
+      "src": "static/assets/Spider Plant.jpg",
+      "titleEn": "Spider Plant",
+      "titleZh": "银心吊兰",
+      "zone":"Rainforest",
+      "image": "static/assets/Spider Plant.jpg"
+    },
+    {
+      "src": "static/assets/Tree Fern.webp",
+      "titleEn": "Tree Fern",
+      "titleZh": "桫椤目",
+      "zone":"Rainforest",
+      "image": "static/assets/Tree Fern.webp"
+    },
+    {
+      "src": "static/assets/Staghorn Fern (Polypodiaceae).jpg",
+      "titleEn": "Staghorn Fern (Polypodiaceae)",
+      "titleZh": "鹿角厥属",
+      "zone":"Rainforest",
+      "image": "static/assets/Staghorn Fern (Polypodiaceae).jpg"
+    },
+    {
+      "src": "static/assets/Yellow Cow Wood.jpg",
+      "titleEn": "Yellow Cow Wood",
+      "titleZh": "黃牛木",
+      "zone":"Rainforest",
+      "image": "static/assets/Yellow Cow Wood.jpg"
+    },
+    {
+      "src": "static/assets/Chengal Pasir.jpg",
+      "titleEn": "Chengal Pasir",
+      "titleZh": "香坡壘樹",
+      "zone":"Rainforest",
+      "image": "static/assets/Chengal Pasir.jpg"
+    },
+    {
+      "src": "static/assets/Leopard Tree.jpg",
+      "titleEn": "Leopard Tree",
+      "titleZh": "铁架木",
+      "zone":"Rainforest",
+      "image": "static/assets/Leopard Tree.jpg"
+    },
+    {
+      "src": "static/assets/Tembusu3.jpg",
+      "titleEn": "Tembusu",
+      "titleZh": "香灰莉",
+      "zone":"Rainforest",
+      "image": "static/assets/Tembusu3.jpg"
+    },
+    {
+      "src": "static/assets/Tropical Crape Myrtle.jpg",
+      "titleEn": "Tropical Crape Myrtle",
+      "titleZh": "浮罗交怡紫薇",
+      "zone":"Rainforest",
+      "image": "static/assets/Tropical Crape Myrtle.jpg"
+    },
+    {
+      "src": "static/assets/Sea Almond2.jpg",
+      "titleEn": "Sea Almond",
+      "titleZh": "榄仁树",
+      "zone":"Rainforest",
+      "image": "static/assets/Sea Almond2.jpg"
+    },
+    {
+      "src": "static/assets/Peacock Flower (Fabaceae)2.jpg",
+      "titleEn": "Peacock Flower (Fabaceae)",
+      "titleZh": "金凤花, 洋凤花, 孔雀花",
+      "zone":"Rainforest",
+      "image": "static/assets/Peacock Flower (Fabaceae)2.jpg"
+    },
+    {
+      "src": "static/assets/Red Tree Shrub (Vitaceae).jpg",
+      "titleEn": "Red Tree Shrub (Vitaceae)",
+      "titleZh": "红叶火筒树",
+      "zone":"Rainforest",
+      "image": "static/assets/Red Tree Shrub (Vitaceae).jpg"
+    },
+    {
+      "src": "static/assets/Golden Bells (Bignoniaceae)2.jpg",
+      "titleEn": "Golden Bells (Bignoniaceae)",
+      "titleZh": "黄钟花",
+      "zone":"Rainforest",
+      "image": "static/assets/Golden Bells (Bignoniaceae)2.jpg"
+    },
+    {
+      "src": "static/assets/Giant Sword Fern.jpg",
+      "titleEn": "Giant Sword Fern",
+      "titleZh": "长叶肾蕨",
+      "zone":"Rainforest",
+      "image": "static/assets/Giant Sword Fern.jpg"
+    },
+    {
+      "src": "static/assets/Swiss Cheese Plant2.jpg",
+      "titleEn": "Swiss Cheese Plant",
+      "titleZh": "龟背竹",
+      "zone":"Rainforest",
+      "image": "static/assets/Swiss Cheese Plant2.jpg"
+    },
+    {
+      "src": "static/assets/Purple Sage.jpg",
+      "titleEn": "Purple Sage",
+      "titleZh": "红花玉芙蓉",
+      "zone":"Rainforest",
+      "image": "static/assets/Purple Sage.jpg"
+    },
+    {
+      "titleEn": "Spider Lily",
+      "titleZh": "螯蟹百合, 蜘蛛兰",
+      "zone":"Rainforest"
+    },
+    {
+      "titleEn": "Cuban Cigar",
+      "titleZh": "黄柄肖竹芋",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Kelat Oil.jpg",
+      "titleEn": "Kelat Oil",
+      "titleZh": "红楠木",
+      "zone":"Rainforest",
+      "image": "static/assets/Kelat Oil.jpg"
+    },
+    {
+      "titleEn": "Hanging Lobster's Claw",
+      "titleZh": "金嘴蝎尾蕉",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Yellow Cane Palm.webp",
+      "titleEn": "Yellow Cane Palm",
+      "titleZh": "散尾葵",
+      "zone":"Rainforest",
+      "image": "static/assets/Yellow Cane Palm.webp"
+    },
+    {
+      "src": "static/assets/Orange Jasmine.jpg",
+      "titleEn": "Orange Jasmine",
+      "titleZh": "九里香, 千里香",
+      "zone":"Rainforest",
+      "image": "static/assets/Orange Jasmine.jpg"
+    },
+    {
+      "src": "static/assets/Hedge Bamboo.jpg",
+      "titleEn": "Hedge Bamboo",
+      "titleZh": "小叶琴丝竹",
+      "zone":"Rainforest",
+      "image": "static/assets/Hedge Bamboo.jpg"
+    },
+    {
+      "titleEn": "Bridelia",
+      "titleZh": "土蜜树",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Japanese Cycad.jpg",
+      "titleEn": "Japanese Cycad",
+      "titleZh": "琉球蘇鐵",
+      "zone":"Rainforest",
+      "image": "static/assets/Japanese Cycad.jpg"
+    },
+    {
+      "src": "static/assets/Wild Water Plum Water Jasmine.jpg",
+      "titleEn": "Wild Water Plum / Water Jasmine",
+      "titleZh": "水梅",
+      "zone":"Rainforest",
+      "image": "static/assets/Wild Water Plum Water Jasmine.jpg"
+    },
+    {
+      "titleEn": "Song of India",
+      "titleZh": "百合竹",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Green Aralia2.webp",
+      "titleEn": "Green Aralia",
+      "titleZh": "五爪木",
+      "zone":"Rainforest",
+      "image": "static/assets/Green Aralia2.webp"
+    },
+    {
+      "src": "static/assets/Lantana.jpg",
+      "titleEn": "Lantana",
+      "titleZh": "五色梅, 马缨丹",
+      "zone":"Rainforest",
+      "image": "static/assets/Lantana.jpg"
+    },
+    {
+      "src": "static/assets/Sealing-wax Palm2.jpg",
+      "titleEn": "Sealing-wax Palm",
+      "titleZh": "口红棕",
+      "zone":"Rainforest",
+      "image": "static/assets/Sealing-wax Palm2.jpg"
+    },
+    {
+      "titleEn": "Shower of Gold",
+      "titleZh": "金英树, 金虎尾",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Hibiscus.jpg",
+      "titleEn": "Hibiscus",
+      "titleZh": "朱槿 (大紅花)",
+      "zone":"Rainforest",
+      "image": "static/assets/Hibiscus.jpg"
+    },
+    {
+      "src": "static/assets/Putat Kampong.jpg",
+      "titleEn": "Putat Kampong",
+      "titleZh": "玉蕊",
+      "zone":"Rainforest",
+      "image": "static/assets/Putat Kampong.jpg"
+    },
+    {
+      "src": "static/assets/Golden Shower Tree.jpg",
+      "titleEn": "Golden Shower Tree",
+      "titleZh": "猪肠豆",
+      "zone":"Rainforest",
+      "image": "static/assets/Golden Shower Tree.jpg"
+    },
+    {
+      "titleEn": "Scarlet Spiral Flag",
+      "titleZh": "猪肠豆",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Schefflera.jpg",
+      "titleEn": "Schefflera",
+      "titleZh": "鹅掌藤",
+      "zone":"Rainforest",
+      "image": "static/assets/Schefflera.jpg"
+    },
+    {
+      "src": "static/assets/Giant Taro.jpg",
+      "titleEn": "Giant Taro",
+      "titleZh": "海芋花",
+      "zone":"Rainforest",
+      "image": "static/assets/Giant Taro.jpg"
+    },
+    {
+      "titleEn": "Torch Ginger",
+      "titleZh": "玫瑰姜",
+      "zone":"Rainforest"
+    },
+    {
+      "titleEn": "Red Ginger",
+      "titleZh": "红山姜",
+      "zone":"Rainforest"
+    },
+    {
+      "src": "static/assets/Pink Mempat2.jpg",
+      "titleEn": "Pink Mempat",
+      "titleZh": "越南黄牛木",
+      "zone":"Rainforest",
+      "image": "static/assets/Pink Mempat2.jpg"
+    },
+    {
+      "src": "static/assets/River Tarenna.jpg",
+      "titleEn": "River Tarenna",
+      "titleZh": "河乌口树",
+      "zone":"Rainforest",
+      "image": "static/assets/River Tarenna.jpg"
+    },
+    {
+      "src": "static/assets/Miracle Fruit.png",
+      "titleEn": "Miracle Fruit",
+      "titleZh": "神秘果",
+      "zone":"Rainforest",
+      "image": "static/assets/Miracle Fruit.png"
+    },
+    {
+      "src": "static/assets/Seashore Lily.jpg",
+      "titleEn": "Seashore Lily",
+      "titleZh": "文殊兰",
+      "zone":"Rainforest",
+      "image": "static/assets/Seashore Lily.jpg"
+    },
+    {
+      "src": "static/assets/Ming Aralia.webp",
+      "titleEn": "Ming Aralia",
+      "titleZh": "南洋参",
+      "zone":"Rainforest",
+      "image": "static/assets/Ming Aralia.webp"
+    },
+    {
+      "src": "static/assets/Sea Lettuce2.jpg",
+      "titleEn": "Sea Lettuce",
+      "titleZh": "草海桐",
+      "zone":"Rainforest",
+      "image": "static/assets/Sea Lettuce2.jpg"
     }
   ],
   "plantInfos": [
@@ -54,7 +623,7 @@
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3309"
     },
     {
-      "info1": "Jambu’s high fiber content aids in digestion. This helps to relieve constipation and other health problems. Jambu seeds have been used for preventing diarrhoea and dysentery. Besides, Jambu Air fruits are rich in vitamin A, vitamin C, calcium, potassium, and iron.",
+      "info1": "Jambu's high fiber content aids in digestion. This helps to relieve constipation and other health problems. Jambu seeds have been used for preventing diarrhoea and dysentery. Besides, Jambu Air fruits are rich in vitamin A, vitamin C, calcium, potassium, and iron.",
       "info2": "Jambu has a special adaptation where the plant has the ability to store water in the trunk so that water is readily available when needed.",
       "info3": "Jambu trees are often seen in the streetscapes of neighbourhoods in Jakarta. Jambu air is used in a local salad known as Rojak and is often enjoyed with a sprinkle of lime juice and salt.",
       "imageLink1": "static/assets/Jambu.jpg",
@@ -65,7 +634,7 @@
     {
       "info1": "Mango is a good source of immune-boosting nutrients. One cup (165g) of mango provides 10% of our daily vitamin A needs.",
       "info2": "Mango trees are super absorbers of carbon. Mexican mangoes from Nayarit and Sinaloa sequester two and half times the amount of carbon that is emitted during the growing, harvesting and shipping process",
-      "info3": "In India, mango is an intrinsic part of the country’s culture, found in religion, art, poetry, and literature. Mango leaves are seen as a symbol of good luck and are strung up over the front doors of homes, especially during weddings and celebrations. ",
+      "info3": "In India, mango is an intrinsic part of the country's culture, found in religion, art, poetry, and literature. Mango leaves are seen as a symbol of good luck and are strung up over the front doors of homes, especially during weddings and celebrations. ",
       "imageLink1": "static/assets/Mango.png",
       "imageLink2": "static/assets/Mango2.jpeg",
       "imageLink3": "static/assets/Mango3.jpg",
@@ -90,13 +659,528 @@
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/6/3670"
     },
     {
-      "info1": "A single serving of guava has more than 6 times the vitamin C of an equivalent serving of orange! Vital to the body, vitamin C not only improves wound healing, it also improves iron absorption and helps the body’s immune system to function properly. As vitamin C is a water soluble vitamin which is not retained by the body, it relies on a daily intake to maintain healthy levels.",
+      "info1": "A single serving of guava has more than 6 times the vitamin C of an equivalent serving of orange! Vital to the body, vitamin C not only improves wound healing, it also improves iron absorption and helps the body's immune system to function properly. As vitamin C is a water soluble vitamin which is not retained by the body, it relies on a daily intake to maintain healthy levels.",
       "info2": "Guava is low in glycaemic index and glycaemic load, making it a great choice for people with diabetes. Also, because of the high-fibre content, it can help to regulate blood sugar levels by slowing down the release of sugars into the bloodstream. A popular way for Singaporeans to consume the guava fruit is to have it cut raw, sprinkled with plum / prune powder. However, the powder could be high in sugar, diminishing the benefits of intaking guava.",
       "info3": "Guava leaf extract has been shown to have an anticancer effect in recent studies. Test-tube and animal studies show that guava extract can prevent and even stop the growth of cancer cells. This is likely due to the high levels of powerful antioxidants that prevent free radicals from damaging cells, one of the main causes of cancer. Meanwhile, the guava leaves in particular are commonly used in Traditional East Asian Medicine remedies.",
       "imageLink1": "static/assets/Guava.jpg",
       "imageLink2": "static/assets/Guava2.jpg",
       "imageLink3": "static/assets/Guava3.webp",
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2377"
+    },
+    {
+      "info1": "To prolong the lifespan of the fruits, longans may be canned in its own juice with little or no sugar, or dried with the result being a sweet leathery black flesh that is used in flavouring and to make beverages. The flesh and seeds of longan have medicinal uses, while leaves and flowers are used by the Chinese as herbs.",
+      "info2": "According to Food and Agriculture Association, the seed is used as a shampoo due to its saponin content. Saponins are both water and fat soluble, which gives them their useful soap properties.",
+      "info3": "In Thailand, the tiny town of Lamphun experiences the “longan fever” during July and August, when activities such as a longan-eating race, fruit judging, a fancy-dress competition and a Miss Longan contest are organised, keeping onlookers amused.",
+      "imageLink1": "static/assets/Longan.jpg",
+      "imageLink2": "static/assets/Longan2.jpg",
+      "imageLink3": "static/assets/Longan3.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2848"
+    },
+    {
+      "info1": "Figs are highly nutritious, as its fibre, potassium, and antioxidant content can help one control their blood pressure and digestion. It also protects your heart, as well as prevents constipation.",
+      "info2": "In early Rome, figs were considered to be recuperative. The earliest Olympians used figs as a training food and they were also presented as laurels to the winners, thus becoming the first Olympic 'medal.'",
+      "info3": "Fig trees ar natural habitat for hornbills. When they're about to lay eggs, the females shut themselves away in the trunks of fig trees and nest there for anything from 90-130 days. During this time the male hornbills bring figs and feed them to their mates (and later their children) through a narrow opening in the bark.",
+      "imageLink1": "static/assets/Fig.jpg",
+      "imageLink2": "static/assets/Fig2.jpg",
+      "imageLink3": "static/assets/Fig3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/4/1/4167"
+    },
+    {
+      "info1": "The bark produces an inferior grade of cinnamon. In rural areas, the leaves are used to sweeten drinking water. Both the leaves and wood are used as a spice.",
+      "imageLink1": "static/assets/Wild Cinnamon.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2806"
+    },
+    {
+      "info1": "Indonesia produces 70% of the world's nutmeg nowadays. However, historically, for a long time, nutmeg was endemic only in Banda Islands. As such endemic Indonesian spices were highly sought in the West, it prompted the European Age of Exploration. In 1677, the Dutch traded Manhattan to the British for their claim on just one of the Banda Islands, a barely one-square-mile speck of land, to monopolise nutmeg, which was then one of the most valuable commodities in Western Europe, thanks to its purported power to cure anything from gas to the bubonic plague. In 1621, Dutch East India company officials committed genocide against the uncooperative local Bandanese people, and enslaved those who survived, just to remove one obstacle to their monopolistic dreams. Manhattan soon developed into a cosmopolitan trade center. The Bandas, meanwhile, turned into a single-purpose, slave-driven plantation economy. As transatlantic trade and American commerce boomed, so did Manhattan. As nutmeg's value eventually collapsed, so did the Bandas' economy.",
+      "info2": "Nutmeg is safe in small amounts. However, as little as 2 teaspoons or 5 grams can cause some symptoms of toxicity. At larger amounts, symptoms become worse and serious complications or death can occur.",
+      "info3": "The compounds myristicin and elemicin in nutmeg, which have hallucinogenic effects at high doses, may have a relaxing effect on the brain in smaller amounts. When used in very high amounts, myristicin can have toxic effects, leading to liver degeneration and mental confusion, as it is toxic to the central nervous system. ",
+      "imageLink1": "static/assets/Nutmeg.jpg",
+      "imageLink2": "static/assets/Nutmeg2.jpg",
+      "imageLink3": "static/assets/Nutmeg3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3037"
+    },
+    {
+      "info1": "Fruits of the rubber tree are barely edible, but mainly to contain fertile seeds",
+      "info2": "Its most famous feature is the milky white sap, known as latex, which flows freely from the tree when a sliver of bark is removed.",
+      "info3": "Rubber tree played a key role in Singapore history. It was a multi-billion-dollar industry, founded in Singapore's Botanic Gardens, and has changed Singapore economy and society.",
+      "imageLink1": "static/assets/Rubber Tree.jpg",
+      "imageLink2": "static/assets/Rubber Tree2.jpg",
+      "imageLink3": "static/assets/Rubber Tree3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2953"
+    },
+    {
+      "info1": "Jackfruit is rich in vitamin C and is one of the few fruits that's high in B vitamins. Jackfruit also contains folate, niacin, riboflavin, potassium, and magnesium which are good for our muscles and heart.",
+      "info2": "Jackfruit is the biggest tree-borne fruit in the world. It can reach 50 kg in weight and 90 cm in length.",
+      "info3": "Due to the stringy, meaty mouthfeel of the unripe jackfruit, people around the world has been experimenting with jackfruit as meat substitute. Success stories range from tacos, enchiladas, and pulled “pork” barbecue sandwiches, Indian curries, Chinese dumplings, Vietnamese bahn mi and so on!",
+      "imageLink1": "static/assets/Jackfruit.jpg",
+      "imageLink2": "static/assets/Jackfruit2.jpg",
+      "imageLink3": "static/assets/Jackfruit3.avif",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2733"
+    },
+    {
+      "info1": "The entire star fruit is edible so you do not need to peel it or deseed it before eating. Although like apple seeds, star fruit seeds are edible but not particularly tasty.",
+      "info2": "Myth: Starfruit contains neurotoxins that affects the brain and nerves. Those with kidney problems would not be able to remove the neurotoxin and might increase death rate. Fact: Starfruit has health benefits for healthy people. However, for individuals suffering from kidney failure, kidney stones or with chronic renal problems, starfruit, naturally contains oxalic acid which can ointerfere the absorption and metabolism of several mineral such as sodium and mineral, can pose health issue. One should not consumme starfruit in combination with medication too! (Singapore Food agency, 2020)",
+      "imageLink1": "static/assets/Starfruit.jpg",
+      "imageLink2": "static/assets/Starfruit2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2736"
+    },
+    {
+      "info1": "When boiled in water, the leaves can be used to treat coughs, flu and malarial fever. They are also chewed with betel nuts and swallowed as a remedy for coughs and asthma. The Chinese and Thais crush the roots with salt and use it to relieve toothaches. ",
+      "info2": "The spicy flavored leaves are also an important ingredient in the Penang version of 'otah' and are also one of the many herbs that goes into the traditional Malay Nasi Ulam, a type of herbal salad with rice. ",
+      "info3": "Wild pepper leaves have a peppery taste, and it is typically cooked raw with rice or meat.",
+      "imageLink1": "static/assets/Wild Pepper.jpg",
+      "imageLink2": "static/assets/Wild Pepper2.jpg",
+      "imageLink3": "static/assets/Wild Pepper3.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2342"
+    },
+    {
+      "info1": "Willdenow's Spikemoss was named after a German naturalist – Carl Ludwig von Willdenow.",
+      "info2": "Native to Singapore, this fern ally is easily identified by its iridescent, metallic bluish green fronds, which reveal hues of green and pink when viewed at different angles.",
+      "imageLink1": "static/assets/Willdenow's spikemoss.jpg",
+      "imageLink2": "static/assets/Willdenow's spikemoss2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1578"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1543"
+    },
+    {
+      "info1": "Sometimes, small bats may roost under the fern, chewing off some of the inner portions of the 'skirt' of dead leaves to create a cosy 'umbrella' for themselves. The Spotted Wood owl may also nest in this fern.",
+      "imageLink1": "static/assets/Bird's Nest Fern.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1541"
+    },
+    {
+      "info1": "Boston fern can be grown outdoors in very mild climates but it adapts readily to container culture for use indoors or seasonally outdoors in other parts of the world. Boston fern is easily grown in hanging baskets or other containers where the long fronds can hang downward readily.",
+      "imageLink1": "static/assets/Boston Fern.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1557"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2261"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2676"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3350"
+    },
+    {
+      "info1": "Pickerel weed is a graceful and beautiful plant with showy flower spikes growing atop sturdy stems that add visual interest in any pond. It is commonly used in constructed wetlands to cleanse polluted water",
+      "info2": "With its vibrant flowers attracting pollinators, pickerel weed can support the reproduction of various flora within its habitat",
+      "imageLink1": "static/assets/Pickerel Weed.jpg",
+      "imageLink2": "static/assets/Pickerel Weed2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/4/3462"
+    },
+    {
+      "info1": "The swollen stem, often called tubers are pounded into a thick paste to make a wide variety of food including the popular local dessert, Orh-Nee. Tharman says eating orh nee helped him & wife have 4 children. The couple was inspired by the Yoruba tribe from Africa which eats a lot of yams and has many twins.",
+      "info2": "Poi, is a Hawaiian and Polynesian dish that is made by cooking, pounding and fermenting grated taro and coconut, and usually is served with proteins like prok and fish. In fact, taro is associated with many tales and culture across the world.",
+      "info3": "Yam should not be eaten raw, because they contain toxic calcium oxalate which is destroyed during the cooking process.",
+      "imageLink1": "static/assets/Elephant Ear, Taro, Yam.png",
+      "imageLink2": "static/assets/Elephant Ear, Taro, Yam2.jpg",
+      "imageLink3": "static/assets/Elephant Ear, Taro, Yam3.avif",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1835"
+    },
+    {
+      "info1": "Scouting through the internet, there shows many medicinal benefits of water hysoop. However, none of them are studied clinically.",
+      "info2": "Water hyssop is suitable for hanging baskets.",
+      "imageLink1": "static/assets/Water hyssop.jpg",
+      "imageLink2": "static/assets/Water hyssop2.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/6/8/6847"
+    },
+    {
+      "info1": "It has strong phytoremediation potential, because it absorbs many types of pollutants, such as lead, zinc, nickel, mercury, chromium, and arsenic.",
+      "info2": "Water hyacinth is featured in many Japanese traditional arts. Though most of the high-rating pieces are inaccessible online, including a wood-block print featuring the water hyacinth, goldfish, and beautiful women, dated to 1855, done by a famous ukiyo-e artist Utagawa Kunisada. The plant is floated on the water surface of filled (glassware) fishbowls or glazed earthenware waterlily pots (hibachi pots serving as substitute).",
+      "info3": "The super-invasive nature of water hyacinth had posed threats in many parts of the world. Particularly  it choked the Florida waterways in 1890,  prompting the US government to dispatch the US War Department to solve the problem. Nevertheless, their various means failed. In 1910, the Louisiana Congressman, the New Foods Society, the American Scout, and a South African Scout who later became a spy for Germany, suggested to introduce water hyacinth-loving hippopotamus to US to control the growth rate of water hyacinth, as well as to counter the American meat crisis. The Hippo Bill was then passed. Hippo steak may have become a common menu item today had they succeeded. What they may not have realized is that hippos have a reputation for being aggressive and territorial and probably wouldn’t have settled in very nicely in the Louisiana bayou. The plan thus failed.",
+      "imageLink1": "static/assets/Water hyacinth.jpeg",
+      "imageLink2": "static/assets/Water hyacinth2.jpg",
+      "imageLink3": "static/assets/Water hyacinth3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1984"
+    },
+    {
+      "info1": "Young inflorescences and infructescences may be cut and used in floral arrangements.",
+      "imageLink1": "static/assets/Purple Fountain Grass.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2314"
+    },
+    {
+      "info1": "Pandan has fragrant leaves which are used widely for flavouring in the cuisines of Southeast Asia, South Asian cuisines and Hainan, China. It is a key contributor to Peranakan dishes.",
+      "info2": "Pandan leaves act as a food dye, imparting a green colour. It is used as a flavouring in desserts the same way as vanilla is used in European desserts. For instance, it replaces vanilla in the classic chiffon cake recipe to make pandan chiffon cake, which is now popular in Singapore. The earliest mention of pandan chiffon cake in local newspapers was a review of Bali Café in 1972.",
+      "imageLink1": "static/assets/Pandan.jpg",
+      "imageLink2": "static/assets/Pandan2.avif",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2299"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1921"
+    },
+    {
+      "info1": "One of the common names is 'Scouring Rush', because the stems are rich in silica and are used to scour dishes. In Mexico, they are grown for the purpose of polishing fine furniture.",
+      "info2": "The mathematician John Napier, a Scotsman who lived in the late 1500s and early 1600s, is said to have invented logarithms after pondering the ever-decreasing spaces between the nodes toward the tips of equisetums. ",
+      "imageLink1": "static/assets/Rough Horsetail.jpg",
+      "imageLink2": "static/assets/Rough Horsetail2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1550"
+    },
+    {
+      "info1": "Lemongrass serves as herbs and spices, the crushed stalk produces a lemony flavour which is used in a variety of Southeast Asian dishes, such as curries and soups like Tom Yam Soup.",
+      "info2": "Moreover,  essential oils extracted from the leaf stalk are used in perfumes, cosmetics, skin care and aromatherapy products.",
+      "imageLink1": "static/assets/Lemongrass.jpg",
+      "imageLink2": "static/assets/Lemongrass2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1918"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2998"
+    },
+    {
+      "info1": "Its common name, Alligator Flag, may be due to the plant's native habitat at deeper waters of cypress swamps, where alligators are likely to be found.",
+      "imageLink1": "static/assets/Alligator Flag.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3373"
+    },
+    {
+      "info1": "Cyperus alternifolius is frequently cultivated as an ornamental plant worldwide. It is planted in gardens in the ground, pots, in ponds, and as a houseplant. ",
+      "imageLink1": "static/assets/Umbrella Sedge.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1920"
+    },
+    {
+      "info1": "While considered edible, Pistia stratiotes is not palatable as it is rich in calcium oxalate crystals that are bitter in taste and poisonous. Nevertheless, there are records of the plant being utilized as famine food in India during the Great Famine of 1876-1878.",
+      "info2": "This species is used to purify water in parts of Asia, because heavy metals accumulate in its foliage.",
+      "info3": "In Singapore and Southern China, water lettuce is commonly grown or collected as animal feed for ducks and pigs. Is is considered an alternative for poultry feed in Indonesia due to its high content of crude protein.",
+      "imageLink1": "static/assets/Water Lettuce.jpg",
+      "imageLink2": "static/assets/Water Lettuce2.png",
+      "imageLink3": "static/assets/Water Lettuce3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2343"
+    },
+    {
+      "info1": "The water lily is the national flower of Iran, Bangladesh and Sri Lanka.",
+      "info2": "During pre-Columbian Mesoamerica, the main job of Maya rulers was to obtain clean drinking water for their citizens during both the wet and dry seasons. Their success in accomplishing this is what later allowed them to grow their polity by attracting dry-season laborers. They did this by constructing reservoirs, wetland reclamation, and dams and channels to capture and store rainwater. One way that they tested whether the water systems were working properly was if the Nymphaeaceae were thriving. Water lilies became a visual sign of water cleanliness, so the Maya elite began to associate themselves with the flowers.",
+      "info3": "Water lilies were depicted by the French artist Claude Monet (1840–1926) in a series of paintings.",
+      "imageLink1": "static/assets/Water Lily.jpg",
+      "imageLink2": "static/assets/Water Lily2.jpg",
+      "imageLink3": "static/assets/Water Lily3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2271"
+    },
+    {
+      "info1": "In Buddhist symbolism, the lotus represents purity of the body, speech and mind, as if floating above the murky waters of material attachment and physical desire.",
+      "info2": "Lotus seed paste is the most common ingredient used in pastries such as mooncake and rice flour pudding. ",
+      "info3": "Large leaves are used to wrap food such as Lo Mai Gai.",
+      "imageLink1": "static/assets/Water Lotus.jpg",
+      "imageLink2": "static/assets/Water Lotus2.jpg",
+      "imageLink3": "static/assets/Water Lotus3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2257"
+    },
+    {
+      "info1": "It is believed to help improve the appetite and health. The local people make salads out of these leaves.",
+      "imageLink1": "static/assets/Indian Pennywort.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/5/3/5347"
+    },
+    {
+      "info1": "Grey sedge is an important plant for wetland ecology. It is a robust species that can tolerate a wide range of soil types and environmental conditions. It is often used in restoration projects to help stabilize soil, reduce erosion, and provide habitat for a range of wildlife.",
+      "imageLink1": "static/assets/Grey Sedge.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/4/3/4372"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/8/1/8127"
+    },
+    {
+      "info1": "The common name of blindness tree comes from Latin, 'excoecaria', to make blind. Sap in the eyes is reported to causes blindness. The Latin name cochinchinensis derives from Cochinchina, an old name for Vietnam.",
+      "imageLink1": "static/assets/Chinese Croton.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/0/2010"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1593"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1978"
+    },
+    {
+      "info1": "Apart from the figs, the Oriental Pied Hornbill also readily consumed the red fruits of MacArthur Palms (Ptychosperma macarthurii) growing nearby. Photo by Dr. Leong Tzi Ming & Dr. Vilma D’Rozario. Singapore, Malaysia. 23 rd October 2012.",
+      "info2": "MacArthur palm grows very well in Rainforest climate. Subang Jaya, Selangor, Malaysia. Photo by Dr. Ahmad Fuad Morad",
+      "imageLink1": "static/assets/MacArthur Palm.jpg",
+      "imageLink2": "static/assets/MacArthur Palm2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2673"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2334"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/5/7/5794"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2142"
+    },
+    {
+      "info1": "It is widely cultivated in butterfly gardens.",
+      "imageLink1": "static/assets/Fele (Egyptian Starcluster).jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/2/3232"
+    },
+    {
+      "info1": "The plant is also called Chinese Witch-hazel.",
+      "imageLink1": "static/assets/Chinese Fringe Flower.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2201"
+    },
+    {
+      "info1": "Beautiful white flowers. Commonly planted as a hedge in parks and gardens. Attracts the Oleander hawk moth caterpillar. ",
+      "imageLink1": "static/assets/Crepe Jasmine.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2488"
+    },
+    {
+      "info1": "Spider Plants are great indoor plants as they grow well in pots in shady areas. Their fountain-like shape and hanging plantlets make them a popular choice for hanging pots.",
+      "imageLink1": "static/assets/Spider Plant.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1807"
+    },
+    {
+      "info1": "Native to Singapore. Can be found in Macritchie.",
+      "imageLink1": "static/assets/Tree Fern.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1544"
+    },
+    {
+      "info1": "The deer antler-like frons make it popular to be grown and mounted against a wall. The white, dust-like material from the fronds protect the fern from direct, harsh sunlight and drought.",
+      "info2": "Native to Singapore (Endangered (EN))",
+      "imageLink1": "static/assets/Staghorn Fern (Polypodiaceae).jpg",
+      "imageLink2": "static/assets/Staghorn Fern (Polypodiaceae)2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1562"
+    },
+    {
+      "info1": "The roots, bark, and twigs are used as medicine for treating cold and diarrhoea in Traditional Chinese Medicine (TCM).",
+      "info2": "The Yellow Cow Wood also serves as the larval host plant for three butterfly species: Common Grass Yellow, Archduke and  Short Banded Sailor. The first is a Pierid and the last two are Limenitis. The butterflies can lay their eggs on the leaves of the tree.",
+      "imageLink1": "static/assets/Yellow Cow Wood.jpg",
+      "imageLink2": "static/assets/Yellow Cow Wood2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2829"
+    },
+    {
+      "info1": "Nature enthusiasts believed that this was possibly the species from which Changi derived its name.",
+      "imageLink1": "static/assets/Chengal Pasir.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2959"
+    },
+    {
+      "info1": "With age, the bark becomes grey or brownish and peels off in long, jagged and curled pieces, leaving spots of beige new bark. The multi-hued trunk resembles the colouration of a leopard’s camouflage.",
+      "info2": "The species epithet ‘ferrea’ means ‘iron’ in Latin, refering to the hardness of the wood.  Unlike most types of wood which floats in water, dried seasoned wood of Leopard Tree is so dense and heavy that it will sink instead! This makes it valuable for furniture and flooring.",
+      "info3": "The wood is often used for making fingerboards for guitars. It looks and feels similar to rosewood (Dalbergia spp.), but is harder with a slightly lighter colour. In the field, Leopard Tree material is more commonly known as Pau Ferro.",
+      "imageLink1": "static/assets/Leopard Tree.jpg",
+      "imageLink2": "static/assets/Leopard Tree2.jpg",
+      "imageLink3": "static/assets/Leopard Tree3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2767"
+    },
+    {
+      "info1": "In the past when they were still populous in Singapore, the Malayan Flying Fox (Pteropus vampyrus) could be seen fed on the red bitter-tasting berries of the Tembusu in season.",
+      "info2": "The wood was extremely durable and resistant to termite attack, making it highly suitable for heavy construction, bridges and carving.",
+      "info3": "A photograph of the finest Tembusu in the Singapore Botanic Gardens can be found on the back of the ‘Portrait’ series $5 note. This Heritage Tree is reportedly more than 150 years old.",
+      "imageLink1": "static/assets/Tembusu.jpg",
+      "imageLink2": "static/assets/Tembusu2.jpg",
+      "imageLink3": "static/assets/Tembusu3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2895"
+    },
+    {
+      "info1": "Lagerstroemia langkawiensis can be found in open lowland rainforest. It is endemic to Langkawi Island, Western Malaysia. It is threatened by habitat loss.",
+      "info2": "The flowers are pink.",
+      "info3": "The leaves are red. The limited information online shows the lack of research on local rare species.",
+      "imageLink1": "static/assets/Tropical Crape Myrtle.jpg",
+      "imageLink2": "static/assets/Tropical Crape Myrtle2.jpg",
+      "imageLink3": "static/assets/Tropical Crape Myrtle3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2989"
+    },
+    {
+      "info1": "Sea Almond trees develop buttress roots.",
+      "info2": "The leaves have an antibacterial effect, as they release tannic and humic acid. They are used in aquariums to promote the health of fishes, and provide a calming effect.",
+      "info3": "Changi Coast Road is lined on both sides with the fast-growing Sea Almond trees. They can also be found in East Coast Park. Twice a year, before they fall, the huge leaves turn red and yellow, creating an autumnal effect.",
+      "imageLink1": "static/assets/Sea Almond.jpg",
+      "imageLink2": "static/assets/Sea Almond2.jpg",
+      "imageLink3": "static/assets/Sea Almond3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3181"
+    },
+    {
+      "info1": "It is the national flower of Barbados",
+      "info2": "Even though there is enough evidence to show that the Peacock Flower is a butterfly-attracting plant, the range of species that feed on its flowers is unfortunately rather limited. In the selection of nectaring plants for a butterfly garden, it would be probably wise to combine several other more preferred nectaring plants with the Peacock Flower to offer a wider range of nectaring plants to attract more species of butterflies.",
+      "imageLink1": "static/assets/Peacock Flower (Fabaceae).jpg",
+      "imageLink2": "static/assets/Peacock Flower (Fabaceae)2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/7/1740"
+    },
+    {
+      "info1": "Native to Singapore (Presumed Nationally Extinct (NEx))",
+      "imageLink1": "static/assets/Red Tree Shrub (Vitaceae).jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2192"
+    },
+    {
+      "info1": "As suggested by its name, the flowers resemble golden bells.",
+      "info2": "Tecoma stans is the official flower of the United States Virgin Islands and the floral emblem of The Bahamas. (picture attached shows The Bahamas’ coat of arms)",
+      "imageLink1": "static/assets/Golden Bells (Bignoniaceae).png",
+      "imageLink2": "static/assets/Golden Bells (Bignoniaceae)2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3177"
+    },
+    {
+      "info1": "Ferns are fascinating plants that have covered massive landscapes of our planet for hundreds of millions of years. Fossilized ferns date back to the Paleozoic era, more than 360 million years ago! As ferns and coniferous trees were the dominant plants during the age of the dinosaurs, people theorizes them to be the favorite food of herbivorous dinosaur species like triceratops and stegosaurus.",
+      "info2": "As long as the soil has organic matter like decaying leaves, the fern can make its own food and scavenge minerals from the native soil. ",
+      "imageLink1": "static/assets/Giant Sword Fern.jpg",
+      "imageLink2": "static/assets/Giant Sword Fern2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1554"
+    },
+    {
+      "info1": "The Swiss cheese plant gets its common name from its large, heart-shaped leaves that develop holes as the plant ages (in a process called fenestration). This makes the leaves resemble Swiss cheese. Yet, the plant has numerous distint common names in different countries.",
+      "info2": "It is widely grown as a houseplant due to it being easy to cultivate.",
+      "info3": "In those areas where it grows naturally, the fruit of M. deliciosa is considered a delicacy due to its sweet and exotic flavor. Though the unripe green fruits can irritate the throat and the latex of the leaves and vines can create rashes in the skin, because both contain potassium oxalate.",
+      "imageLink1": "static/assets/Swiss Cheese Plant.jpg",
+      "imageLink2": "static/assets/Swiss Cheese Plant2.jpg",
+      "imageLink3": "static/assets/Swiss Cheese Plant3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1453"
+    },
+    {
+      "info1": "Texas sage is a popular ornamental plant, commonly used for edge and area plantings in warmer and drier areas; it requires minimal water, is easily shaped into hedges, and blooms over the entire surface.",
+      "info2": "Flowering is triggered when there is significant high humidity especially after rain, hence the common name, Barometer Bush.",
+      "info3": "The flowers are bee- and bird-attracting.",
+      "imageLink1": "static/assets/Purple Sage.jpg",
+      "imageLink2": "static/assets/Purple Sage2.webp",
+      "imageLink3": "static/assets/Purple Sage3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2195"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2119"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/7/1751"
+    },
+    {
+      "info1": "Powderpuff-like flowers!",
+      "info2": "It has found use as a garden, street, and landscaping shrub or tree, due to its colorful young leaves, amenability to pruning (including topiary), and fragrant flowers.",
+      "imageLink1": "static/assets/Kelat Oil.jpg",
+      "imageLink2": "static/assets/Kelat Oil2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3156"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/0/2080"
+    },
+    {
+      "info1": "They could be grown as a houseplant while actively remove airborne toxins including formaldehyde, xylene, and toluene from the air.",
+      "imageLink1": "static/assets/Yellow Cane Palm.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2622"
+    },
+    {
+      "imageLink1": "static/assets/Orange Jasmine.jpg",
+      "imageLink2": "static/assets/Orange Jasmine2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2239"
+    },
+    {
+      "info1": "The species is suitable to make long-lasting evergreen hedges, privacy screens or ornamentals.",
+      "info2": "The plant is sometimes harvested for its edible young shoots and culms that are used for weaving, paper making etc.",
+      "imageLink1": "static/assets/Hedge Bamboo.jpg",
+      "imageLink2": "static/assets/Hedge Bamboo2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/7/1714"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/4/1/4105"
+    },
+    {
+      "info1": "It is one of several species used for the production of sago, as well as an ornamental plant. The sago cycad is sometimes mistakenly thought to be a palm, although the only similarity between the two is that they look similar and both produce seeds.",
+      "info2": "Cycad sago is extremely poisonous to animals (including humans) if ingested. Pets are at particular risk, since they seem to find the plant very palatable. All parts of the plant are toxic; however, the seeds contain the highest level of the toxin cycasin. Cycasin causes gastrointestinal irritation, and in high enough doses, leads to liver failure. Other toxins include Beta-methylamino L-alanine, a neurotoxic amino acid, and an unidentified toxin which has been observed to cause hindlimb paralysis in cattle.",
+      "imageLink1": "static/assets/Japanese Cycad.jpg",
+      "imageLink2": "static/assets/Japanese Cycad2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/5/1/5108"
+    },
+    {
+      "info1": "The species is associated with buddhism as suggested by its scientific name.",
+      "imageLink1": "static/assets/Wild Water Plum Water Jasmine.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/5/2556"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1962"
+    },
+    {
+      "info1": "The Green Aralia is found to have a high nitrate removal of 66%, making it a suitable candidate for phytoremediation.",
+      "info2": "In various cultures, it's a symbol of prosperity and growth—like a green thumbs-up for good vibes.",
+      "imageLink1": "static/assets/Green Aralia.jpg",
+      "imageLink2": "static/assets/Green Aralia2.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2288"
+    },
+    {
+      "info1": "Lantana is bird attracting and bee-attracting. It also serves as a butterfly food plant and caterpillar food plant.",
+      "imageLink1": "static/assets/Lantana.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2178"
+    },
+    {
+      "info1": "It is the host-plant for the moth species Parasa lepida.",
+      "info2": "This palm is adopted for the symbol of the Singapore Botanic Garden",
+      "imageLink1": "static/assets/Sealing-wax Palm.jpg",
+      "imageLink2": "static/assets/Sealing-wax Palm2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2618"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/0/2024"
+    },
+    {
+      "info1": "Hibiscus rosa-sinensis is the national flower of Malaysia.",
+      "imageLink1": "static/assets/Hibiscus.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/0/2095"
+    },
+    {
+      "info1": "The showy flowers are night blooming.",
+      "info2": "Barringtonia racemosa (L) Spreng found in Xishuangbanna Tropical Botanical Garden.",
+      "imageLink1": "static/assets/Putat Kampong.jpg",
+      "imageLink2": "static/assets/Putat Kampong2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2747"
+    },
+    {
+      "info1": "Cassia fistula is both the national tree and national flower of Thailand. Its yellow flowers symbolize Thai royalty. ",
+      "imageLink1": "static/assets/Golden Shower Tree.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2787"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1875"
+    },
+    {
+      "info1": "Schefflera is suitable for indoor.",
+      "imageLink1": "static/assets/Schefflera.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2432"
+    },
+    {
+      "info1": "Giant taro has one of the world's largest un-split leaf. The giant leaves are ideally adapted to absorbing the small amount of light that reaches the rainforest floor under the dense tree canopy.",
+      "info2": "While Giant Taro is often regarded as an ornamental plant, it remains a good source of carbohydrates in indigenous communities from the Asia-Pacific region where potatoes cannot grow – the swollen stems and tubers are harvested and treated to obtain starch and flour. This plant requires a lengthy processing period to ensure that all calcium oxalate crystals are removed through methods such as roasting, boiling or frying. In Papua New Guinea, young shoots are cooked as vegetables in coconut milk or fried together with onions, garlic and chilli.",
+      "imageLink1":"static/assets/Giant Taro.jpg",
+      "imageLink2": "static/assets/Giant Taro2.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/6/1636"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/9/1990"
+    },
+    {
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/6/1645"
+    },
+    {
+      "info1": "Pink Mempat holds a special significance in Singapore's efforts to become a City in Nature. The first nationwide tree planting campaign was held on 16 June 1963, when the Republic's chief gardener, then Prime Minister Lee Kuan Yew planted a mempat tree at Holland Circus! Although the tree was subsequently removed due to road works in the mid-1970s, NParks has",
+      "info2": "Not only that, these magnificent trees have deep-rooted cultural significance in Singapore. In the past, the young leaves of the Mempat tree were consumed as food, illustrating the resourcefulness of our ancestors who found sustenance in the bounty of nature. Moreover, the blossoming of Mempat flowers served as an important indicator for local fishermen. It signalled the ideal time to cast their nets in search of the prized “白肚鱼” (barramundi) during the month of February, coinciding with Chinese New Year celebrations. This ancient tradition is a testament to the close relationship between our culture and the natural world that surrounds us.",
+      "info3": "Apart from that, Pink Mempat tree is a preferred habitat for caterpillars of the Archduke butterfly (Lexias pardalis dirteana) and for the adults to lay their eggs on the underside of the leaves, contributing to the biodiversity conservation effort in Singapore.",
+      "imageLink1": "static/assets/Pink Mempat.jpg",
+      "imageLink2": "static/assets/Pink Mempat2.jpg",
+      "imageLink3": "static/assets/Pink Mempat3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2830"
+    },
+    {
+      "info1": "The plant is naturally found growing along Singapore's primary and secondary forests. It is useful as biodiversity-attracting plants due to its fruits and strong vanilla-like fragrant flowers. It has potential to serve as perimeter plants to add a pop of colour to any garden, especially therapeutic gardens.",
+      "imageLink1": "static/assets/River Tarenna.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3175"
+    },
+    {
+      "info1": "This miracle berry might aid chemotherapy patients in regaining their taste buds.The taste-altering abilities of miraculin (a type of glycoprotein) can be used to transform the taste of food into sweetness. As a result, it might motivate the patient to eat more, giving them the nutrition they need.",
+      "imageLink1": "static/assets/Miracle Fruit.png",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3152"
+    },
+    {
+      "info1": "It is suitable for planting along streetscapes, parks, gardens, flower beds and coastal areas for its tolerance of hot and windy conditions, and its white showy flowers. This species accumulates selenium, and could potentially be used to cleanse contaminated soil. ",
+      "info2": "The leaves and bulbs can be used to induce vomiting, because they contain the alkaloid lycorine. If your pet consumes any portion of a spider lily plant, you should contact your veterinarian right away for further instructions.",
+      "info3": "It is the host-plant for the caterpillars of the moths, the lily borer or kew arches (Brithys crini), and the lily caterpillar moth (Spodoptera picta).",
+      "imageLink1": "static/assets/Seashore Lily.jpg",
+      "imageLink2": "static/assets/Seashore Lily2.jpg",
+      "imageLink3": "static/assets/Seashore Lily3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1881"
+    },
+    {
+      "info1": "The slow-growing plant grows in an upright, compact manner, which makes it suitable for indoors and bonsai conditions. However, the plant is a little finicky about the amount of water needed. Too much or too little water might cause the leaves to turn yellow and drop.",
+      "info2": "In Cambodia, the plant is used by Buddhist monks to make joss sticks.",
+      "imageLink1": "static/assets/Ming Aralia.webp",
+      "imageLink2": "static/assets/Ming Aralia2.webp",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/4/5/4595"
+    },
+    {
+      "info1": "Parts of the plant are also used in Polynesian and Asian traditional medicine. Historically in the Maldives the leaves of this plant were often used as famine food.",
+      "info2": "The plant is used for soil stabilization, especially of sand dunes. It makes a good, dense hedge and so is of value to provide protection from the wind and salt spray in coastal zones. It is grown in erosion control schemes in Florida.",
+      "info3": "However, the fast growth of the species has out-competed many flora naturally associated with sandy beaches and hence negatively impacts various critically endangered and vulnerable species, such as that in Florida, the Bahamas, and Puerto Rico. Moreover, thickets of S. taccada on sandy beaches may prevent access of sea turtles to nesting areas, which is evidented on islands in the Caribbean region, while in other places, S. taccada trees provide a safe and shady environment for female green turtles coming to shore to lay their eggs.",
+      "imageLink1": "static/assets/Sea Lettuce.png",
+      "imageLink2": "static/assets/Sea Lettuce2.jpg",
+      "imageLink3": "static/assets/Sea Lettuce3.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2431"
     }
   ]
 }

@@ -15,7 +15,7 @@
         <iframe class="flex-video" src="https://www.youtube.com/embed/A78278TutpA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="flex-text">
             <span>
-                Description of RV Eco Trail 
+            In this video, we'll take you on a virtual tour through our little gem in RV. Take a peek at the different ecosystems we have rebuilt with hundreds of flora species and discover the peaceful spot for relaxation and inspiration at the comfort of your own home!
             </span>
         </div>
     </section>

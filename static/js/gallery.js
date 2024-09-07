@@ -103,8 +103,13 @@ function createGalleryImageItem(imageSrc, imageTitleEn, imageTitleZh) {
   itemDiv.classList.add("plant-gallery-content");
 
   const image = document.createElement("img");
-  image.src = imageSrc;
-  image.alt = imageTitleEn;
+  if (imageSrc == undefined){
+    image.src = 'static/assets/white.png';
+    image.alt = 'blank'
+  } else{
+    image.src = imageSrc;
+    image.alt = imageTitleEn;
+  }
 
   const titlesDiv = document.createElement("div");
   titlesDiv.classList.add("gallery-image-title");
@@ -151,14 +156,72 @@ const plantImage2 = document.querySelector("#plant-image-2");
 const plantImage3 = document.querySelector("#plant-image-3");
 const learnMore = document.querySelector("#learn-more");
 
+const plantdiv1 = document.querySelector(".plant-info1");
+const plantdiv2 = document.querySelector(".plant-info2");
+const plantdiv3 = document.querySelector(".plant-info3");
+
 function loadPlantInfo(index) {
-  plantInfo1.innerHTML = plantInfos[index].info1;
-  plantInfo2.innerHTML = plantInfos[index].info2;
-  plantInfo3.innerHTML = plantInfos[index].info3;
-  plantImage1.src = plantInfos[index].imageLink1;
-  plantImage2.src = plantInfos[index].imageLink2;
-  plantImage3.src = plantInfos[index].imageLink3;
+  if (plantInfos[index].info1 == undefined && plantInfos[index].imageLink1 == undefined){
+    plantdiv1.style.display = 'none';
+  } else{
+    plantdiv1.style.display = 'block';
+    if (plantInfos[index].info1 == undefined){
+      plantInfo1.innerHTML = ''
+    } else{
+      plantInfo1.innerHTML = plantInfos[index].info1;
+    }
+    plantImage1.src = plantInfos[index].imageLink1;
+  }
+
+  if (plantInfos[index].info2 == undefined && plantInfos[index].imageLink2 == undefined){
+    plantdiv2.style.display = 'none';
+  } else{
+    plantdiv2.style.display = 'block';
+    if (plantInfos[index].info2 == undefined){
+      plantInfo2.innerHTML = ''
+    } else{
+      plantInfo2.innerHTML = plantInfos[index].info2;
+    }
+    plantImage2.src = plantInfos[index].imageLink2;
+  }
+
+  if (plantInfos[index].info3 == undefined && plantInfos[index].imageLink3 == undefined){
+    plantdiv3.style.display = 'none';
+  } else{
+    plantdiv3.style.display = 'block';
+    if (plantInfos[index].info3 == undefined){
+      plantInfo3.innerHTML = ''
+    } else{
+      plantInfo3.innerHTML = plantInfos[index].info3;
+    }
+    plantImage3.src = plantInfos[index].imageLink3;
+  }
+
   learnMore.href = plantInfos[index].learnMore;
+
+  if (plantInfo1.innerHTML.length > 400){
+    plantInfo1.style.fontSize = '0.6em';
+  } else if (plantInfo1.innerHTML.length > 250){
+    plantInfo1.style.fontSize = '0.9em';
+  }else{
+    plantInfo1.style.fontSize = '1.1em'
+  }
+
+  if (plantInfo2.innerHTML.length > 400){
+    plantInfo2.style.fontSize = '0.6em';
+  } else if (plantInfo2.innerHTML.length > 200){
+    plantInfo2.style.fontSize = '0.9em';
+  }else{
+    plantInfo2.style.fontSize = '1.1em'
+  }
+
+  if (plantInfo3.innerHTML.length > 400){
+    plantInfo3.style.fontSize = '0.6em';
+  } else if (plantInfo3.innerHTML.length > 200){
+    plantInfo3.style.fontSize = '0.9em';
+  }else{
+    plantInfo3.style.fontSize = '1.1em'
+  }
 }
 
 loadGalleryInfo("static/assets/garden_data.json");

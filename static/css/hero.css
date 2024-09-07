@@ -41,8 +41,9 @@
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    padding:2em;
+    padding: 2em 3em;
     position:relative;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .contains-hero-text::after{

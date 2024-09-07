@@ -63,6 +63,9 @@ function setPopupDetails(details){
 
 function createLibraryElement(details){
     const container = createEle('div',['library-element','box-shadow--primary'],null,{onclick:libraryElementClick},null);
+    if (details.src == undefined){
+        details.src = 'static/assets/white.png'
+    }
     const img = createEle('img',['library-element-background'],null,{src:details.src},null);
     const description = createEle('p',['description','tetriary'],null,null,null);
     const name = createEle('h3',['name',"primary"],null,{innerHTML:details.titleEn},null);

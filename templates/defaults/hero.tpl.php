@@ -6,7 +6,7 @@
 <div class = "hero"> 
     <?php 
         $content = array(
-            "home" => ["About","Eco Trail Short Description"],
+            "home" => ["About","Dear Explorer, Eco-Trail @ RV essentially is a little yet lush greenery bulit upon the space between the two science laboratory blocks in River Valley High School, by generations of students and teachers who have integrated their bold and fresh ideas into reality. Beyond the verisimilitude, TESLA in collaboration with Rdev have constructed this virtual Eco-Trail. On top of serving as a repository of our effort, we hope to expand our network to connect and collaborate with other eco-leaders, so as to foster a more ideal and sustainable RV."],
             "about" => ["About Us","Who are we?"],
             "admin" => ["Admin","Trail Etiquette & Noticeboard"],
             "library" => ["Floral Library","Browse all the different floral in the eco-trail"],
