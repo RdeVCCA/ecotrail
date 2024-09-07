@@ -31,7 +31,7 @@
   <div class="sub-header">
     <div class="image-overlay-container">
       <img src="static/assets/rainforest_garden_title.png" alt="Background image of ferns title" class="centered-image z1">
-      <img src="static/assets/rainforestgardentext.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
+      <img src="static/assets/RainforestGardenText.png" alt="Text overlay image" class="centered-image z3" id="header-txt-overlay">
       <img src="static/assets/rainforest_garden_rectangle.png" class="centered-image z2">
     </div>
   </div>  
