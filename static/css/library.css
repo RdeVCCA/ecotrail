@@ -164,6 +164,11 @@ body{
     grid-template-columns: 2fr 1fr 1fr;
     column-gap: 1em;
 }
+
+.popup_chinesename, .popup_altname, .popup_description{
+    font-size: 0.7em;
+}
+
 @media only screen and (max-width: 768px) {
     .search_buttons{
         display:grid;

@@ -26,11 +26,11 @@
             </div>
             <section class = "popup_info">
                 <h3>Chinese Name</h3>
-                <p></p>
+                <p class = "popup_chinesename"></p>
                 <h3>Alternative Names</h3>
-                <p></p>
+                <p class = "popup_altname"></p>
                 <h3>Description</h3>
-                <p></p>
+                <p class = "popup_description"></p>
             </section>
         </div>
         <script src = "static/js/default.js"></script>

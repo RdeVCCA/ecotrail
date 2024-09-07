@@ -54,10 +54,17 @@ function setPopupDetails(details){
     const title = popup.querySelector('.popup_name');
     const zone = popup.querySelector('.popup_location');
     const img = popup.querySelector('.popup_img');
+    const chinesename = popup.querySelector('.popup_chinesename');
+    const altname = popup.querySelector('.popup_altname');
+    const plantDescription = popup.querySelector('.popup_description');
 
     title.textContent = details.titleEn;
     zone.textContent = details.zone;
     img.src = details.src;
+
+    chinesename.textContent = details.titleZh;
+    altname.textContent = details.titleSn;
+    plantDescription.textContent = details.description;
 
 }
 
@@ -74,6 +81,13 @@ function createLibraryElement(details){
     container.appendChild(description);
     container.appendChild(location);
     container.appendChild(name);
+
+    // const chinesename = createEle('p', ['chinesename'], null, {innerHTML: details.titleZh}, null);
+    // const altname = createEle('p', ['altname'], null, {innerHTML: details.titleEn}, null);
+    // const plantDescription = createEle('p', ['plantDescription'], null, {innerHTML: details.description}, null);
+    // container.appendChild(chinesename);
+    // container.appendChild(altname);
+    // container.appendChild(plantDescription);
    
     
     container.dataset.id = details.id;
