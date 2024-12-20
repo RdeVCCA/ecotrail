@@ -55,7 +55,7 @@
                 <span>index.php?filename=pond</span>
             </div>
             <div class="collection">
-                <span>Fruitree Garden</span>
+                <span>Fruit Tree Garden</span>
                 <span> In our garden, a selection of tropical fruit trees can be found. The fruit trees gently invite one to step into our Eco-Trail with their scent, beauty and shade. </span>
                 <span>index.php?filename=garden</span>
             </div>

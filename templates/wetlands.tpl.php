@@ -19,12 +19,15 @@
         </section>
 
         <section id = "section3">
-            <div class = "grid">
-                <div class = "grey">Marsh</div>
-                <div class = "grey">Swamp</div>
-                <div class = "grey">Bog</div>
-                <div class = "grey">Fen</div>
-            </div>
+            <table>
+                <tr>
+                    <td class = "ele">Marsh</td>
+                    <td class = "ele">Swamp</td>
+                </tr>
+                    <td class = "ele">Bog</td>
+                    <td class = "ele">Fen</td>
+                </tr>
+            </table>
         </section>
 
         <section class = "Wetlands fullheight" id = "Wetlands_What">
@@ -35,12 +38,12 @@
 
         <section id = "section5">
             <div class = "Wetlands grid2 resize2">
-                <h2>Rich Biodiversity</h2>
-                <div class = "grid">
-                    <p class = "floatLeft" id = "topText">The <b>Sungei Buloh Wetland Reserve</b> in Singapore is home to native
+                <div class = "AABC">
+                    <h2 class = "A">Rich Biodiversity</h2>
+                    <p class = "floatLeft B" id = "topText">The <b>Sungei Buloh Wetland Reserve</b> in Singapore is home to native
                     species like mudskippers, crabs, water snakes, herons, kingfishers, and sunbirds,
                     and attracts various migratory shorebirds during the migration season.</p>
-                    <p class = "floatRight" id = "bottomText">The wetland also acts as an important carbon sink in our fight against climate change.</p>
+                    <p class = "floatRight C" id = "bottomText">The wetland also acts as an important carbon sink in our fight against climate change.</p>
                 </div>
             </div>
         </section>
@@ -53,11 +56,11 @@
         </section>
 
         <section class = "Wetlands fullheight" id = "Mangrove2">
-            <div class = "grid resize">
-                <h3 class = "C3FFED fadebottom" id = "gridA"><b>Mangroves are extremely important in our fight against climate change.</b></h3>
-                <p class = "C3FFED floatLeft mobileback paddingChange bottom20" id = "gridB">The muddy waters of coastal wetlands are extremely carbon-rich and mangrove plants help to sequester
+            <div class = "AABC resize">
+                <h3 class = "C3FFED fadebottom A"><b>Mangroves are extremely important in our fight against climate change.</b></h3>
+                <p class = "C3FFED floatLeft mobileback paddingChange bottom20 B">The muddy waters of coastal wetlands are extremely carbon-rich and mangrove plants help to sequester
                     large amounts of carbon as they grow.</p>
-                <div id = "gridC"></div>
+                <div class = "C"></div>
             </div>
         </section>
 
@@ -75,14 +78,20 @@
         </section>
 
         <section id = "section10"> 
-            <div class = "grid">
-                <div class = "grey2">Sungei Buloh</div>
-                <div class = "grey2">Wetlands Reserve</div>
-                <div class = "grey2">Pasir Ris Park</div>
-                <div class = "grey2">Pulau Semakau</div>
-                <div class = "grey2">Pulau Tekong</div>
-                <div class = "grey2">Pulau Ubin</div>
-            </div>
+            <table>
+                <tr>
+                    <td class = "ele">Sungei Buloh</td>
+                    <td class = "ele">Wetlands Reserve</td>
+                </tr>
+                <tr>
+                    <td class = "ele">Pasir Ris Park</td>
+                    <td class = "ele">Pulau Semakau</td>
+                </tr>
+                <tr>
+                    <td class = "ele">Pulau Tekong</td>
+                    <td class = "ele">Pulau Ubin</td>
+                </tr>
+            </table>
         </section>  
 
         <section id = "section11">
@@ -113,7 +122,7 @@
                     in Pulau Ubin
                 </b></p>
 
-                <p>It is Singapore's first large-scale project to adopt the Ecological Mangrove ERsotration method which aims
+                <p>It is Singapore's first large-scale project to adopt the Ecological Mangrove Restoration method which aims
                     to produce a self-sustaining ecosystem with minimal human intervention, allowing the mangrove to propagate
                 </p>
             </div>

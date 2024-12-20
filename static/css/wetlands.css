@@ -111,39 +111,37 @@ button:hover{
     right: -2vw;
 }
 
+.ele:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
 .fullheight{
     height: 100vh;
     width: 100vw;
 }
 
-.grey{
-    text-align: center;
-    color: grey;
-    border: 1px solid black;
-    font-size: 4.5rem;
-    padding-top: calc(100vh/2 - 13rem);
-    padding-bottom: auto;
+.AABC{
+    display: grid;
+    grid-template-areas:
+    "A A"
+    "B C";
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
 }
 
-.grey2{
-    text-align: center;
-    color: grey;
-    border: 1px solid black;
-    font-size: 4rem;
-    padding-top: calc(100vh/3 - 9rem);
-    padding-bottom: auto;
+.A{
+    grid-area: A;
 }
 
-.grey:hover{
-    font-size: 4.8rem;
-    padding-top: calc(100vh/2 - 13.3rem);
-    transition:1s
+.B{
+    grid-area: B;
 }
 
-.grey2:hover{
-    font-size: 4.3rem;
-    padding-top: calc(100vh/3 - 9.3rem);
-    transition:1s
+.C{
+    grid-area: C;
 }
 
 .grid{
@@ -296,6 +294,18 @@ section{
     width: 100vw;
     margin: 0;
 }
+
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+table, th, td {
+    border: 2px solid grey;
+    border-collapse: collapse;
+  }
 
 #topText{
     position: relative;
