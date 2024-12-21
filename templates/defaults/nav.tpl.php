@@ -6,7 +6,7 @@
     </a>
 
     <div class="areas-container" onmouseover="displayBelow()" onmouseout="stopDisplay()">
-        <a href="index.php?filename=home">Areas</a>
+        <a href="index.php?filename=gallery">Areas</a>
         <div class="nav2">
             <a href="index.php?filename=rainforest" class="redirect" id="rainforestRedirect">
                 Rainforest Zone

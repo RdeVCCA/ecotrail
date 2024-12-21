@@ -208,13 +208,13 @@
       "image":"static/assets/Elephant Ear, Taro, Yam0.jpg"
     },
     {
-      "src": "static/assets/Water hyssop0.jpg",
+      "src": "static/assets/Water hyssop.jpg",
       "titleEn": "Water hyssop",
       "titleZh": "假马齿苋",
       "titleSn": "Bacopa monnieri",
       "description": "Native to Subtropics and Tropics. Perennial herb with creeping growth habit. White to light blue or purple flowers are bell-shaped with 5 petals and 1 petal is larger than the others.",
       "zone":"Oramental Pond",
-      "image":"static/assets/Water hyssop0.jpg"
+      "image":"static/assets/Water hyssop.jpg"
     },
     {
       "src": "static/assets/Water hyacinth0.png",
@@ -289,13 +289,13 @@
       "image": "static/assets/Alligator Flag0.jpeg"
     },
     {
-      "src": "static/assets/Umbrella Sedge0.jpg",
+      "src": "static/assets/Umbrella Sedge.jpg",
       "titleEn": "Umbrella Sedge",
       "titleZh": "光桿輪傘莎草",
       "titleSn": "Cyperus alternifolius",
       "description": "Native to Madagascar, Mauritius, Reunion Island. Up to 2m height. Leaf-like structures form the 'umbrella' shape.",
       "zone":"Wetland",
-      "image": "static/assets/Umbrella Sedge0.jpg"
+      "image": "static/assets/Umbrella Sedge.jpg"
     },
     {
       "src": "static/assets/Water Lettuce0.jpg",
@@ -433,7 +433,7 @@
       "image": "static/assets/Chinese Fringe Flower0.jpg"
     },
     {
-      "src": "static/assets/Pinwheel FLower0.jpg",
+      "src": "static/assets/Pinwheel Flower0.jpg",
       "titleEn": "Pinwheel Flower",
       "titleZh": "狗牙花",
       "titleSn": "Tabernaemontana divaricata (dwarf)",
@@ -442,13 +442,13 @@
       "image": "static/assets/Pinwheel Flower0.jpg"
     },
     {
-      "src": "static/assets/Spider Plant0.jpg",
+      "src": "static/assets/Spider Plant.jpg",
       "titleEn": "Spider Plant",
       "titleZh": "银心吊兰",
       "titleSn": "Chlorophytum comosum",
       "description": "Native to South Africa. Linear leaves are solid green. They arch backwards to form a fountain-like structure. White, star-shaped flowers are produced on a thin inflorescence stalk which hangs down. Plantlets also form along this stalk.",
       "zone":"Rainforest",
-      "image": "static/assets/Spider Plant0.jpg"
+      "image": "static/assets/Spider Plant.jpg"
     },
     {
       "src": "static/assets/Tree Fern0.jpg",
@@ -694,13 +694,13 @@
       "image": "static/assets/Lantana0.jpg"
     },
     {
-      "src": "static/assets/Sealing-wax Palm0.jpg",
+      "src": "static/assets/Sealing-wax Palm.jpg",
       "titleEn": "Sealing-wax Palm",
       "titleZh": "口红棕",
       "titleSn": "Cyrtostachys renda Blume",
       "description": "Native to Thailand, Peninsular Malaysia, Singapore, Sumatra, and Borneo. Up to 12 m tall, with characteristically bright red leaf sheaths around the stems. Naturally growing in swamps and highly tolerant of flooding.",
       "zone":"Rainforest",
-      "image": "static/assets/Sealing-wax Palm0.jpg"
+      "image": "static/assets/Sealing-wax Palm.jpg"
     },
     {
       "src": "static/assets/Shower of Gold0.jpg",

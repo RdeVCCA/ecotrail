@@ -238,17 +238,25 @@ img {
   text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 738px) {
   .plant-gallery-content img {
     width: 50vw;
     aspect-ratio: 3 / 4;
   }
+  .plant-info1{
+    width: 70vw;
+    aspect-ratio: 2/1;
+  }
   .plant-info2,.plant-info3{
-    height: 30vh;
+    width: 90vw;
     aspect-ratio: 2/1;
   }
 
   #plant-info > div > div > * {
     font-size: 0.9em;
+  }
+
+  #plant-info{
+    flex-direction: column;
   }
 }

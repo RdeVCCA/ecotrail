@@ -17,3 +17,9 @@ p{
     text-decoration: none;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) { 
+    .footerBar{
+        gap: 1.7em;
+    }
+}
