@@ -100,24 +100,26 @@
             </div>
         </section>
 
-        <section id = "section12">
+        <section id = "Urbanisation">
             <div class = "Wetlands grid resize">
                 <div></div>
-                <p class = "floatRight bottom50">mangroves in Singapore are under that due to the pressures exerted on the habitat from urbanisation and human
+                <p class = "floatRight bottom50 C3FFED">mangroves in Singapore are under that due to the pressures exerted on the habitat from urbanisation and human
                     population growth
                 </p>
             </div>
         </section>
 
-        <section id = "section13">
+        <section id = "SGbiodiversity">
             <div class = "Wetlands grid resize">
-                <p class = "floatLeft bottom50" id = "mobileShift">It is important to protect these forests in order to protect our coasts and biodiversity to thrive</p>
+                <p class = "floatLeft bottom50 C3FFED" >It is important to protect these forests in order to protect our coasts and biodiversity to thrive</p>
                 <div></div>
             </div>
         </section>
 
         <section id = "section14">
-            <div class = "fullheight">
+            <div class = "fullheight" id = "OCBC-mangrove">
+                <br>
+                <br>
                 <p><b>In 2026, The National Parks Board (NParks) and OCBC Bank plan to open a mangrove park with 8,000 trees
                     in Pulau Ubin
                 </b></p>
