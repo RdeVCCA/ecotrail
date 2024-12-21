@@ -22,18 +22,17 @@ a{
     color: black;
 }
 
-p{
+.wrap{
+    width: 8em;
     text-decoration: none;
     text-align: center;
     font-size: 1em;
 }
 
-.wrap{
-    width: 8em;
-}
-
 @media only screen and (max-width: 768px) { 
     .footerBar{
-        gap: 0.5em;
+        gap: 0.3em;
     }
+
+    
 }

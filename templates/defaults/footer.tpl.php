@@ -13,7 +13,7 @@
 
     <div>
         <img class = "icons" src = "static/assets/mail.png">
-        <p>xxx@gmail.com</p>
+        <p class = "wrap">xxx@gmail.com</p>
     </div>
 
     <a href = "https://rdev.x10.mx/">

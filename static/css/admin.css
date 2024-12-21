@@ -80,6 +80,16 @@
         margin-left: calc(-1em - 5px - 2vw);
         color: grey;
     }
+
+    #grid-container-new{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "grid_2 grid_3"
+        "grid_6 grid_7"
+        "grid_1 grid_4"
+        "grid_5 grid_8";
+    }
 }
 
 .arrow{
