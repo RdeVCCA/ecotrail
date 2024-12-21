@@ -23,3 +23,45 @@
     filter: brightness(0.8);
     backdrop-filter: brightness(0.8);
 }
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    /* right: 10em; */
+    top: 2em;
+    width:fit-content;
+    background-color: #0B3D2E;
+    color: #F5F5DC;
+    z-index: 1000;
+    display: none;
+}
+
+.redirect{
+    /* position: fixed; */
+    background-color: #0B3D2E;
+    color: #F5F5DC;
+    padding:0.5em 1em;
+    text-decoration: none;
+    /* z-index: 1000;
+    /* right: 10em; */
+
+}
+
+/* #rainforestRedirect{
+    top: 4em;
+    right:
+}
+
+#wetlandsRedirect{
+    top: 6em;
+}
+
+#pondRedirect{
+    top: 8em;
+}
+
+#gardenRedirect{
+    top: 10em;
+} */

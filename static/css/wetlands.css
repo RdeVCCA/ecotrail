@@ -7,9 +7,9 @@ body{
     background-color: #EEEEEE;
 }
 
-section {
+/* section {
     border-top: solid 2px #0B3D2E;
-}
+} */
 
 .box{
     width: 30vw;
@@ -111,8 +111,64 @@ button:hover{
     right: -2vw;
 }
 
+#Marsh{
+    background: url("../assets/Marsh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Swamp{
+    background: url("../assets/Swamp.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Bog{
+    background: url("../assets/Bog.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Fen{
+    background: url("../assets/Fen.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Sungei-Buloh{
+    background: url("../assets/Sungei Buloh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Wetlands-Reserve{
+    background: url("../assets/Wetlands Reserve.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Pasir-Ris-Park{
+    background: url("../assets/Pasir Ris Park.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Pulau-Semakau{
+    background: url("../assets/Pulau Semakau.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#Pulau-Tekong{
+    background: url("../assets/Pulau Tekong.png") no-repeat center center;
+    background-size: cover;
+}
+
+#Pulau-Ubin{
+    background: url("../assets/Pulau Ubin.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.ele{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+}
+
 .ele:hover{
-    transform: scale(1.2);
+    filter: brightness(130%);
     transition: 1s;
 }
 

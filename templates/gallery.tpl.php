@@ -10,6 +10,15 @@
         include('templates/defaults/nav.tpl.php');
         include('templates/defaults/hero.tpl.php');
     ?>
+
+    <!-- <h2 class = "subheading">Get to know about our different areas</h2>
+    <div class = "redirectAreas">
+        <a href = "http://localhost/ecotrail/index.php?filename=rainforest" class = "redirectArea">Rainforest Zone</a>
+        <a href = "http://localhost/ecotrail/index.php?filename=wetlands" class = "redirectArea">Wetland Zone</a>
+        <a href = "http://localhost/ecotrail/index.php?filename=pond" class = "redirectArea">Ornamental Pond</a>
+        <a href = "http://localhost/ecotrail/index.php?filename=garden" class = "redirectArea">Fruit Tree Garden</a>
+    </div> -->
+
     <h1 class="title">Plant Gallery</h1>
 
     <div class="flex-center">

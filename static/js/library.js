@@ -4,12 +4,16 @@ const library = document.querySelector('.library');
 const popupLabels = document.querySelectorAll('.popup_name,.popup_location');
 const search = document.querySelector('#search');
 var data = null
+var data2 = null
 const libraryElements = []
 const filters = {
     "search": "",
     "zone": null,
     "type": null
 }
+
+var currentId = 0;
+
 function restartAnimation(ele){
     ele.style.animation = 'none';
     ele.offsetHeight; /* trigger reflow */
@@ -50,13 +54,16 @@ function togglePopup(open) {
     }
 }
 
-function setPopupDetails(details){
+function setPopupDetails(details, FunFacts){
     const title = popup.querySelector('.popup_name');
     const zone = popup.querySelector('.popup_location');
     const img = popup.querySelector('.popup_img');
     const chinesename = popup.querySelector('.popup_chinesename');
     const altname = popup.querySelector('.popup_altname');
     const plantDescription = popup.querySelector('.popup_description');
+    const funFact1 = popup.querySelector('.popup_funfact1')
+    const funFact2 = popup.querySelector('.popup_funfact2')
+    const funFact3 = popup.querySelector('.popup_funfact3')
 
     title.textContent = details.titleEn;
     zone.textContent = details.zone;
@@ -65,6 +72,10 @@ function setPopupDetails(details){
     chinesename.textContent = details.titleZh;
     altname.textContent = details.titleSn;
     plantDescription.textContent = details.description;
+
+    funFact1.textContent = FunFacts.info1;
+    funFact2.textContent = FunFacts.info2;
+    funFact3.textContent = FunFacts.info3;
 
 }
 
@@ -82,6 +93,8 @@ function createLibraryElement(details){
     container.appendChild(location);
     container.appendChild(name);
 
+    
+
     // const chinesename = createEle('p', ['chinesename'], null, {innerHTML: details.titleZh}, null);
     // const altname = createEle('p', ['altname'], null, {innerHTML: details.titleEn}, null);
     // const plantDescription = createEle('p', ['plantDescription'], null, {innerHTML: details.description}, null);
@@ -98,9 +111,12 @@ function createLibraryElement(details){
 
 async function loadLibrary(){
     const res = await fetch("static/assets/garden_data.json")
-    data = (await res.json())["imageGalleryContents"]
+    datasets = (await res.json());
+    data = datasets["imageGalleryContents"];
+    data2 = datasets["plantInfos"];
     for (var i = 0; i < data.length; i++){
         data[i].id = i;
+        data2[i].id = i;
         createLibraryElement(data[i]);
     }
 }
@@ -108,6 +124,7 @@ async function loadLibrary(){
 function filterLibrary(filters){
     for (var element of libraryElements){
         const details = data[element.dataset.id];
+        const funFacts = data[element.dataset.id];
         const name = details.titleEn.toLowerCase();
         const zone = details.zone.toLowerCase();
         const search = filters.search.toLowerCase();
@@ -122,10 +139,29 @@ function filterLibrary(filters){
     }
 }
 
+function navigateLeft(){
+    currentId = parseInt(currentId);
+    if (currentId > 0) {  // Ensure we don't go below index 0
+        currentId -= 1;
+        setPopupDetails(data[currentId], data2[currentId]); // Set the previous element's data
+
+    }
+}
+
+function navigateRight(){
+    currentId = parseInt(currentId);
+    if (currentId < data.length - 1) {  // Ensure we don't exceed the array bounds
+        currentId += 1;
+        setPopupDetails(data[currentId], data2[currentId]); // Set the next element's data
+    }
+}
+
 function libraryElementClick() {
 
     togglePopup(true);
-    setPopupDetails(data[this.dataset.id])
+    currentId = this.dataset.id;
+    setPopupDetails(data[this.dataset.id], data2[this.dataset.id]);
+    currentId = this.dataset.id;
 }
 
 popupBg.addEventListener('click', () => {

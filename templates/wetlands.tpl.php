@@ -21,11 +21,11 @@
         <section id = "section3">
             <table>
                 <tr>
-                    <td class = "ele">Marsh</td>
-                    <td class = "ele">Swamp</td>
+                    <td class = "ele" id = "Marsh">Marsh</td>
+                    <td class = "ele" id = "Swamp">Swamp</td>
                 </tr>
-                    <td class = "ele">Bog</td>
-                    <td class = "ele">Fen</td>
+                    <td class = "ele" id = "Bog">Bog</td>
+                    <td class = "ele" id = "Fen">Fen</td>
                 </tr>
             </table>
         </section>
@@ -80,16 +80,16 @@
         <section id = "section10"> 
             <table>
                 <tr>
-                    <td class = "ele">Sungei Buloh</td>
-                    <td class = "ele">Wetlands Reserve</td>
+                    <td class = "ele" id = "Sungei-Buloh">Sungei Buloh</td>
+                    <td class = "ele" id = "Wetlands-Reserve">Wetlands Reserve</td>
                 </tr>
                 <tr>
-                    <td class = "ele">Pasir Ris Park</td>
-                    <td class = "ele">Pulau Semakau</td>
+                    <td class = "ele" id = "Pasir-Ris-Park">Pasir Ris Park</td>
+                    <td class = "ele" id = "Pulau-Semakau">Pulau Semakau</td>
                 </tr>
                 <tr>
-                    <td class = "ele">Pulau Tekong</td>
-                    <td class = "ele">Pulau Ubin</td>
+                    <td class = "ele" id = "Pulau-Tekong">Pulau Tekong</td>
+                    <td class = "ele" id = "Pulau-Ubin">Pulau Ubin</td>
                 </tr>
             </table>
         </section>  

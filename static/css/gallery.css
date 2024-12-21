@@ -100,7 +100,7 @@ img {
 #plant-info {
   width: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -116,9 +116,14 @@ img {
   padding: 0;
 }
 
-.plant-info1 {
+/* .plant-info1 {
   width: 50vw;
   aspect-ratio: 0.75;
+} */
+
+.plant-info1, .plant-info2, .plant-info3{
+  width: 30vw;
+  aspect-ratio: 1/1;
 }
 
 .plant-info1 img,.plant-info2 img,.plant-info3 img{
@@ -144,10 +149,10 @@ img {
   background: linear-gradient(180deg, #00000000, #124e70);
 }
 
-.plant-info2,.plant-info3{
+/* .plant-info2,.plant-info3{
   height: 90vh;
   aspect-ratio: 2/1;
-}
+} */
 
 .plant-info2-div {
   width: 50%;
@@ -174,7 +179,7 @@ img {
 
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 
 .grid-style {
@@ -203,6 +208,35 @@ img {
   }
   .plant-info2,.plant-info3{
     width:80%; */
+
+
+.redirectAreas{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.redirectArea{
+  background-color:#a4e3cb;
+  border: 1px solid #124e70;
+  border-radius: 1em;
+  padding: 0.3em 1em;
+  box-shadow: 0 0 5px #a4e3cb;
+  text-decoration: none;
+  color: black;
+}
+
+.redirectArea:hover{
+  filter: brightness(110%);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+.subheading{
+  text-align: center;
+}
 
 @media only screen and (max-width: 700px) {
   .plant-gallery-content img {

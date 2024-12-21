@@ -25,12 +25,21 @@
                 <img class = "popup_img" src = "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=">
             </div>
             <section class = "popup_info">
+                <img src = "static/assets/left-arrow.png" id = "navigate-left" onclick = "navigateLeft()">
                 <h3>Chinese Name</h3>
                 <p class = "popup_chinesename"></p>
                 <h3>Alternative Names</h3>
                 <p class = "popup_altname"></p>
                 <h3>Description</h3>
                 <p class = "popup_description"></p>
+                <h3>Fun Fact 1</h3>
+                <p class = "popup_funfact1"></p>
+                <h3>Fun Fact 2</h3>
+                <p class = "popup_funfact2"></p>
+                <h3>Fun Fact 3</h3>
+                <p class = "popup_funfact3"></p>
+                <img src = "static/assets/right-arrow.png" id = "navigate-right" onclick = "navigateRight()">
+
             </section>
         </div>
         <script src = "static/js/default.js"></script>

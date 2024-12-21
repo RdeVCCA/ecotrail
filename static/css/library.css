@@ -76,6 +76,7 @@
     background:linear-gradient(to bottom,#124e7077, #124e7000 );
     animation:heightTween 1s forwards;
 }
+
 .popup_library{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -94,6 +95,7 @@
 }
 .popup_info{
     padding:1em;
+    overflow-y: scroll;
 }
 .popup_img{
     width:100%;
@@ -165,13 +167,32 @@ body{
     column-gap: 1em;
 }
 
-.popup_chinesename, .popup_altname, .popup_description{
+.popup_chinesename, .popup_altname, .popup_description, .popup_funfact1, .popup_funfact2, .popup_funfact3{
     font-size: 0.7em;
 }
 
 .name, .location{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 0.3em;
+}
+
+#navigate-left{
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    left: 0;
+}
+
+#navigate-right{
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    right: 1vw;
+}
+
+#navigate-left:hover, #navigate-right:hover{
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 @media only screen and (max-width: 768px) {

@@ -8,7 +8,7 @@
     <section>
         <h2>Trail Etiquette</h2>
         <br>
-        <div id = "grid-container1">
+        <div id = "grid-container-new">
             <div id = "grid_1" class = "grid-item left">
                 <div class = "text">
                     Respect the Eco-System
@@ -16,10 +16,10 @@
                     <!-- <div class = "smol_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum eget purus in eleifend.</div> -->
                 </div>
             </div>
-            <div id = "grid_2" class = "grid-item right">
+            <div id = "grid_2" class = "grid-item left">
                 <div class = "box"><img  class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (3).webp"></div>
             </div>
-            <div id = "grid_3" class = "grid-item left">
+            <div id = "grid_3" class = "grid-item right">
                 <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (2).webp"></div>
             </div>
             <div id = "grid_4" class = "grid-item right">
@@ -36,10 +36,10 @@
                     <!-- <div class = "smol_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum eget purus in eleifend.</div> -->
                 </div>
             </div>
-            <div id = "grid_6" class = "grid-item right">
+            <div id = "grid_6" class = "grid-item left">
                 <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail.webp"></div>
             </div>
-            <div id = "grid_7" class = "grid-item left">
+            <div id = "grid_7" class = "grid-item right">
                 <div class = "box"><img class = "pic" src = "static/assets/webp/Image Gallery of Eco Trail (1).webp"></div>
             </div>
             <div id = "grid_8" class = "grid-item right">
