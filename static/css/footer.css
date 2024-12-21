@@ -13,13 +13,27 @@
     display: block;
 }
 
+img{
+    border: 0px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 p{
     text-decoration: none;
     text-align: center;
+    font-size: 1em;
+}
+
+.wrap{
+    width: 8em;
 }
 
 @media only screen and (max-width: 768px) { 
     .footerBar{
-        gap: 1.7em;
+        gap: 0.5em;
     }
 }

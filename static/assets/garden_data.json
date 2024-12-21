@@ -217,13 +217,13 @@
       "image":"static/assets/Water hyssop.jpg"
     },
     {
-      "src": "static/assets/Water hyacinth0.png",
+      "src": "static/assets/Water hyacinth.jpeg",
       "titleEn": "Water hyacinth",
       "titleZh": "布袋蓮",
       "titleSn": "Eichhornia crassipes",
       "description": "Native to Southern Tropical America. A free-floating, aquatic plant typically reaching up to 0.3 - 0.65m. Light purple to blue flowers are arranged on a spike inflorescence. The top petal has a yellow, oval-shaped center.",
       "zone":"Oramental Pond",
-      "image":"static/assets/Water hyacinth0.png"
+      "image":"static/assets/Water hyacinth.jpeg"
     },
     {
       "src": "static/assets/Purple Fountain Grass0.jpg",

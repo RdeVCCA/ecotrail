@@ -23,5 +23,5 @@
 
     <a href = "https://docs.google.com/forms/u/0/" target=”_blank”>
         <img class = "icons" src = "static/assets/google-forms.png">
-        <p>Feedback form</p>
+        <p class = "wrap">Ecotrail Feedback form</p>
 </div>
