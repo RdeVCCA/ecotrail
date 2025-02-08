@@ -40,7 +40,7 @@
                 <div class="description-box">
                     <p>
                         Extending from the <b>Fruit Tree Garden</b>, the first
-                        ornamental pond, the <b>Goldfish Pond</b>, draws us in
+                        ornamental pond, the <b>Koi Fish Pond</b>, draws us in
                         with its tranquil beauty.
                     </p>
                 </div>
