@@ -17,32 +17,40 @@ switch ($filename) {
         break;
     case "about":
         include('templates/about.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "admin":
         include('templates/admin.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "library":
         include('templates/library.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "gallery":
         include('templates/gallery.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "wetlands":
         include('templates/wetlands.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "garden":
         include('templates/fruit tree garden.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "pond":
         include('templates/ornamentalpond.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     case "rainforest":
         include('templates/rainforest.tpl.php');
+        include('templates/defaults/footer.tpl.php');
         break;
     default:
         include('index.tpl.php');
     break;
 }
-include('templates/defaults/footer.tpl.php');
+
 
 ?>
