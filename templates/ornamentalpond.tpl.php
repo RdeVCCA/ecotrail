@@ -22,7 +22,7 @@
 
         <section id="goldfish-pond">
             <!-- Goldfish Pond title pic -->
-            <div class="title-image-container ripple">
+            <!-- <div class="title-image-container ripple">
                 <img src="static/assets/Rectangle 9.png" id="goldfish-pond-image" class="orna-img" />
                 <div id="goldfish-pond-title">
                     <h2>Goldfish Pond</h2>
@@ -32,7 +32,7 @@
                 <div class="circle1"></div>
                 <div class="circle2"></div>
                 <div class="circle3"></div>
-            </div>
+            </div> -->
 
             <!-- Goldfish Pond description -->
             <div class="image-container">
