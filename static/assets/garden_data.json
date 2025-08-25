@@ -6,8 +6,8 @@
       "titleZh": "波罗蜜",
       "titleSn": "Artocarpus integer",
       "description": "Native to Southeast Asia. Cempedak trees can grow up to 20m tall. Fruits are 20-35 cm long and 10-15 cm wide, turning yellowish-green to brown when ripe and emitting a pungent smell.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Cempedak0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Cempedak0.png"
     },
     {
       "src": "static/assets/Jambu0.png",
@@ -15,8 +15,8 @@
       "titleZh": "水莲雾",
       "titleSn": "Syzygium aqueum",
       "description": "Native distribution: Southern India to Eastern Malaysia. Jambu Air fruits are small and bell-shaped. The thin, outer skin has a waxy sheen and can be pink or red when ripen while the inner white flesh is spongy and light. Jambu Air fruits are crisp and light with a mild and sweet flavour similar to a snow pear.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Jambu0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Jambu0.png"
     },
     {
       "src": "static/assets/Mango0.png",
@@ -24,8 +24,8 @@
       "titleZh": "芒果",
       "titleSn": "Mangifera indica",
       "description": "Native in India and Indochina. The mango fruit is extremely variable; it may be round, oval, or kidney-shaped, ranging in weight from 150 to 850 g. The skin is smooth or leathery, and varies from green, yellow, to red, or nearly purple, generally with a multitude of minute yellow dots",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Mango0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Mango0.png"
     },
     {
       "src": "static/assets/Chiku0.jpg",
@@ -33,8 +33,8 @@
       "titleZh": "人心果",
       "titleSn": "Achras zapota",
       "description": "Native to tropical America. A chiku fruit is oval or round with a diameter of 6cm. The sweet flesh is pinkish white to reddish brown and encloses about 10 black seeds.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Chiku0.jpg"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Chiku0.jpg"
     },
     {
       "src": "static/assets/Kaffir Lime0.jpg",
@@ -42,8 +42,8 @@
       "titleZh": "箭叶橙",
       "titleSn": "Citrus hystrix",
       "description": "Native in tropical Asia. The fruit is round and egg-shaped. It is light to dark green with a very wrinkled and bumpy texture. The flesh contains little juice which is sour and slightly bitter. Both the fruits and leaves are edible and add a lemon flavour to dishes.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Kaffir Lime0.jpg"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Kaffir Lime0.jpg"
     },
     {
       "src": "static/assets/Guava0.jpg",
@@ -51,8 +51,8 @@
       "titleZh": "斑叶番石榴",
       "titleSn": "Psidium guajava 'Variegata'",
       "description": "Native to Mexico, Central America, the Caribbean, and South America. The skin of Guava fruit is typically yellow or light green, while its flesh is usually deep red or a vibrant shade of pink. The fruit — which has edible seeds. When ripe, a guava smells strong, sweet, and musky.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Guava0.jpg"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Guava0.jpg"
     },
     {
       "src": "static/assets/Longan0.png",
@@ -60,8 +60,8 @@
       "titleZh": "龙眼",
       "titleSn": "Dimocarpus longan Lour.",
       "description": "Native from Sri Lanka, India, Southern China to Malesia. Longan, otherwise known as Mata Kuching or Dragon's Eye. Each fruit contains a single shinny blackish-brown seed, covering a thin translucent white fleshy layer.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Longan0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Longan0.png"
     },
     {
       "src": "static/assets/Fig0.jpg",
@@ -69,8 +69,8 @@
       "titleZh": "无花果",
       "titleSn": "Ficus carica",
       "description": "Native to Middle East, Western Asia. Fig trees grow up to 6m-15m tall.  Fig fruits are purplish red to yellow, usually pear-shaped and taste sweet and succulent.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Fig0.jpg"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Fig0.jpg"
     },
     {
       "src": "static/assets/Wild Cinnamon0.webp",
@@ -78,8 +78,8 @@
       "titleZh": "大叶桂",
       "titleSn": "Cinnamomum iners Reinw. ex Blume",
       "description": "Native to India, Indochina & Malesia. Fruits are round or ellipsoid, fleshy. Initially dark green with yellow spots, berries are purplish black at maturity.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Wild Cinnamon0.webp"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Wild Cinnamon0.webp"
     },
     {
       "src": "static/assets/Nutmeg0.png",
@@ -87,8 +87,8 @@
       "titleZh": "玉果, 肉果",
       "titleSn": "Myristica fragrans Houtt.",
       "description": "Native to  Moluccas. Fruits are surrounded by an aromatic yellowish husk, containing seed kernel (nutmeg) and aromatic red lacy aril (mace).",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Nutmeg0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Nutmeg0.png"
     },
     {
       "src": "static/assets/Rubber Tree0.png",
@@ -96,8 +96,8 @@
       "titleZh": "橡胶",
       "titleSn": "Hevea brasiliensis",
       "description": "Native to Tropical South America. Rubber trees are medium-sized with an oblong to conical crown that spreads near the top. The fruit is a woody capsule with 3-lobed, and about 5 cm diameter. When dried, it explodes with a loud sound similar to a gun-shot.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Rubber Tree0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Rubber Tree0.png"
     },
     {
       "src": "static/assets/Jackfruit0.png",
@@ -105,8 +105,8 @@
       "titleZh": "菠萝蜜",
       "titleSn": "Artocarpus heterophyllus Lam.",
       "description": "Native to Tropical Asia. The fruits are ellipsoidal to roundish and ripen from an initially yellowish-greenish to yellowish-brown",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Jackfruit0.png"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Jackfruit0.png"
     },
     {
       "src": "static/assets/Starfruit0.jpg",
@@ -114,8 +114,8 @@
       "titleZh": "杨桃",
       "titleSn": "Averrhoa carambola L.",
       "description": "Native to Sri Lanka, India, Indonesia, Malaysia. Starfruits have a thin, waxy pericarp, orange-yellow skin, and crisp, yellow flesh with juice when ripe.",
-      "zone":"Fruit Tree Garden",
-      "image":"static/assets/Starfruit0.jpg"
+      "zone": "Fruit Tree Garden",
+      "image": "static/assets/Starfruit0.jpg"
     },
     {
       "src": "static/assets/Wild Pepper0.jpg",
@@ -123,17 +123,17 @@
       "titleZh": "假蒟, 细叶青萎藤, 青蒟",
       "titleSn": "Piper sarmentosum",
       "description": "Native to Southern China, India, Indochina, Malaysia, Indonesia, Philippines. A sprawling herbaceous creeper forming mounds of up to 60cm in height, and hence forms the groundcover in outdoor landscapes. Its alternate, stalked leaves have leaf blades that are heart-shaped, glossy dark green, and prominent veins.",
-      "zone":"Rainforest - Ferns",
-      "image":"static/assets/Wild Pepper0.jpg"
+      "zone": "Rainforest - Ferns",
+      "image": "static/assets/Wild Pepper0.jpg"
     },
     {
       "src": "static/assets/Willdenow's spikemoss0.jpg",
       "titleEn": "Willdenow's spikemoss",
       "titleZh": "藤卷柏",
       "titleSn": "Selaginella willdenowii",
-      "description": "Native to Thailand, Peninsular Malaysia, Malesia. Herbaceous, fern-like species with a scrambling growth habit. Iridescent fronds are mostly blue-green with pinkish hues depending on the angle at which they are viewed. They are composed of two leaf types, lateral and median leaves, which are both arranged in 2 rows along the stem. Lateral leaves are ovate to oblong, while median leaves are even smaller and vary in shape.",
-      "zone":"Rainforest - Ferns",
-      "image":"static/assets/Willdenow's spikemoss0.jpg"
+      "description": "Unconfirmed / not currently recorded in our plots.",
+      "zone": "Rainforest - Ferns",
+      "image": "static/assets/Willdenow's spikemoss0.jpg"
     },
     {
       "src": "static/assets/Dwarf Tree Fern0.png",
@@ -141,7 +141,7 @@
       "titleZh": "矮树蕨",
       "titleSn": "Blechnum gibbum",
       "description": "Native to Fiji, Hawaii, New Caledonia and the islands of the South Pacific Erect fern, with a slender trunk, able to grow up to 1 m tall. Fronds are able to grow up to 50 - 60 cm long, green in colour with silver dark edges.",
-      "zone":"Rainforest - Ferns",
+      "zone": "Rainforest - Ferns",
       "image": "static/assets/Dwarf Tree Fern.png"
     },
     {
@@ -150,8 +150,8 @@
       "titleZh": "巢蕨",
       "titleSn": "Asplenium nidus",
       "description": "Native to Tropical Africa, Tropical Asia, Pacific Epiphytic fern having a stout and erect rhizome, bearing a rosette of leaves at the top. Leaf stalks are stout and almost black, can be as long as 5 cm, leaf length can be up to 150 cm or more and up to 20 cm wide. It narrows gradually, tapering both towards the pointed tip and towards the base.",
-      "zone":"Rainforest - Ferns",
-      "image":"static/assets/Bird's Nest Fern0.jpg"
+      "zone": "Rainforest - Ferns",
+      "image": "static/assets/Bird's Nest Fern0.jpg"
     },
     {
       "src": "static/assets/Boston Fern0.png",
@@ -159,8 +159,8 @@
       "titleZh": "高大肾蕨",
       "titleSn": "Nephrolepis exaltata",
       "description": "Native to Pantropical Sub-erect fern, with slightly drooping fronds. Dagger-shaped fronds which are entirely to slightly toothed, measuring about 50 - 150 cm long and 5 - 10 cm wide, pinnae arrangement alternate and each pinna measures about 3 - 8 cm long.",
-      "zone":"Rainforest - Ferns",
-      "image":"static/assets/Boston Fern0.png"
+      "zone": "Rainforest - Ferns",
+      "image": "static/assets/Boston Fern0.png"
     },
     {
       "src": "static/assets/Yellow Walking Iris0.jpg",
@@ -168,7 +168,7 @@
       "titleZh": "粗点黄扇鸢尾",
       "titleSn": "Trimezia steyermarkii",
       "description": "Native to Mexico to Venezuela. Herbaceous rhizomatous shrub that grows in grassy clumps, up to 1.2m height. Flat strap-like leaves, arising in fan-like arrangement from underground rhizomes.",
-      "zone":"Rainforest - Ferns",
+      "zone": "Rainforest - Ferns",
       "image": "static/assets/Yellow Walking Iris.jpg"
     },
     {
@@ -177,7 +177,7 @@
       "titleZh": "棕竹",
       "titleSn": "Rhapis excelsa",
       "description": "Native to China. A densely-clumping, small to medium-sized palm with attractive, segmented fan leaves persisting down the stems. Fronds palmate, divided into regular, fairly broad (up to 60 cm across), ribbed segments (ranging from 5 to 13 segments), glossy, medium to dark green, leaflets with jagged tips; petioles slender, up to 60 cm long, often covered with greyish hair.",
-      "zone":"Rainforest - Ferns",
+      "zone": "Rainforest - Ferns",
       "image": "static/assets/Lady Palm.jpg"
     },
     {
@@ -186,8 +186,8 @@
       "titleZh": "地锦花",
       "titleSn": "Sphagneticola trilobata",
       "description": "Native to Central America, South America. Herbaceous creeping perennial shrub, up to 70cm height, forms dense mounded mats over ground. Leaves glossy green, paler green below, with simple coarse white hairs, serrated margins, sometimes with a pair of lateral lobes.",
-      "zone":"Rainforest - Ferns",
-      "image":"static/assets/Yellow Creeping Daisy.jpg"
+      "zone": "Rainforest - Ferns",
+      "image": "static/assets/Yellow Creeping Daisy.jpg"
     },
     {
       "src": "static/assets/Pickerel Weed0.png",
@@ -195,8 +195,8 @@
       "titleZh": "海寿花; 梭鱼草",
       "titleSn": "Pontederia cordata L.",
       "description": "Native to American continents. Up to 120 cm tall. Spike inflorescence is composed of 20-30 blue to purple, star-shaped flowers. The inflorescence stalk and basal leaves extend from the submerged base above water.",
-      "zone":"Oramental Pond",
-      "image":"static/assets/Pickerel Weed0.png"
+      "zone": "Oramental Pond",
+      "image": "static/assets/Pickerel Weed0.png"
     },
     {
       "src": "static/assets/Elephant Ear, Taro, Yam0.jpg",
@@ -204,8 +204,8 @@
       "titleZh": "芋头",
       "titleSn": "Colocasia esculenta",
       "description": "Native to Tropical Southeastern Asia, China, Japan, West Indies. Up to 1 - 2 m tall. Leaves are large, smooth, heart-shaped to arrow-shaped, drooping downwards.",
-      "zone":"Oramental Pond",
-      "image":"static/assets/Elephant Ear, Taro, Yam0.jpg"
+      "zone": "Oramental Pond",
+      "image": "static/assets/Elephant Ear, Taro, Yam0.jpg"
     },
     {
       "src": "static/assets/Water hyssop.jpg",
@@ -213,8 +213,8 @@
       "titleZh": "假马齿苋",
       "titleSn": "Bacopa monnieri",
       "description": "Native to Subtropics and Tropics. Perennial herb with creeping growth habit. White to light blue or purple flowers are bell-shaped with 5 petals and 1 petal is larger than the others.",
-      "zone":"Oramental Pond",
-      "image":"static/assets/Water hyssop.jpg"
+      "zone": "Oramental Pond",
+      "image": "static/assets/Water hyssop.jpg"
     },
     {
       "src": "static/assets/Water hyacinth.jpeg",
@@ -222,8 +222,8 @@
       "titleZh": "布袋蓮",
       "titleSn": "Eichhornia crassipes",
       "description": "Native to Southern Tropical America. A free-floating, aquatic plant typically reaching up to 0.3 - 0.65m. Light purple to blue flowers are arranged on a spike inflorescence. The top petal has a yellow, oval-shaped center.",
-      "zone":"Oramental Pond",
-      "image":"static/assets/Water hyacinth.jpeg"
+      "zone": "Oramental Pond",
+      "image": "static/assets/Water hyacinth.jpeg"
     },
     {
       "src": "static/assets/Purple Fountain Grass0.jpg",
@@ -231,8 +231,8 @@
       "titleZh": "紫叶狼尾草",
       "titleSn": "Pennisetum × advena 'Rubrum'",
       "description": "Native to Africa, Middle East and Southwestern Asia. Maximum height: 0.9 m to 1.2 m. From its mass of long, slender, burgundy-coloured leaves, bushy, red to purplish red inflorescence sprays out. The inflorescence is made up of spikelets which contain tiny, reduced flowers known as florets.",
-      "zone":"Rain Garden",
-      "image":"static/assets/Purple Fountain Grass0.jpg"
+      "zone": "Rainforest Garden",
+      "image": "static/assets/Purple Fountain Grass0.jpg"
     },
     {
       "src": "static/assets/Pandan0.jpg",
@@ -240,25 +240,25 @@
       "titleZh": "班兰",
       "titleSn": "Pandanus amaryllifolius Roxb.",
       "description": "Native to Southeast Asia. Maximum height: 1 m to 4.5 m. Shrub (1 - 1.6 m tall) or small tree (2 - 4.5 m tall) depending on culture. Continual harvesting of the leaves from the shrub form will prevent it from developing into the tree form. Leaves have a slightly pleated surface; a cross-section of the leaf is shaped like the letter 'W' turned upside down. Leaves are spirally arranged.",
-      "zone":"Rain Garden",
-      "image":"static/assets/Pandan0.jpg"
+      "zone": "Rainforest Garden",
+      "image": "static/assets/Pandan0.jpg"
     },
     {
       "src": "static/assets/Miniature Cyperus0.jpg",
-      "titleEn": "Miniature Cyperus",
-      "titleZh": "紙莎草",
-      "titleSn": "Cyperus prolifer Lamarck",
+      "titleEn": "Dwarf Papyrus",
+      "titleZh": "矮纸莎草",
+      "titleSn": "Cyperus prolifer",
       "description": "Native to Somalia to South Africa, West Indian Ocean (Madagascar, Mascarene Islands). Maximum height: 0.4 m to 0.6 m. Emergent herbaceous aquatic shrub. Leaves inconspicuous, reduced to sheaths at base of culms.",
-      "zone":"Rain Garden",
+      "zone": "Rainforest Garden",
       "image": "static/assets/Miniature Cyperus0.jpg"
     },
     {
       "src": "static/assets/Rough Horsetail0.jpg",
-      "titleEn": "Rough Horsetail",
-      "titleZh": "紙莎草",
+      "titleEn": "Horsetail",
+      "titleZh": "木贼 / 问荆",
       "titleSn": "Equisetum hyemale",
       "description": "Native to Eurasia, North America. Maximum height: 1 m to 2 m. Thin-stemmed herbaceous perennial, rush-like and non-flowering.. Small, grayish leaves (with teeth-like fringes) completely surrounding and clasping the stem at the nodes, forming a sheath-like structure. Thin, black bands occur directly above and below the leaves.",
-      "zone":"Rain Garden",
+      "zone": "Rainforest Garden",
       "image": "static/assets/Rough Horsetail0.jpg"
     },
     {
@@ -267,16 +267,16 @@
       "titleZh": "柠檬草, 柠檬香茅, 香茅草",
       "titleSn": "Cymbopogon citratus (DC.) Stapf",
       "description": "Native distribution is unknown. Maximum height: 0.6m to 1.2m. Clump-forming grass up to 1.2 m tall or 2m tall when in flower. Leaf blades are light green and  strap-shaped (up to 0.9 m long, 2.5 cm wide). Crushed leaves exude a lemony scent.",
-      "zone":"Rain Garden",
+      "zone": "Rainforest Garden",
       "image": "static/assets/Lemongrass0.jpg"
     },
     {
       "src": "static/assets/Weeping Tea Tree0.jpg",
       "titleEn": "Weeping Tea Tree",
-      "titleZh": "柳树",
-      "titleSn": "Leptospermum madidum",
-      "description": "Native to Australia (Northern Territory). Small tree or big shrub, up to 4m tall and wide, with densely-spreading crown and thin trailing branches. Leaves narrowly-linear, 5 - 7cm long by 3 - 4mm wide, held along reddish-brown twigs, emitting a fresh aromatic scent when crushed",
-      "zone":"Rainforest",
+      "titleZh": "垂枝茶树",
+      "titleSn": "Leptospermum brachyandrum",
+      "description": "Not a willow; this is a tea-tree species with naturally pendulous foliage.",
+      "zone": "Rainforest",
       "image": "static/assets/Weeping Tea Tree0.jpg"
     },
     {
@@ -285,7 +285,7 @@
       "titleZh": "红鞘水竹芋",
       "titleSn": "Thalia geniculata (red-stemmed)",
       "description": "Native to Florida, Central America (West Indies). Up to 3m height. Stems intense solid red or striped with red.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Alligator Flag0.jpeg"
     },
     {
@@ -294,7 +294,7 @@
       "titleZh": "光桿輪傘莎草",
       "titleSn": "Cyperus alternifolius",
       "description": "Native to Madagascar, Mauritius, Reunion Island. Up to 2m height. Leaf-like structures form the 'umbrella' shape.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Umbrella Sedge.jpg"
     },
     {
@@ -303,7 +303,7 @@
       "titleZh": "水浮莲, 大萍",
       "titleSn": "Pistia stratiotes",
       "description": "Native to Pantropical region. Up to 0.2m height. Evergreen herbaceous rosettes that are usually free-floating. They are covered in soft hairs that trap air bubbles, causing the plant to float. The leaves form a cuplike shape that folds inward after dark.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Water Lettuce0.jpg"
     },
     {
@@ -312,7 +312,7 @@
       "titleZh": "睡莲",
       "titleSn": "Nymphaea cultivar",
       "description": "Has a global distribution with its different species. It is an ornamental aquatic plant with large round floating leaves and large, typically cup-shaped, floating flowers that opens and closes daily.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Water Lily0.jpg"
     },
     {
@@ -321,16 +321,16 @@
       "titleZh": "荷花",
       "titleSn": "Nelumbo nucifera",
       "description": "Native to Asia and northeast Australia. The lotus grows in the mud at the bottom of shallow ponds.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Water Lotus0.jpg"
     },
     {
       "src": "static/assets/Indian Pennywort0.webp",
-      "titleEn": "Indian Pennywort",
+      "titleEn": "Pennywort",
       "titleZh": "积雪草, 崩大碗",
-      "titleSn": "Centella asiatica",
-      "description": "Native to Caucasus, Tropical and Subtropical Old World to Eastern Australia and West Pacific. Bean-shaped leaves",
-      "zone":"Wetland",
+      "titleSn": "Hydrocotyle verticillata",
+      "description": "Commonly known as whorled pennywort with rounded leaves in whorls.",
+      "zone": "Wetland",
       "image": "static/assets/Indian Pennywort0.webp"
     },
     {
@@ -339,7 +339,7 @@
       "titleZh": "石龙刍",
       "titleSn": "Lepironia articulata",
       "description": "Native to Madagascar, Tropical & Subtropical Asia to West Pacific Islands. Each stem has a pine cone-like inflorescence 2-3 cm below the stem tip.",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Grey Sedge0.jpg"
     },
     {
@@ -348,7 +348,7 @@
       "titleZh": "竹叶兰",
       "titleSn": "Arundina graminifolia 'Alba'",
       "description": "It is a clumping herb consisting of leafy, erect stems joined at the base, up to 2.5 m tall. Its alternate leaves are grass-like. Its large, 5 by 5 cm flowers develop in shoots at the tips of the stems.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/White Bamboo Orchid0.jpg"
     },
     {
@@ -357,7 +357,7 @@
       "titleZh": "红背桂",
       "titleSn": "Excoecaria cochinchinensis",
       "description": "Native to Southern Indochina to Peninsular Malaysia. It is an evergreen shrub, able to grow to 1 - 2 m tall. Leaves lanceolate in shape, green on the top and maroon underneath.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Chinese Croton0.jpg"
     },
     {
@@ -366,7 +366,7 @@
       "titleZh": "乳叶紅桑",
       "titleSn": "Acalypha wilkesiana 'Mosaica'",
       "description": "Native to East Indies & the Pacific. It is an Erect or spreading shrub, up to 2m tall. It has large and broad leaves with toothed edges, measuring about 10 - 20 cm long and 15 - 20 cm wide. Flowers are borne on spikes, usually measuring about 10 - 20 cm long.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Fire Dragon0.jpg"
     },
     {
@@ -375,7 +375,7 @@
       "titleZh": "金露花",
       "titleSn": "Duranta erecta 'Gold Edge'",
       "description": "Native to Native to tropical America, from Florida to Brazil and in the West Indies. It is a shrub with a dense canopy. Ovate, variegated leaves have a serrate, yellow leaf margin and a green centre of varying size. Leaf arrangement is opposite.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Golden Dew Drop0.jpg"
     },
     {
@@ -384,7 +384,7 @@
       "titleZh": "青棕",
       "titleSn": "Ptychosperma macarthurii",
       "description": "Native to Australia, New Guinea. A densely-clumping, medium to tall, fast-growing palm that possesses slender, grey trunks topped with a dense, attractive, crown of arching, feathery fronds that are dark green on top and paler green beneath.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/MacArthur Palm0.jpg"
     },
     {
@@ -393,7 +393,7 @@
       "titleZh": "锡兰叶下珠",
       "titleSn": "Phyllanthus myrtifolius (Wight) Mull. Arg.",
       "description": "Native to Sri Lanka. Popular ornamental shrub that grows up to 3 m tall. Small, lanceolate to oblong leaves are light green and have alternate leaf arrangement. They are held in the same plane in 2 files along the stem. Thin, flexible stems droop gracefully downwards. Stems are highly branched, producing a dense crown.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Mousetail Plant0.jpg"
     },
     {
@@ -402,7 +402,7 @@
       "titleZh": "鸚黃赫蕉",
       "titleSn": "Heliconia psittacorum 'Lady Di' (Variegated)",
       "description": "Of horticultural origin. It is a herbaceous plant that grows about 1 - 1.5 m tall. Its leaves are narrowly elliptic to lanceolate, variegated with irregular creamy-white sections. Its inflorescence is erect and appears above the foliage. The showy bracts are bright red. The true flowers are yellow and the tips are green.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Lady Di Heliconia0.jpg"
     },
     {
@@ -411,7 +411,7 @@
       "titleZh": "龙船花",
       "titleSn": "Ixora siamensis",
       "description": "A shrub plant",
-      "zone":"Wetland",
+      "zone": "Wetland",
       "image": "static/assets/Ixora0.jpg"
     },
     {
@@ -420,7 +420,7 @@
       "titleZh": "繁星花; 非洲玉叶金花",
       "titleSn": "Pentas lanceolata",
       "description": "Native to Tropical East Africa to Southern Arabia. Dark green, opposite leaves are narrowly ovate to lanceolate with entire leaf margin (8 - 14 cm long). Leaves are deeply veined and hairy. Star-shaped, 5-petalled flowers are 1 - 1.5 cm wide and occur in large terminal clusters known as corymbs. This species is free-flowering.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Fele0.jpg"
     },
     {
@@ -429,7 +429,7 @@
       "titleZh": "红花木继木",
       "titleSn": "Loropetalum chinense Yieh. var. rubrum",
       "description": "Native to China. The alternately-arranged leaves are simple and ovate to elliptic in shape, about 2 - 6.5 x 1 - 3cm. The leaves range in colour from red to green and are covered with hairs on the lower leaf surface. Leaf blade is asymmetrical at the base. The branchlets are covered with short hairs. can grow up to 1 - 3m tall and has a branched growth form.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Chinese Fringe Flower0.jpg"
     },
     {
@@ -438,16 +438,16 @@
       "titleZh": "狗牙花",
       "titleSn": "Tabernaemontana divaricata (dwarf)",
       "description": "Native to Assam, Bangladesh, South-Central China, East and West Himalaya, India, Nepal, Cambodia, Laos, Myanmar, Thailand, Vietnam. Dark green, glossy leaves are oval with a wavy leaf margin, measuring about 15 cm long and 5 cm wide. Smooth stem. Small shrub with a broad surface, able to grow up to about 2 m tall.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Pinwheel Flower0.jpg"
     },
     {
       "src": "static/assets/Spider Plant.jpg",
-      "titleEn": "Spider Plant",
+      "titleEn": "Chlorophytum — Not currently in garden",
       "titleZh": "银心吊兰",
       "titleSn": "Chlorophytum comosum",
       "description": "Native to South Africa. Linear leaves are solid green. They arch backwards to form a fountain-like structure. White, star-shaped flowers are produced on a thin inflorescence stalk which hangs down. Plantlets also form along this stalk.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Spider Plant.jpg"
     },
     {
@@ -456,16 +456,16 @@
       "titleZh": "桫椤目",
       "titleSn": "Alsophila latebrosa",
       "description": "Native to India and Southeast Asia, including Singapore. It is a tree-like fern consisting of a single trunk bearing several large leaf fronds. Its leaf fronds are alternate, stalked, bipinnate, with its middle pinnae growing up to 75 by 25 cm. The pinnules of the middle pinnae are pointed at their tips with slightly prominent, forked lateral veins on the underside.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Tree Fern0.jpg"
     },
     {
       "src": "static/assets/Staghorn Fern0.jpg",
-      "titleEn": "Staghorn Fern (Polypodiaceae)",
+      "titleEn": "Staghorn Fern",
       "titleZh": "鹿角厥属",
-      "titleSn": "Platycerium coronarium (J. Koenig ex O. F. MÃ¼ll.) Desv.",
+      "titleSn": "Platycerium bifurcatum",
       "description": "Native to Southeast Asia, including Myanmar and Thailand. Large epiphytic fern with short and fleshy branched rhizome hidden in basin formed by upper fronds. Infertile nest-fronds are fan-shaped and topped by erect lobed 'fingers', growing together to form a crown-like basket to trap leaf detritus from the host tree.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Staghorn Fern0.jpg"
     },
     {
@@ -474,7 +474,7 @@
       "titleZh": "黃牛木",
       "titleSn": "Cratoxylum cochinchinense (Lour.) Blume",
       "description": "Native to Asia including China, Philippines and Singapore. It has a brown bark that varies from smooth to flaky. Has papery to leather leaves with grey-green bloom on the underside and faintly fragrant flowers that are usually deep red coloured. It bears fruit that are elliptic-cylindrical capsules with sepals more than half of its length",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Yellow Cow Wood0.jpg"
     },
     {
@@ -483,7 +483,7 @@
       "titleZh": "香坡壘樹",
       "titleSn": "Hopea odorata Roxb.",
       "description": "Native to Bangladesh, Myanmar, Laos, southern Vietnam, Cambodia, Thailand, the Andaman Islands and northern Peninsular Malaysia. A medium-sized to large evergreen tree with a conical-shaped crown. Trunk is straight with short buttresses. The thick, slightly to deeply fissured outer bark is dark brownish-grey, and the inner bark is dull yellow.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Chengal Pasir0.jpg"
     },
     {
@@ -492,7 +492,7 @@
       "titleZh": "铁架木",
       "titleSn": "Libidibia ferrea (Mart. ex Tul.) L. P. Queiroz / Caesalpinia ferrea",
       "description": "Native to Eastern Brazil. Bright yellow flowers have red spots on the upper petals. A medium-sized tree with an umbrella-shaped, relatively flat-topped crown of tiny, feathery compound leaves.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Leopard Tree0.jpg"
     },
     {
@@ -500,17 +500,17 @@
       "titleEn": "Tembusu",
       "titleZh": "香灰莉",
       "titleSn": "Fragraea fragrans",
-      "description": "Native to Northeast India to Southeast Asia. A tree up to 30m tall, with deeply fissured bark,and with buttress roots. Its opposite, stalked leaves have thinly leathery to leathery leaf blades that are usually elliptic, distinctly tipped.",
-      "zone":"Rainforest",
+      "description": "Unconfirmed / not currently recorded in our plots.",
+      "zone": "Rainforest",
       "image": "static/assets/Tembusu0.jpg"
     },
     {
       "src": "static/assets/Tropical Crape Myrtle0.jpg",
-      "titleEn": "Tropical Crape Myrtle",
+      "titleEn": "Lagerstroemia — Not currently in garden",
       "titleZh": "浮罗交怡紫薇",
       "titleSn": "Lagerstroemia langkawiensis",
       "description": "Native to Malaysia. Simple leaves, lanceolate to oblong, margin entire, glabrous on both surfaces",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Tropical Crape Myrtle0.jpg"
     },
     {
@@ -519,7 +519,7 @@
       "titleZh": "榄仁树",
       "titleSn": "Terminalia catappa L.",
       "description": "Native to tropical Asia to North Australia and Polynesia. A pagoda-shaped tree that can grow up to 35 m, and will shed its leaves twice a year. Its leaves are clustered at the end of the twigs. The trunk is often buttressed, with grey bark that is slightly fissured.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Sea Almond0.jpg"
     },
     {
@@ -528,7 +528,7 @@
       "titleZh": "金凤花, 洋凤花, 孔雀花",
       "titleSn": "Caesalpinia pulcherrima (L.) Sw.",
       "description": "Native to Tropical America. Upright shrub, sometimes small tree. Bi-pinnate foilage with small, oval leaflets.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Peacock Flower0.jpg"
     },
     {
@@ -537,7 +537,7 @@
       "titleZh": "红叶火筒树",
       "titleSn": "Leea rubra Blume",
       "description": "Native to most parts of Asia and Australia, including Singapore and New Guinea. Its fruits are subglobose berries, turning dark red or purple when ripe. Its flowering shoots are compact. Flowers are bright red in colour with a yellow central disc.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Red Tree Shrub0.jpg"
     },
     {
@@ -546,7 +546,7 @@
       "titleZh": "黄钟花",
       "titleSn": "Tecoma stans (L.) Juss. ex Kunth",
       "description": "Native to West Indies, Mexico to Peru. Its opposite, stalked, compound leaves are pinnate, bearing 3-7 elliptic to elliptic-ovate leaflets with toothed margins. Its fragrant, bright yellow tubular flowers are borne on a short, upright, terminal inflorescence.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Golden Bells0.jpg"
     },
     {
@@ -555,7 +555,7 @@
       "titleZh": "长叶肾蕨",
       "titleSn": "Nephrolepis biserrata",
       "description": "Native to Pantropical, Southeast Asia, Australia, North and South America, the Pacific islands. Ascending to sub-erect fern, sometimes having a few fronds drooping. Fern blade is large and narrowing towards the base and apex, stipes measuring about 40 - 60 cm long.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Giant Sword Fern0.png"
     },
     {
@@ -564,7 +564,7 @@
       "titleZh": "龟背竹",
       "titleSn": "Monstera deliciosa",
       "description": "Native to Southern Mexico & Central America. Leaves leathery, mid to dark green, 30 - 90cm wide, blades dissected and with perforations. Petioles flattened, to 1m long. Fruits have hexagonal cells to 1cm wide, tightly fitted together, edges loosening when ripe. The plant sprawl on the ground or climb up very large trees",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Swiss Cheese Plant0.jpg"
     },
     {
@@ -573,7 +573,7 @@
       "titleZh": "红花玉芙蓉",
       "titleSn": "Leucophyllum frutescens",
       "description": "Native to Rio Grande Valley (Texas, New Mexico), northern Mexico. Small to medium sized shrub. Squarish, silvery stems. Flowers are violet to purple, and sometimes pink",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Purple Sage0.jpg"
     },
     {
@@ -582,7 +582,7 @@
       "titleZh": "螯蟹百合, 蜘蛛兰",
       "titleSn": "Hymenocallis speciosa",
       "description": "Native to West Indies. Dark green and strap-like leaves. Several white flowers that are funnel-shaped with long and thin petals.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Spider Lily0.png"
     },
     {
@@ -591,7 +591,7 @@
       "titleZh": "黄柄肖竹芋",
       "titleSn": "Calathea lutea (Aubl.) E.Mey. ex Schult.",
       "description": "Native to Tropical America. Large, broadly ovate leaf blade is bright green above, but silvery and waxy below. 30-cm long inflorescence is composed of reddish brown, cup-shaped bracts which are alternately stacked on top of each other in 2 files. For each inflorescence, about 2-3 yellow, tubular flowers occur within the cup-shaped bracts.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Cuban Cigar0.jpg"
     },
     {
@@ -600,7 +600,7 @@
       "titleZh": "红楠木",
       "titleSn": "Syzygium myrtifolium (Roxb.) Walp.",
       "description": "Native to Northeast India, Myanmar, Thailand, Peninsular Malaysia, Singapore, Sumatra, Borneo and the Philippines. Its opposite, stalked leaves have leaf blades that are elliptic to lanceolate, about 7.5 cm long and 2.5 cm wide. Young leaves emerge reddish, turning red-brown then green. Powderpuff-like flowers are cream to white in colour, borne on a branched inflorescence, up to 4 cm long",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Kelat Oil0.png"
     },
     {
@@ -609,7 +609,7 @@
       "titleZh": "金嘴蝎尾蕉",
       "titleSn": "Heliconia rostrata",
       "description": "Native to Tropical America. Its leaves are green, paddle-shaped. Flowers are pendant and grow in one plane. The bracts are bright red, with dark-green tips and yellow edges. The true flowers are tubular, yellow and half-buried in the bracts.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Hanging Lobster's Claw0.jpg"
     },
     {
@@ -618,7 +618,7 @@
       "titleZh": "散尾葵",
       "titleSn": "Dypsis lutescens",
       "description": "Native to Madagascar. Stems are greyish-green, ringed with distinct leaf scars; crownshaft yellowish-green. Fronds pinnate, yellowish-green to bright green (usually the older fronds will have leaflets with yellowish tips), spirally-arranged, soft, gracefully arching outward and downward.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Yellow Cane Palm0.jpg"
     },
     {
@@ -627,7 +627,7 @@
       "titleZh": "九里香, 千里香",
       "titleSn": "Murraya paniculata",
       "description": "Native to Southern & Southeast Asia, Northern Australia and New Caledonia. Leaves are evergreen, alternate, compound (with 3 - 7 leaflets), odd-pinnate. Leaflet is ovate-shaped, about 2 - 3 cm long, dark green and glossy. Flowers are white, flowers all year round and have a pleasant fragrance. Flowers are borne in clusters on the terminal or axillary stem and branches.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Orange Jasmine0.jpg"
     },
     {
@@ -636,7 +636,7 @@
       "titleZh": "小叶琴丝竹",
       "titleSn": "Bambusa multiplex",
       "description": "Native to South China. Clump-forming bamboo that grows up to 14 m tall. Linear leaves are densely clustered at the branch tips and have entire leaf margin.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Hedge Bamboo0.jpg"
     },
     {
@@ -645,7 +645,7 @@
       "titleZh": "土蜜树",
       "titleSn": "Bridelia ovata (variegated)",
       "description": "Native to Southeast Asia - Andaman and Nicobar Islands, Myanmar, Thailand, Malaysia, Indonesia. It is a scrambling shrub to a small tree which can grow up to 8 m tall. Has simple leaves with an oval shape. Variegated with pink, white,  green and light green.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Bridelia0.jpg"
     },
     {
@@ -654,7 +654,7 @@
       "titleZh": "琉球蘇鐵",
       "titleSn": "Cycas revoluta",
       "description": "Native to japan. Feather like leaves up to 1m long. The leaflets are stiff and pointed. Found between 100 - 500m. altitude. Usually grow in exposed locations on steep limestone cliffs and rocks overhanging the shoreline, sometimes in low dense forest in heavy shade.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Japanese Cycad0.jpg"
     },
     {
@@ -663,7 +663,7 @@
       "titleZh": "水梅",
       "titleSn": "Wrightia religiosa (Teijsm. & Binn.) Kurz",
       "description": "Native to Thailand and Malaysia. Shrub has an approximately flat top and grows up to 2 m tall. White flowers are composed of 5 obovate petals arranged in a star-like pattern.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Wild Water Plant Water Jasmine0.jpg"
     },
     {
@@ -672,7 +672,7 @@
       "titleZh": "百合竹",
       "titleSn": "Dracaena reflexa",
       "description": "Native to Madagascar and Mauritius",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Song of India0.png"
     },
     {
@@ -681,7 +681,7 @@
       "titleZh": "五爪木",
       "titleSn": "Osmoxylon lineare (Merr.) Philipson",
       "description": "Native to Southeast Asia. An erect shrub that can reach up to 3 m tall.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Green Aralia0.jpg"
     },
     {
@@ -690,7 +690,7 @@
       "titleZh": "五色梅, 马缨丹",
       "titleSn": "Lantana camara L.",
       "description": "Native to Mexico, Caribbean, Venezuela, Colombia. Multi-branched shrub, up to 1.2 m tall.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Lantana0.jpg"
     },
     {
@@ -699,7 +699,7 @@
       "titleZh": "口红棕",
       "titleSn": "Cyrtostachys renda Blume",
       "description": "Native to Thailand, Peninsular Malaysia, Singapore, Sumatra, and Borneo. Up to 12 m tall, with characteristically bright red leaf sheaths around the stems. Naturally growing in swamps and highly tolerant of flooding.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Sealing-wax Palm.jpg"
     },
     {
@@ -708,7 +708,7 @@
       "titleZh": "金英树, 金虎尾",
       "titleSn": "Galphimia glauca",
       "description": "Native to Mexico to Guatemala. A small tropical evergreen shrub, reaching up to about 0.5 - 1 m tall. Young stems are usually reddish in colour",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Shower of Gold0.jpg"
     },
     {
@@ -717,7 +717,7 @@
       "titleZh": "朱槿 (大紅花)",
       "titleSn": "Hibiscus rosa-sinensis (cultivar)",
       "description": "Native to Mauritius, Madagascar, Fiji, Hawaii. A perennial shrub, able to grow up to 3 m tall. Leaves ranging from different sizes and shapes, with toothed margin, flowers ranging from single-petals to multi petalous in different colours.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Hibiscus0.jpg"
     },
     {
@@ -726,7 +726,7 @@
       "titleZh": "玉蕊",
       "titleSn": "Barringtonia racemosa (L.) Spreng.",
       "description": "Native to East and Southern Africa, Comoro Islands, Madagascar, Seychelles, India, Sri Lanka, Andamans, Nicobar Islands, Myanmar, Thailand, China, Malaysia, Singapore, Marianas, Caroline Islands, Northern Australia, Solomon Islands, Vanuatu, New Caledonia, Fiji, Samoa, and many other Pacific islands. A small or medium-sized tree up to 20 m tall.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Putat Kampong0.png"
     },
     {
@@ -735,7 +735,7 @@
       "titleZh": "猪肠豆",
       "titleSn": "Cassia fistula L.",
       "description": "Native to India, Sri Lanka",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Golden Shower Tree0.jpg"
     },
     {
@@ -744,7 +744,7 @@
       "titleZh": "猪肠豆",
       "titleSn": "Costus woodsonii Maas",
       "description": "Native to Nicaragna to Colombia. The inflorescence is cylindrical with a tapered tip (6-10 cm long) and occurs at the stem tip. The reddish-orange, tubular flowers have a yellow-orange lip near the apex. They emerge at the top of the inflorescence, 1-3 at a time from between the bracts.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Scarlet Spiral Flag0.png"
     },
     {
@@ -753,7 +753,7 @@
       "titleZh": "鹅掌藤",
       "titleSn": "Heptapleurum arboricola Hayata",
       "description": "Native to Taiwan. Red tiny flowers borne in a compound panicle. Fruit is an orange drupe which becomes black upon maturity.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Schefflera0.png"
     },
     {
@@ -762,7 +762,7 @@
       "titleZh": "海芋花",
       "titleSn": "Alocasia macrorrhizos",
       "description": "Native to Central Malesia to Queensland. It has large, green glossy leaves whose shape resembles the ear of an elephant. These leaves grow upright, and can reach 1.8 m in height while the plant itself can grow as tall as 5 m!",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Giant Taro0.jpg"
     },
     {
@@ -771,7 +771,7 @@
       "titleZh": "玫瑰姜",
       "titleSn": "Etlingera elatior",
       "description": "Native to Indonesia, Thailand. Inflorescence, terminal, ovoid shaped of head consisting spirally overlapping flowers, the base is surrounded by showy crimson-pink bracts",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Torch Ginger0.jpg"
     },
     {
@@ -780,7 +780,7 @@
       "titleZh": "红山姜",
       "titleSn": "Alpinia purpurata",
       "description": "Native to South Pacific Islands. A spike inflorescence, 15 - 30 cm long with bracts overlapping, forming cone or funnel shape",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Red Ginger0.png"
     },
     {
@@ -789,7 +789,7 @@
       "titleZh": "越南黄牛木",
       "titleSn": "Cratoxylum formosum",
       "description": "Native to South Andaman Islands, south China, Indochina, south Thailand, Sumatra, Malaysia, Singapore, Bangka Island, the Philippines, Borneo, Java, and Sulawesi. Its opposite, long-stalked leaves have fleshy to papery leaf blades that are usually narrowly to broadly oval. Its new leaves have reddish-pink leaf blades that mature to green above and greenish below.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Pink Mempat0.png"
     },
     {
@@ -798,7 +798,7 @@
       "titleZh": "河乌口树",
       "titleSn": "Tarenna fragrans (Blume)",
       "description": "Native to Sumatra, Peninsular Malaysia, Singapore, and Borneo. Classified as an Endagered species in Singapore. Its flowers are white, withering yellowish, 1.3 cm wide, fragrant, and arranged in 5-15 cm wide many-flowered clusters. Species observed to exhibit synchronous blooming a few times per year under local conditions.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/River Tarenna0.jpg"
     },
     {
@@ -807,7 +807,7 @@
       "titleZh": "神秘果",
       "titleSn": "Synsepalum dulcificum",
       "description": "Native to West Africa. Slow-growing big shrub or small bushy tree with oval crown. Flowers creamy-white, very small, held in clusters in leaf axils. Free-fruiting the whole year round. Fruits ripen from green to scarlet red, oval-shaped (9mm long), with a single seed embedded in edible, sweetish white pulp.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Miracle Fruit0.jpg"
     },
     {
@@ -816,7 +816,7 @@
       "titleZh": "文殊兰",
       "titleSn": "Crinum asiaticum L.",
       "description": "Native to Mascarenes to subtropical and tropical Asia to the southwest Pacific. Its flowers grow in clusters of 10-50, at the top of a long stalk. Flowers are fragrant at night. Native to Singapore and classified as Critically Endangered (CR).",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Seashore Lily0.jpg"
     },
     {
@@ -825,7 +825,7 @@
       "titleZh": "南洋参",
       "titleSn": "Polyscias fruticosa",
       "description": "Native to Tropical Old World. Green feather-like foliage, mostly 3-pinnately compound.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Ming Aralia0.jpg"
     },
     {
@@ -834,8 +834,17 @@
       "titleZh": "草海桐",
       "titleSn": "Scaevola taccada (Gaertn.) Roxb.",
       "description": "Native to Madagascar, Southeast Asia (including Singapore), to tropical Australia, Micronesia, Melanesia, and Hawaii. Its alternate, shortly-stalked leaves have fleshy leaf blades that are mostly reverse egg-shaped. Its pale yellow or white flowers are 2â€“2.5 cm long, and arranged in 8 cm-wide clusters.",
-      "zone":"Rainforest",
+      "zone": "Rainforest",
       "image": "static/assets/Sea Lettuce0.jpg"
+    },
+    {
+      "src": "static/assets/Birds of Paradise.jpg",
+      "titleEn": "Birds of Paradise",
+      "titleZh": "鹤望兰",
+      "titleSn": "Strelitzia nicolai",
+      "description": "Tall white-flowered species suited to semi-shade. Count in our garden: 2 clumps.",
+      "zone": "Rainforest Garden",
+      "image": "static/assets/Birds of Paradise.jpg"
     }
   ],
   "plantInfos": [
@@ -960,11 +969,12 @@
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/3/2342"
     },
     {
-      "info1": "Willdenow's Spikemoss was named after a German naturalist – Carl Ludwig von Willdenow.",
-      "info2": "Native to Singapore, this fern ally is easily identified by its iridescent, metallic bluish green fronds, which reveal hues of green and pink when viewed at different angles.",
+      "info1": "Unconfirmed / not currently recorded in our plots.",
+      "info2": "",
       "imageLink1": "static/assets/Willdenow's spikemoss.jpg",
       "imageLink2": "static/assets/Willdenow's spikemoss2.jpg",
-      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1578"
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1578",
+      "info3": ""
     },
     {
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1543"
@@ -1145,9 +1155,11 @@
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2488"
     },
     {
-      "info1": "Spider Plants are great indoor plants as they grow well in pots in shady areas. Their fountain-like shape and hanging plantlets make them a popular choice for hanging pots.",
+      "info1": "Not currently in garden.",
       "imageLink1": "static/assets/Spider Plant.jpg",
-      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1807"
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/8/1807",
+      "info2": "",
+      "info3": ""
     },
     {
       "info1": "Native to Singapore. Can be found in Macritchie.",
@@ -1183,18 +1195,18 @@
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2767"
     },
     {
-      "info1": "In the past when they were still populous in Singapore, the Malayan Flying Fox (Pteropus vampyrus) could be seen fed on the red bitter-tasting berries of the Tembusu in season.",
-      "info2": "The wood was extremely durable and resistant to termite attack, making it highly suitable for heavy construction, bridges and carving.",
-      "info3": "A photograph of the finest Tembusu in the Singapore Botanic Gardens can be found on the back of the ‘Portrait’ series $5 note. This Heritage Tree is reportedly more than 150 years old.",
+      "info1": "Unconfirmed / not currently recorded in our plots.",
+      "info2": "",
+      "info3": "",
       "imageLink1": "static/assets/Tembusu.jpg",
       "imageLink2": "static/assets/Tembusu2.jpg",
       "imageLink3": "static/assets/Tembusu3.jpg",
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2895"
     },
     {
-      "info1": "Lagerstroemia langkawiensis can be found in open lowland rainforest. It is endemic to Langkawi Island, Western Malaysia. It is threatened by habitat loss.",
-      "info2": "The flowers are pink.",
-      "info3": "The leaves are red. The limited information online shows the lack of research on local rare species.",
+      "info1": "Not currently in garden.",
+      "info2": "",
+      "info3": "",
       "imageLink1": "static/assets/Tropical Crape Myrtle.jpg",
       "imageLink2": "static/assets/Tropical Crape Myrtle2.jpg",
       "imageLink3": "static/assets/Tropical Crape Myrtle3.jpg",
@@ -1354,7 +1366,7 @@
     {
       "info1": "Giant taro has one of the world's largest un-split leaf. The giant leaves are ideally adapted to absorbing the small amount of light that reaches the rainforest floor under the dense tree canopy.",
       "info2": "While Giant Taro is often regarded as an ornamental plant, it remains a good source of carbohydrates in indigenous communities from the Asia-Pacific region where potatoes cannot grow – the swollen stems and tubers are harvested and treated to obtain starch and flour. This plant requires a lengthy processing period to ensure that all calcium oxalate crystals are removed through methods such as roasting, boiling or frying. In Papua New Guinea, young shoots are cooked as vegetables in coconut milk or fried together with onions, garlic and chilli.",
-      "imageLink1":"static/assets/Giant Taro.jpg",
+      "imageLink1": "static/assets/Giant Taro.jpg",
       "imageLink2": "static/assets/Giant Taro2.jpg",
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/1/6/1636"
     },
@@ -1407,6 +1419,13 @@
       "imageLink2": "static/assets/Sea Lettuce2.jpg",
       "imageLink3": "static/assets/Sea Lettuce3.jpg",
       "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2431"
+    },
+    {
+      "info1": "Count in our garden: 2 clumps.",
+      "info2": "Flowers resemble a bird in flight, hence the name.",
+      "info3": "Native to South Africa and suited to semi-shade.",
+      "imageLink1": "static/assets/Birds of Paradise.jpg",
+      "learnMore": "https://www.nparks.gov.sg/florafaunaweb/flora/5/7/5745"
     }
   ]
 }

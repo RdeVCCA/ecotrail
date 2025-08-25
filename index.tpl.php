@@ -21,13 +21,13 @@
     </section>
     <section id="Wonders-of-Eco-Trail" class="page" onmouseenter="activate = true" onmouseleave="activate = false">
         <div class="video-container A">
-            <video class="video" id="video-A" autoplay muted>
+            <video class="video" id="video-A" muted>
                 <source src="static/assets/Background Forward.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <div class="video-container B">
-            <video class="video" id="video-B" autoplay muted>
+            <video class="video" id="video-B" muted>
                 <source src="static/assets/Background Reverse.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -38,8 +38,8 @@
         </div>
         <div id="content-storage">
             <div class="collection">
-                <span>Rainforest Zone</span>
-                <span>In our Eco-Trail, the rainforest zone is home to more than 50 species of plants and insects. Let us take a look at the Rainforest zone and learn more about the different species present.</span>
+                <span>Rainforest Garden</span>
+                <span>In our Eco-Trail, the Rainforest Garden is home to more than 50 species of plants and insects. Let us take a look at the Rainforest Garden and learn more about the different species present.</span>
                 <span>index.php?filename=rainforest</span>
             </div>
             <div class="collection">
@@ -65,8 +65,8 @@
                 The Wonders of the Eco Trail
             </h2>
             <div class="wonder-content">
-                <h3 id="wonder-header" class="wonder-item">Rainforest Zone</h3>
-                <p id="wonder-description" class="wonder-item">The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
+                <h3 id="wonder-header" class="wonder-item">Rainforest Garden</h3>
+                <p id="wonder-description" class="wonder-item">The Rainforest Garden in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
                 <a id="wonder-link" href="index.php?filename=rainforest" class="wonder-item"><span>Find out more</span></a>
             </div>
             

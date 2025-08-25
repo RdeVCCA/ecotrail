@@ -33,7 +33,7 @@
             <div class="committees left scroll-animation paused">
                 <p>Committees</p>
                 <a href="https://www.instagram.com/rv_tesla/">
-                    <img class="instagram_icon_1" src="static/assets/instagram.png">
+                    <img class="instagram_icon_1" src="static/assets/instagram.png"><span>@rv_tesla</span>
                 </a>
             </div>
         </div>

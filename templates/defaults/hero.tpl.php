@@ -15,7 +15,7 @@
             "garden" => ["Fruit Tree Garden","In our garden, a selection of tropical fruit trees can be found. The fruit trees gently invite one to step into our Eco-Trail with their scent, beauty and shade."],
             "pond" => ["Ornamental Ponds","Extending from the Fruit Tree Garden, the first ornamental pond, the goldfish pond, draws us in with its tranquil beauty.
 In comparison, the koi pond flourishes with frenetic energy. Look out for the coloured schools darting between the manicured aquascape of diverse aquatic plants. Now, let us take a look at the Ornamental Ponds and learn more about the different species present."],
-            "rainforest" => ["Rainforest Zone","The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees."],
+            "rainforest" => ["Rainforest Garden","The Rainforest Garden in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees."],
         );
         $filename = $_GET['filename'];
         $title = $content[$filename][0];
@@ -26,7 +26,7 @@ In comparison, the koi pond flourishes with frenetic energy. Look out for the co
         <h1 class = "primary"><?php echo $title ?></h1>
         <p><?php echo $description ?></p>
     </div>
-    <video autoplay muted> 
+    <video muted>
         <source src = "static/assets/Hero/main.mp4" type = "video/mp4" >
     </video>
 </div>

@@ -18,8 +18,8 @@
   <section class="top-header">
     <img src="static/assets/image.png" alt="image placeholder">
   <div class="text-section">
-    <h2>Rainforest Zone</h2>
-    <p>The rainforest zone in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
+    <h2>Rainforest Garden</h2>
+    <p>The Rainforest Garden in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees.</p>
   </div>
   </section>
 </div> -->
@@ -92,7 +92,7 @@
     </div>
   </div>
   <section class="eco-trail-grid" id="mindfulness">
-    <div class="eco-grid-item green"><p>As a mindfulness practice, enjoy <b>“Shinrin-yoku”</b> in our rainforest zone.</p></div>
+    <div class="eco-grid-item green"><p>As a mindfulness practice, enjoy <b>“Shinrin-yoku”</b> in our Rainforest Garden.</p></div>
     <div class="eco-grid-item green"><p>Absorb the forest ambiance with a leisurely walk, engaging your senses with the scenery, fragrances, and the touch of nature.</p></div>
   </section>
 
@@ -113,10 +113,10 @@
         <img src="static/assets/fern1.png" alt="image">
       </div>
       <div class="eco-grid-item green item-6">
-        <p>As you walk into the Eco-Trail, you will be greeted by our rain garden on the left. </br> The rain garden is a shallow area planted with various native ground vegetation to reroute rain runoff.</p>
+        <p>As you walk into the Eco-Trail, you will be greeted by our Rainforest Garden on the left. </br> The Rainforest Garden is a shallow area planted with various native ground vegetation to reroute rain runoff.</p>
       </div>
       <div class="eco-grid-item green item-7">
-        <p>The rain garden is dry most of the time but is designed to temporarily hold and soak in rainwater runoff within 12 hours.</p>
+        <p>The Rainforest Garden is dry most of the time but is designed to temporarily hold and soak in rainwater runoff within 12 hours.</p>
       </div>
       <div class="eco-grid-item rain-image item-8">
         <img src="static/assets/fern2.png" alt="image">
