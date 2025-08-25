@@ -9,7 +9,7 @@
         <a href="index.php?filename=gallery">Areas</a>
         <div class="nav2">
             <a href="index.php?filename=rainforest" class="redirect" id="rainforestRedirect">
-                Rainforest Zone
+                Rainforest Garden
             </a>
             <a href="index.php?filename=wetlands" class="redirect" id="wetlandsRedirect">
                 Wetlands Zone
