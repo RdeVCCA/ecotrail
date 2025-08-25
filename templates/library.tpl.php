@@ -11,8 +11,21 @@
 
         <div class = "search_buttons">
             <input id = "search" style = "grid-area:search" type = "text" placeholder = "Search" class = "button">
-            <input type = "button" style = "grid-area:area" value = "Area" class = "button">
-            <input type = "button" style = "grid-area:type" value = "Type" placeholder = "Search" class = "button">
+            <select id="area-filter" style="grid-area:area" class="button">
+                <option value="">Area</option>
+                <option value="Fruit Tree Garden">Fruit Tree Garden</option>
+                <option value="Rainforest Garden">Rainforest Garden</option>
+                <option value="Rainforest - Ferns">Rainforest - Ferns</option>
+                <option value="Wetland">Wetland</option>
+                <option value="Ornamental Pond">Ornamental Pond</option>
+            </select>
+            <select id="type-filter" style="grid-area:type" class="button">
+                <option value="">Type</option>
+                <option value="tree">Tree</option>
+                <option value="shrub">Shrub</option>
+                <option value="fern">Fern</option>
+                <option value="herb">Herb</option>
+            </select>
         </div>
         <div class = "library">
 
@@ -28,7 +41,7 @@
                 <img src = "static/assets/left-arrow.png" id = "navigate-left" onclick = "navigateLeft()">
                 <h3>Chinese Name</h3>
                 <p class = "popup_chinesename"></p>
-                <h3>Alternative Names</h3>
+                <h3>Scientific Names</h3>
                 <p class = "popup_altname"></p>
                 <h3>Description</h3>
                 <p class = "popup_description"></p>
@@ -42,6 +55,16 @@
 
             </section>
         </div>
+        <footer class="acknowledgements">
+            <h3>Acknowledgements & Sources</h3>
+            <p>Plant facts compiled from:</p>
+            <ul>
+                <li>NParks Flora & Fauna Web.</li>
+                <li>Kew Plants of the World Online.</li>
+                <li>Authoritative horticulture texts on Platycerium and Hydrocotyle.</li>
+            </ul>
+            <p>All descriptions edited for our garden context.</p>
+        </footer>
         <script src = "static/js/default.js"></script>
         <script src = "static/js/library.js"></script>
     </body>

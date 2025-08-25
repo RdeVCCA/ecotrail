@@ -3,6 +3,8 @@ const popupBg = document.querySelector('.popup_background');
 const library = document.querySelector('.library');
 const popupLabels = document.querySelectorAll('.popup_name,.popup_location');
 const search = document.querySelector('#search');
+const areaFilter = document.querySelector('#area-filter');
+const typeFilter = document.querySelector('#type-filter');
 var data = null
 var data2 = null
 const libraryElements = []
@@ -130,7 +132,8 @@ function filterLibrary(filters){
         const search = filters.search.toLowerCase();
         const type = filters.type;
         const zoneFilter = filters.zone;
-        if ((name.includes(search) || zone.includes(search)) && (type == null || details.type == type) && (zoneFilter == null || zone == zoneFilter)){
+        const detailsType = details.type ? details.type.toLowerCase() : null;
+        if ((name.includes(search) || zone.includes(search)) && (type == null || detailsType == type) && (zoneFilter == null || zone == zoneFilter)){
             element.classList.remove('hidden');
         }
         else{
@@ -172,5 +175,15 @@ loadLibrary()
 
 search.addEventListener('input', (e) => {
     filters.search = e.target.value;
+    filterLibrary(filters);
+})
+
+areaFilter.addEventListener('change', (e) => {
+    filters.zone = e.target.value ? e.target.value.toLowerCase() : null;
+    filterLibrary(filters);
+})
+
+typeFilter.addEventListener('change', (e) => {
+    filters.type = e.target.value ? e.target.value.toLowerCase() : null;
     filterLibrary(filters);
 })
