@@ -141,7 +141,7 @@ async function loadGalleryInfo(filepath) {
   
   var idx = 0;
   imageGalleryContents.forEach((content) => {
-    if (content.zone == 'Fruit Tree Garden' || content.zone == 'Rain Garden'){
+    if (content.zone == 'Fruit Tree Garden' || content.zone == 'Rainforest Garden'){
       createGalleryImageItem(content.src, content.titleEn, content.titleZh);
       plant_idx_lst.push(idx);
     }
