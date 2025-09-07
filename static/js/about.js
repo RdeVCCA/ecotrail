@@ -26,6 +26,8 @@ function fade_in_if_visible() {
     };
 }
 
+
+
 // function fade_in(was_ever_visible, fade_in_from, section, index){ 
 //     if (was_ever_visible[index] == false) {
 //         if (fade_in_from == 0){

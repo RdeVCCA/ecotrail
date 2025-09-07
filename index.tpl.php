@@ -12,6 +12,49 @@
         <h1 class="header" data-aos="fade-down" data-aos-duration="2000">
             About RV Eco Trail
         </h1>
+        <div style="display: flex; justify-content: center; margin-bottom: 1em;">
+            <button id="toggle-description">
+                <span>Show Description</span>
+                <svg id="desc-triangle" style="transition: transform 0.3s;" width="18" height="18" viewBox="0 0 20 20"><polygon points="5,8 10,13 15,8" fill="#0B3D2E"/></svg>
+            </button>
+        </div>
+        <div class="description-box" id="description-box">
+            <p>
+                The Eco-Trail@RV, completed in January 2023, stands as a living classroom that reflects River Valley High School’s commitment to sustainability and holistic education. Aligned with the Singapore Green Plan 2030, the Eco-Trail complements key pillars of the Plan such as City in Nature, Sustainable Living, and Resilient Future. It provides RVians with meaningful opportunities to learn, act, and advocate for a greener tomorrow. <br/>
+                <br/>
+                The Eco-Trail forms part of the OASIS (Outdoor Areas for Sustainability, Innovation & Stewardship), a network of outdoor spaces designed for eco-sustainability learning and action. Partly co-designed by seniors from the TESLA Eco Stewardship Leadership Academy, the trail weaves together four unique zones, the Fruit Tree Garden, Ornamental Ponds, Wetland Zone, and Rainforest Zone, each offering distinctive ecological learning experiences.
+                <br/>
+                Beyond showcasing ecological habitats like mangroves and wetlands, the Trail is also a platform for experiential learning. Through mentorship programmes with primary schools, RV students design gamified activities that engage younger learners in identifying flora and fauna, while exploring ecological relationships and food chains.
+                <br/>
+                More than a scenic path, the Eco-Trail@RV represents RVHS’s commitment to eco-literacy and student leadership. As it grows and flourishes, the Eco-Trail nurtures a love for nature while empowering students to advocate for a more sustainable future.
+            </p>
+        </div>
+        <script>
+        // Toggle description box logic
+        const descBtn = document.getElementById('toggle-description');
+        const descBox = document.getElementById('description-box');
+        const descTriangle = document.getElementById('desc-triangle');
+        let descShown = false;
+        function setDescState(show) {
+            if (show) {
+                descBox.style.maxHeight = '2000px';
+                descBox.style.opacity = '1';
+                descBtn.querySelector('span').textContent = 'Hide Description';
+                descTriangle.style.transform = 'rotate(180deg)';
+            } else {
+                descBox.style.maxHeight = '0';
+                descBox.style.opacity = '0';
+                descBtn.querySelector('span').textContent = 'Show Description';
+                descTriangle.style.transform = 'rotate(0deg)';
+            }
+        }
+        setDescState(false);
+        descBtn.addEventListener('click', function() {
+            descShown = !descShown;
+            setDescState(descShown);
+        });
+        </script>
+        
         <iframe class="flex-video" src="https://www.youtube.com/embed/A78278TutpA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="flex-text">
             <span>
