@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ylrdxapi/domains/ecotrail/public_html
+    - /bin/cp -r backend static templates $DEPLOYPATH
+    - /bin/cp index.tpl.php index.php $DEPLOYPATH
+
