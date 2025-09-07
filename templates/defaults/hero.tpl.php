@@ -17,7 +17,9 @@
 In comparison, the koi pond flourishes with frenetic energy. Look out for the coloured schools darting between the manicured aquascape of diverse aquatic plants. Now, let us take a look at the Ornamental Ponds and learn more about the different species present."],
             "rainforest" => ["Rainforest Garden","The Rainforest Garden in our Eco-Trail features over 50 species of flora and fauna, thriving in an environment with abundant rainfall and dominated by tall evergreen trees."],
         );
-        $filename = $_GET['filename'];
+        $filename = isset($_GET['filename']) && array_key_exists($_GET['filename'], $content)
+        ? $_GET['filename']
+        : 'home';
         $title = $content[$filename][0];
         $description = $content[$filename][1];
     
