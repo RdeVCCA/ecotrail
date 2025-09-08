@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ylrdxapi/domains/ecotrail
+    - mkdir -p $DEPLOYPATH/backend $DEPLOYPATH/static $DEPLOYPATH/templates
     - /bin/cp -r backend static templates $DEPLOYPATH
     - /bin/cp index.tpl.php index.php $DEPLOYPATH
 
