@@ -159,6 +159,7 @@ body{
 .search_buttons{
     width:80%;
     margin:auto;
+    transform: translateY(1em);
 }
 .search_buttons{
     display:grid;
