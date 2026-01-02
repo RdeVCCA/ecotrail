@@ -73,6 +73,37 @@
     </section>
     <script src="static/framework/jquery-3.7.1-min.js"></script>
     <script src="static/js/about.js" defer></script>
+	<details class="contributors" style="width: fit-content; margin-left: auto; margin-right: auto;">
+		<summary style="margin-top: 4em;"><small>Students involved in the conceptualisation of Eco-Trail Website: </small></summary>
+		<p style="display: flex; flex-direction: row; gap: 6em; margin-left: auto; margin-right: auto;">
+			<small> 
+			Zhao Yingwen <br/> 23J01 <br/>
+			Teo Rui En Michelle <br/> 23J02 <br/>
+			Li Yingxin Joan <br/> 23J04 <br/>
+			Xie Yuxin <br/> 23J09 <br/>
+			Kuan Yue Han <br/> 25J13 <br/>
+			Lim Enoch <br/> 25J13 <br/>
+			</small>
+			<small style="text-align: center; display: block; flex: 1;"> 
+			Puan Yi Hui </br> 23J15 <br/>
+			Ngui You Yi <br/> 23J15 <br/>
+			Cheong Averyl <br/> 23J20 <br/>
+			Tong Bin Xuan <br/> 23J18 <br/>
+			Vincent Aung Myat Thu <br/> 25J17 <br/>
+			Wang Ting An <br/> 23J17 <br/>
+			Chua Zhong Ding <br/> 23J17 <br/>
+
+			</small>
+			<small style="text-align: center; display: block; flex: 1;"> 
+			Ng Xian-Yu <br/> 23J04 <br/>
+			Celine Ang <br/> 23J20 <br/>
+			Teo Wen Bin <br/> 23J12 <br/>
+			Rajvi Rajesh Sapre <br/> 23J20 <br/>
+			Ashley Goh <br/> 23J13 <br/>
+			Larissa Liou <br/> 24J17 <br/>
+		</small>
+	</p>
+	</details>
 </body>
 
 </html>

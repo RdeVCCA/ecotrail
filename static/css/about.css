@@ -133,6 +133,17 @@ h1{
     margin-bottom: 10vh;
 }
 
+.contributors{
+	color: #0B3D2E;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.contributors p small{
+	text-align: center;
+	display: block;
+	flex: 1;
+}
 
 @media screen and (max-width: 700px) {
     .big_box{
